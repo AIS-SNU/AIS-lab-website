@@ -2,17 +2,19 @@
 title: AISys Lab.
 subtitle: ECE, Seoul National University
 description: Accelerated Intelligent Systems Lab (AISys) is affiliated with ECE, Seoul National University. We conduct research on system and architectural issues for accelerating various applications such as deep learning, compression algorithms and graph processing.
-header: images/acsys_cover.001.png
-footer: images/b÷ackground.jpg
+#header: images/acsys_cover.001.png
+#footer: images/background.jpg
+header-dark: false
+
 
 # site social media and other links
 links:
-  email: contact@AIS-SNU.com
-  orcid: 0000-0001-8713-9213
-  google-scholar: ETJoidYAAAAJ
-  github: AIS-SNU
-  twitter: AIS-SNU
-  youtube: AIS-SNU
+  email: leejinho@snu.ac.kr
+  #orcid: 0000-0001-8713-9213
+  google-scholar: pm3Fso0AAAAJ
+  github: https://github.com/AIS-SNU
+  #twitter: AIS-SNU
+  #youtube: AIS-SNU
 
 ### jekyll settings
 
