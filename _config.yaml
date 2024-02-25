@@ -1,9 +1,9 @@
 # site properties and page defaults
-title: AIS-SNU
-subtitle: 
-description: An engaging 1-3 sentence description of your lab.
-header: images/background.jpg
-footer: images/background.jpg
+title: AISys Lab.
+subtitle: ECE, Seoul National University
+description: Accelerated Intelligent Systems Lab (AISys) is affiliated with ECE, Seoul National University. We conduct research on system and architectural issues for accelerating various applications such as deep learning, compression algorithms and graph processing.
+header: images/acsys_cover.001.png
+footer: images/b÷ackground.jpg
 
 # site social media and other links
 links:
