@@ -1,5 +1,5 @@
 ---
-name: Jane Smith
+name: ABC
 image: images/photo.jpg
 role: pi
 aliases:

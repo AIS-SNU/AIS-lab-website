@@ -54,6 +54,11 @@ email:
   tooltip: Email
   link: mailto:$VALUE
 
+cv:
+  icon: fa-solid fa-file
+  text: CV
+  tooltip: CV
+
 phone:
   icon: fa-solid fa-phone
   text: Phone Number
@@ -194,6 +199,16 @@ source:
   icon: fa-solid fa-code
   text: Source
   tooltip: Source code
+
+slide:
+  icon: fa-solid fa-file-powerpoint
+  text: Slide
+  tooltip: Presentation slide
+
+arxiv:
+  icon: fa-solid fa-globe
+  text: ArXiv
+  tooltip: ArXiv
 
 server:
   icon: fa-solid fa-server

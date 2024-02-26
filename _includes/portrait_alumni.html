@@ -1,0 +1,42 @@
+{% assign alumni = site.alumni 
+  | where_exp: "alumni", "alumni.slug == include.lookup"
+  | first
+  | default: include
+%}
+
+<div class="portrait-wrapper">
+  <a
+    {% if page.slug != alumni.slug %}
+      href="{{ alumni.url | relative_url }}"
+    {% endif %}
+    class="portrait"
+    data-style="{{ include.style }}"
+    aria-label="{{ alumni.name | default: "alumni link" }}"
+  >
+    <img
+      src="{{ alumni.image | relative_url }}"
+      class="portrait-image"
+      alt="alumni portrait"
+      loading="lazy"
+      {% include fallback.html %}
+    >
+
+    {% if alumni.name or alumni.role or alumni.description %}
+      <span class="portrait-text">
+        {% if alumni.name %}
+          <span class="portrait-name">
+            {{ alumni.name }}
+          </span>
+        {% endif %}
+
+        {% if alumni.role or alumni.description %}
+          <span class="portrait-role">
+            {% assign type = site.data.types[alumni.role] %}
+            {% include icon.html icon=type.icon %}
+            <span>{{ alumni.description | default: type.description }}</span>
+          </span>
+        {% endif %}
+      </span>
+    {% endif %}
+  </a>
+</div>

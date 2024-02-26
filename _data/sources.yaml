@@ -1,23 +1,70 @@
-- id: doi:10.1371/journal.pcbi.1007128
+- id: doi:10.1109/DAC18074.2021.9586121
   type: paper
-  description: Lorem ipsum _dolor_ **sit amet**, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  date: 2020-12-4
-  image: https://journals.plos.org/ploscompbiol/article/figure/image?size=inline&id=info:doi/10.1371/journal.pcbi.1007128.g001&rev=2
+  image: images_paper/dance.png
+  authors:
+    - Kanghyun Choi<sup>1</sup>
+    - Deokki Hong<sup>1</sup>
+    - Hojae Yoon<sup>1</sup>
+    - Joonsang Yu 
+    - Youngsok Kim
+    - Jinho Lee
   buttons:
-    - type: manubot
-      link: https://greenelab.github.io/meta-review/
-    - type: source
-      text: Manuscript Source
-      link: https://github.com/greenelab/meta-review
-    - type: website
-      link: http://manubot.org/
+    - type: arxiv
+      link: https://arxiv.org/abs/2009.06237
+    - type: slide
+      link: resources_paper/dance_slides.pdf
+  publisher: Design Automation Conference (DAC)
   tags:
-    - open science
-    - collaboration
-  repo: greenelab/meta-review
+    - Top Conf. 
+    - AI/ML 
+    - Arch.
 
-- id: doi:10.1016/j.csbj.2020.05.017
-  image: https://ars.els-cdn.com/content/image/1-s2.0-S2001037020302804-gr1.jpg
+- id: arxiv:2111.02625
+  type: paper
+  image: images_paper/qimera.png
+  publisher: Neural Information Processing Systems (NeurIPS)
+  buttons:
+    - type: arxiv
+      link: https://arxiv.org/abs/2111.02625
+    - type: slide
+      link: resources_paper/qimera_slides.pdf
+    - type: github
+      link: https://github.com/iamkanghyunchoi/qimera
+  tags:
+    - Top Conf. 
+    - AI/ML 
 
-- id: doi:10.7554/eLife.32822
-  image: https://iiif.elifesciences.org/lax:32822%2Felife-32822-fig8-v3.tif/full/863,/0/default.webp
+- id: arxiv:2301.09312
+  type: paper
+  image: images_paper/hdx.png
+  publisher: Design Automation Conference (DAC)
+  buttons:
+    - type: arxiv
+      link: https://arxiv.org/abs/2301.09312
+  tags:
+    - Top Conf. 
+    - AI/ML 
+    - Arch.
+
+- id: arxiv:2203.17008
+  type: paper
+  image: images_paper/ait.png
+  publisher: Neural Information Processing Systems (NeurIPS)
+  buttons:
+    - type: arxiv
+      link: https://arxiv.org/abs/2203.17008
+    - type: slide
+      link: resources_paper/cvpr_ait.pdf
+    - type: github
+      link: https://github.com/iamkanghyunchoi/ait
+  tags:
+    - Top Conf. 
+    - AI/ML 
+
+- id: doi:10.1109/DAC56929.2023.10247930
+  type: paper
+  image: images_paper/dbac.png
+  publisher: Design Automation Conference (DAC)
+  tags:
+    - Top Conf. 
+    - AI/ML 

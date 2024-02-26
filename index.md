@@ -69,7 +69,7 @@ To utilize multiple devices (i.e., GPUs) for high-speed DNN training, it's commo
 
 {% capture text %}
 
-Multiple model compression techniques have been suggested these days to reduce the computation burden from the nature of DNNs. Most of them utilize original training data to compensate for accuracy losses. However, the original training data is usually inaccessible due to privacy or copyright issues. To this end, our research focuses on compressing neural networks without the original dataset.
+Multiple model compression techniques have been suggested these days to reduce the computation burden from the nature of DNNs. Most of them utilize original training data to compensate for accuracy losses. However, the original data is usually inaccessible due to privacy or copyright issues. To this end, our research focuses on compressing neural networks without the original dataset.
 
 {%
   include button.html

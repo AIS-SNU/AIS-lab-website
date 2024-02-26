@@ -1,35 +1,48 @@
 ---
-title: Team
+title: People
 nav:
-  order: 3
+  order: 1
   tooltip: About our team
 ---
 
-# {% include icon.html icon="fa-solid fa-users" %}Team
+{% capture text %}
+{:.center}
+# Professor
+---
+{%
+  include button.html
+  link="members/JinhoLee"
+  text="Jinho Lee"
+  flip=true
+  style="bare"
+%}
+{:.center}
+Email: leejinho at snu dot ac dot kr
+<br>
+Office: 301-1009
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-
-{% include section.html %}
-
-{% include list.html data="members" component="portrait" filters="role: pi" %}
-{% include list.html data="members" component="portrait" filters="role: ^(?!pi$)" %}
-
-{% include section.html background="images/background.jpg" dark=true %}
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-
-{% include section.html %}
-
-{% capture content %}
-
-{% include figure.html image="images/photo.jpg" %}
-{% include figure.html image="images/photo.jpg" %}
-{% include figure.html image="images/photo.jpg" %}
 
 {% endcapture %}
 
-{% include grid.html style="square" content=content %}
+{%
+  include feature.html
+  image="images_profile/jinho1.jpg"
+  link="members/JinhoLee"
+  flip=true
+  style="bare"
+  text=text
+%}
+
+
+{% include section.html %}
+
+# Graduate Students
+
+{% include listmember.html data="members" component="portrait" filters="role: ^(?!pi$), role: ^(?!alumni$)" %}
+
+{% include section.html %}
+
+# Alumni
+
+{% include listmember.html data="members" component="portrait" filters="role: alumni" %}
+
