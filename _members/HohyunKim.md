@@ -1,7 +1,7 @@
 ---
 name: Hohyun Kim
 description: MS, Moreh
-image: images_profile/icon.png
+image: images_profile/profile_default.png
 iphak: 2020-3
 role: alumni
 aliases:

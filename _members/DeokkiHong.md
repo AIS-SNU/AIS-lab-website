@@ -1,7 +1,7 @@
 ---
 name: Deokki Hong
 description: MS, Sapeon
-image: images_profile/icon.png
+image: images_profile/profile_default.png
 iphak: 2020-9
 role: alumni
 aliases:
