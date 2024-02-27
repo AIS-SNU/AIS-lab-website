@@ -1,7 +1,7 @@
 ---
 name: Hyeyoon Lee
 description: PhD Student
-image: images_profile/profile_hyeyoonlee_cropped.png
+image: images_profile/profile_hyeyoonlee.jpg
 iphak: 2021-8
 aliases:
   - Hyeyoon Lee
