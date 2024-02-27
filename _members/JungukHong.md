@@ -1,7 +1,7 @@
 ---
 name: Junguk Hong
 description: MS/PhD Student
-image: images_profile/profile_default.png
+image: images_profile/profile_jungukhong.jpg
 iphak: 2022-9
 aliases:
   - Junguk Hong
