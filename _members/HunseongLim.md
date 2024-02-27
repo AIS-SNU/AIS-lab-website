@@ -1,7 +1,7 @@
 ---
 name: Hunseong Lim
 description: MS/PhD Student
-image: images_profile/profile_default.png
+image: images_profile/profile_hunsunglim.png
 iphak: 2023-3
 aliases:
   - Hunseong Lim
