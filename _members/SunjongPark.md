@@ -1,7 +1,7 @@
 ---
 name: SunJong Park
 description: MS/PhD Student
-image: images_profile/profile_default.png
+image: images_profile/profile_sunjongpark.png
 iphak: 2023-3
 aliases:
   - SunJong Park
