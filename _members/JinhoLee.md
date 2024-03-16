@@ -1,19 +1,17 @@
 ---
-name: ABC
-image: images/photo.jpg
+name: Jinho Lee
+description: Assistant Professor
+image: images_profile/jinho1.jpg
 role: pi
 aliases:
-  - J. Smith
-  - J Smith
-links:
-  home-page: https://janesmith.com
-  orcid: 0000-0001-8713-9213
+  - Jinho Lee
+  - J. Lee
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-Faucibus purus in massa tempor nec feugiat nisl pretium fusce.
-Elit at imperdiet dui accumsan.
-Duis tristique sollicitudin nibh sit amet commodo nulla facilisi.
-Vitae elementum curabitur vitae nunc sed velit dignissim sodales.
-Lacinia at quis risus sed vulputate odio ut.
-Magna eget est lorem ipsum.
+I am an assistant professor in the Department of Electrical and Computer Engineering at Seoul National University. My research interests include accelerators and architectural optimizations for AI systems. Before Joining Seoul National University, I was at CS, Yonsei University, and IBM, Austin. I received all my B.S., M.S., and Ph.D. from Seoul National University.
+
+I am currently looking for talented students (graduate students, undergraduate interns). Please contact leejinho at snu dot ac dot kr if you are interested.
+
+<li>Email: leejinho at snu dot ac dot kr</li>
+<li>Office: 301-1009</li>
+

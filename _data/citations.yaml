@@ -13,6 +13,7 @@
   tags:
   - SCI
   - Arch.
+  id: ''
   plugin: sources.py
   file: sources.yaml
 - title: 'PeerAiD: Improving Adversarial Distillation from a Specialized Peer Tutor'
@@ -26,6 +27,7 @@
   tags:
   - Top Conf.
   - AI/ML
+  id: ''
   plugin: sources.py
   file: sources.yaml
 - id: https://doi.org/10.1145/3627535.3638474
@@ -68,6 +70,7 @@
   - Top Conf.
   - AI/ML
   - Syst. SW
+  id: ''
   plugin: sources.py
   file: sources.yaml
 - title: 'Smart-Infinity: Fast Large Language Model Training using Near-Storage Processing
@@ -96,6 +99,857 @@
   - Syst. SW
   - Arch.
   - AI/ML
+  id: ''
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1109/TC.2023.3299030
+  title: Enabling Fine-Grained Spatial Multitasking on Systolic-Array NPUs Using Dataflow
+    Mirroring
+  authors:
+  - Jinwoo Choi
+  - Yeonan Ha
+  - Jounghoo Lee
+  - Sangsu Lee
+  - Jinho Lee
+  - Hanhwi Jang
+  - Youngsok Kim
+  publisher: IEEE Transactions on Computers
+  date: '2023-12-01'
+  link: https://doi.org/gtm34t
+  tags:
+  - SCI
+  - Arch.
+  - AI/ML
+  buttons:
+  - type: paper
+    link: https://ieeexplore.ieee.org/abstract/document/10198513
+  plugin: sources.py
+  file: sources.yaml
+- id: https://doi.org/10.1145/3589258
+  title: 'Design and Analysis of a Processing-in-DIMM Join Algorithm: A Case Study
+    with UPMEM DIMMs'
+  authors:
+  - Chaemin Lim
+  - Suhyun Lee
+  - Jinwoo Choi
+  - Jounghoo Lee
+  - Seongyeon Park
+  - Hanjun Kim
+  - Jinho Lee
+  - Youngsok Kim
+  publisher: Proceedings of the ACM on Management of Data
+  date: '2023-06-20'
+  link: https://doi.org/10.1145/3589258
+  tags:
+  - Top Conf.
+  - AI/ML
+  - Syst. SW
+  buttons:
+  - type: paper
+    link: https://dl.acm.org/doi/abs/10.1145/3589258
+  plugin: sources.py
+  file: sources.yaml
+- id: https://doi.org/10.23919/DATE56975.2023.10137044
+  title: 'Pipe-BD: Pipelined Parallel Blockwise Distillation'
+  authors:
+  - Hongsun Jang
+  - Jaewon Jung
+  - Jaeyong Song
+  - Joonsang Yu
+  - Youngsok Kim
+  - Jinho Lee
+  publisher: 2023 Design, Automation & Test in Europe Conference & Exhibition (DATE)
+  date: '2023-04-01'
+  link: https://ieeexplore.ieee.org/document/10137044/
+  tags:
+  - Top Conf.
+  - AI/ML
+  - Syst. SW
+  buttons:
+  - type: paper
+    link: https://ieeexplore.ieee.org/abstract/document/10137044
+  - type: arxiv
+    link: https://arxiv.org/abs/2301.12443
+  - type: github
+    link: https://github.com/hongsunjang/Pipe-BD
+  plugin: sources.py
+  file: sources.yaml
+- id: 10.1145/3575693.3575712
+  title: 'Optimus-CC: Efficient Large NLP Model Training with 3D Parallelism Aware
+    Communication Compression'
+  authors:
+  - Jaeyong Song<sup>1</sup>
+  - Jinkyu Yim<sup>1</sup>
+  - Jaewon Jung
+  - Hongsun Jang
+  - Hyung-Jin Kim
+  - Youngsok Kim
+  - Jinho Lee
+  publisher: Proceedings of the 28th ACM International Conference on Architectural
+    Support for Programming Languages and Operating Systems, Volume 2
+  date: '2023-01-27'
+  link: https://doi.org/gtm365
+  tags:
+  - Top Conf.
+  - AI/ML
+  - Syst. SW
+  buttons:
+  - type: arxiv
+    link: https://arxiv.org/abs/2301.09830
+  - type: paper
+    link: https://dl.acm.org/doi/10.1145/3575693.3575712
+  - type: artifact
+    link: https://zenodo.org/record/7220824
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1109/HPCA56546.2023.10071102
+  title: 'SGCN: Exploiting Compressed-Sparse Features in Deep Graph Convolutional
+    Network Accelerators'
+  authors:
+  - Mingi Yoo<sup>1</sup>
+  - Jaeyong Song<sup>1</sup>
+  - Jounghoo Lee
+  - Namhyung Kim
+  - Youngsok Kim
+  - Jinho Lee
+  publisher: 2023 IEEE International Symposium on High-Performance Computer Architecture
+    (HPCA)
+  date: '2023-02-01'
+  link: https://doi.org/gs2t79
+  tags:
+  - Top Conf.
+  - Arch.
+  - AI/ML
+  buttons:
+  - type: arxiv
+    link: https://arxiv.org/abs/2301.10388
+  - type: paper
+    link: https://ieeexplore.ieee.org/document/10071102/
+  plugin: sources.py
+  file: sources.yaml
+- id: https://bmvc2022.mpi-inf.mpg.de/0281.pdf
+  title: Improving Gradient Paths for Binary Convolutional Neural Networks
+  authors:
+  - Baozhou Zhu
+  - Peter Hofstee
+  - Jinho Lee
+  - Zaid Al-Ars
+  publisher: BMVC
+  date: '2022-11-21'
+  link: https://bmvc2022.mpi-inf.mpg.de/0281.pdf
+  tags:
+  - Top Conf.
+  - AI/ML
+  buttons:
+  - type: paper
+    link: https://bmvc2022.mpi-inf.mpg.de/0281.pdf
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1145/3559009.3569693
+  title: 'Slice-and-Forge: Making Better Use of Caches for Graph Convolutional Network
+    Accelerators'
+  authors:
+  - Mingi Yoo<sup>1</sup>
+  - Jaeyong Song<sup>1</sup>
+  - Hye Yoon Lee
+  - Jounghoo Lee
+  - Namhyung Kim
+  - Youngsok Kim
+  - Jinho Lee
+  publisher: PACT (Best Paper Award)
+  date: '2022-10-08'
+  link: https://doi.org/gtm37c
+  tags:
+  - Top Conf.
+  - Arch.
+  - AI/ML
+  buttons:
+  - type: arxiv
+    link: https://arxiv.org/abs/2301.09813
+  - type: paper
+    link: https://dl.acm.org/doi/10.1145/3559009.3569693
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:https://doi.org/10.1145/3559009.3569686
+  title: Decoupling Schedule, Topology Layout, and Algorithm to Easily Enlarge the
+    Tuning Space of GPU Graph Processing
+  authors:
+  - Shinnung Jeong
+  - Yongwoo Lee
+  - Jaeho Lee
+  - Heelim Choi
+  - Seungbin Song
+  - Jinho Lee
+  - Youngsok Kim
+  - Hanjun Kim
+  publisher: Proceedings of the International Conference on Parallel Architectures
+    and Compilation Techniques
+  date: '2023-01-27'
+  link: https://doi.org/gtm37d
+  tags:
+  - Top Conf.
+  - Syst. SW
+  buttons:
+  - type: paper
+    link: https://dl.acm.org/doi/10.1145/3559009.3569686
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:https://doi.org/10.1145/3470496.3527384
+  title: 'GCoM: a detailed GPU core model for accurate analytical modeling of modern
+    GPUs'
+  authors:
+  - Jounghoo Lee
+  - Yeonan Ha
+  - Suhyun Lee
+  - Jinyoung Woo
+  - Jinho Lee
+  - Hanhwi Jang
+  - Youngsok Kim
+  publisher: Proceedings of the 49th Annual International Symposium on Computer Architecture
+  date: '2022-06-11'
+  link: https://doi.org/grg25v
+  tags:
+  - Top Conf.
+  - Arch.
+  buttons:
+  - type: paper
+    link: https://dl.acm.org/doi/10.1145/3470496.3527384
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:https://doi.org/10.1145/3528535.3531513
+  title: 'GuardiaNN: Fast and Secure On-Device Inference in TrustZone Using Embedded
+    SRAM and Cryptographic Hardware'
+  authors:
+  - Jinwoo Choi
+  - Jaeyeon Kim
+  - Chaemin Lim
+  - Suhyun Lee
+  - Jinho Lee
+  - Dokyung Song
+  - Youngsok Kim
+  publisher: Proceedings of the 23rd ACM/IFIP International Middleware Conference
+  date: '2022-10-24'
+  link: https://doi.org/gtm37g
+  tags:
+  - Top Conf.
+  - Syst. SW
+  - AI/ML
+  buttons:
+  - type: paper
+    link: https://dl.acm.org/doi/10.1145/3528535.3531513
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1109/IPDPS53621.2022.00076
+  title: 'SALoBa: Maximizing Data Locality and Workload Balance for Fast Sequence
+    Alignment on GPUs'
+  authors:
+  - Seongyeon Park
+  - Hajin Kim
+  - Tanveer Ahmad
+  - Nauman Ahmed
+  - Zaid Al-Ars
+  - H. Peter Hofstee
+  - Youngsok Kim
+  - Jinho Lee
+  publisher: 2022 IEEE International Parallel and Distributed Processing Symposium
+    (IPDPS)
+  date: '2022-05-01'
+  link: https://doi.org/gtm37h
+  tags:
+  - Top Conf.
+  - Syst. SW
+  - Bioinfo.
+  buttons:
+  - type: paper
+    link: https://ieeexplore.ieee.org/document/9820739/
+  - type: arxiv
+    link: https://arxiv.org/abs/2301.09310
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1109/TC.2021.3092205
+  title: 'ComPreEND: Computation Pruning through Predictive Early Negative Detection
+    for ReLU in a Deep Neural Network Accelerator'
+  authors:
+  - Namhyung Kim
+  - Hanmin Park
+  - Dongwoo Lee
+  - Sungbum Kang
+  - Jinho Lee
+  - Kiyoung Choi
+  publisher: IEEE Transactions on Computers
+  date: '2022-07-01'
+  link: https://doi.org/gtm37p
+  tags:
+  - SCI
+  - Arch.
+  - AI/ML
+  buttons:
+  - type: paper
+    link: https://ieeexplore.ieee.org/document/9470992
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1109/LCA.2021.3090954
+  title: Making a Better Use of Caches for GCN Accelerators with Feature Slicing and
+    Automatic Tile Morphing
+  authors:
+  - Mingi Yoo<sup>1</sup>
+  - Jaeyong Song<sup>1</sup>
+  - Jounghoo Lee
+  - Namhyung Kim
+  - Youngsok Kim
+  - Jinho Lee
+  publisher: IEEE Computer Architecture Letters
+  date: '2021-07-01'
+  link: https://doi.org/gndxg9
+  tags:
+  - SCI
+  - Arch.
+  - AI/ML
+  buttons:
+  - type: video
+    link: https://www.youtube.com/watch?v=72088TLwchY
+  - type: paper
+    link: https://ieeexplore.ieee.org/document/9461595
+  plugin: sources.py
+  file: sources.yaml
+- id: https://www.ijcai.org/proceedings/2021/0478.pdf
+  title: 'AutoReCon: Neural Architecture Search-based Reconstruction for Data-free
+    Compression'
+  authors:
+  - Baozhou Zhu
+  - Peter Hofstee
+  - Johan Peltenburg
+  - Jinho Lee
+  - Zaid Al-Ars
+  publisher: IJCAI
+  date: '2021-08-19'
+  link: https://www.ijcai.org/proceedings/2021/0478.pdf
+  tags:
+  - Top Conf.
+  - AI/ML
+  buttons:
+  - type: paper
+    link: https://www.ijcai.org/proceedings/2021/0478.pdf
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1109/DAC18074.2021.9586312
+  title: 'Dataflow Mirroring: Architectural Support for Highly Efficient Fine-Grained
+    Spatial Multitasking on Systolic-Array NPUs'
+  authors:
+  - Jounghoo Lee
+  - Jinwoo Choi
+  - Jaeyeon Kim
+  - Jinho Lee
+  - Youngsok Kim
+  publisher: 2021 58th ACM/IEEE Design Automation Conference (DAC)
+  date: '2021-12-05'
+  link: https://doi.org/gtm37r
+  tags:
+  - Top Conf.
+  - Arch.
+  - AI/ML
+  buttons:
+  - type: paper
+    link: https://ieeexplore.ieee.org/document/9586312
+  plugin: sources.py
+  file: sources.yaml
+- id: 10.1109/HPCA51647.2021.00030
+  title: 'GradPIM: A Practical Processing-in-DRAM Architecture for Gradient Descent'
+  authors:
+  - Heesu Kim
+  - Hanmin Park
+  - Taehyun Kim
+  - Kwanheum Cho
+  - Eojin Lee
+  - Soojung Ryu
+  - Hyuk-Jae Lee
+  - Kiyoung Choi
+  - Jinho Lee
+  publisher: 2021 IEEE International Symposium on High-Performance Computer Architecture
+    (HPCA)
+  date: '2021-02-01'
+  link: https://doi.org/gkg2mb
+  tags:
+  - Top Conf.
+  - Arch.
+  - AI/ML
+  buttons:
+  - type: arxiv
+    link: https://arxiv.org/abs/2102.07511
+  - type: paper
+    link: https://ieeexplore.ieee.org/abstract/document/9407195
+  - type: slide
+    link: https://aisys.snu.ac.kr/papers/HPCA2021-GradPIM.pdf
+  plugin: sources.py
+  file: sources.yaml
+- id: arxiv:https://arxiv.org/abs/2010.00823
+  title: Deep Composer Classification Using Symbolic Representation
+  authors:
+  - Sunghyeon Kim<sup>1</sup>
+  - Hyeyoon Lee<sup>1</sup>
+  - Sunjong Park<sup>1</sup>
+  - Jinho Lee
+  - Keunwoo Choi
+  publisher: LBD@ISMIR
+  date: '2020-10-11'
+  tags:
+  - AI/ML
+  buttons:
+  - type: paper
+    link: https://program.ismir2020.net/lbd_431.html
+  - type: arxiv
+    link: https://arxiv.org/abs/2010.00823
+  - type: poster
+    link: https://aisys.snu.ac.kr/papers/deep_composer_poster_1005.pdf
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1109/DAC18072.2020.9218538
+  title: 'FlexReduce: Flexible All-reduce for Distributed Deep Learning on Asymmetric
+    Network Topology'
+  authors:
+  - Jinho Lee
+  - Inseok Hwang
+  - Soham Shah
+  - Minsik Cho
+  publisher: 2020 57th ACM/IEEE Design Automation Conference (DAC)
+  date: '2020-07-01'
+  link: https://doi.org/gtm372
+  tags:
+  - Top Conf.
+  - AI/ML
+  - Syst. SW
+  buttons:
+  - type: authorcopy
+    link: https://aisys.snu.ac.kr/papers/FlexReduce_DAC_2020.pdf
+  - type: paper
+    link: https://ieeexplore.ieee.org/abstract/document/9218538
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1109/CVPRW50498.2020.00385
+  title: 'MUTE: Inter-class Ambiguity Driven Multi-hot Target Encoding for Deep Neural
+    Network Design'
+  authors:
+  - Mayoore S. Jaiswal
+  - Bumsoo Kang
+  - Jinho Lee
+  - Minsik Cho
+  publisher: 2020 IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops
+    (CVPRW)
+  date: '2020-06-01'
+  link: https://doi.org/gtm378
+  tags:
+  - AI/ML
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:https://doi.org/10.1007/s11265-020-01547-w
+  title: An Efficient High-Throughput LZ77-Based Decompressor in Reconfigurable Logic
+  authors:
+  - Jian Fang
+  - Jianyu Chen
+  - Jinho Lee
+  - Zaid Al-Ars
+  - H. Peter Hofstee
+  publisher: Journal of Signal Processing Systems
+  date: '2020-09-01'
+  link: https://doi.org/gtm379
+  tags:
+  - SCI
+  - Arch.
+  buttons:
+  - type: paper
+    link: https://link.springer.com/content/pdf/10.1007/s11265-020-01547-w.pdf
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:https://doi.org/10.1007/s00778-019-00581-w
+  title: 'In-memory database acceleration on FPGAs: a survey'
+  authors:
+  - Jian Fang
+  - Yvo T. B. Mulder
+  - Jan Hidders
+  - Jinho Lee
+  - H. Peter Hofstee
+  publisher: The VLDB Journal
+  date: '2020-01-01'
+  link: https://doi.org/gtm38t
+  tags:
+  - SCI
+  - Arch.
+  buttons:
+  - type: paper
+    link: https://link.springer.com/article/10.1007/s00778-019-00581-w
+  plugin: sources.py
+  file: sources.yaml
+- id: https://arxiv.org/abs/2001.04893
+  title: 'SimEx: Express Prediction of Inter-dataset Similarity by a Fleet of Autoencoders'
+  authors:
+  - Inseok Hwang
+  - Jinho Lee
+  - Frank Liu
+  - Minsik Cho
+  publisher: arXiv preprint
+  date: '2020-01-14'
+  link: http://arxiv.org/abs/2001.04893
+  tags:
+  - AI/ML
+  buttons:
+  - type: arxiv
+    link: https://arxiv.org/abs/2001.04893
+  plugin: sources.py
+  file: sources.yaml
+- id: 10.1109/ICCVW.2019.00188
+  title: 'Video-Text Compliance: Activity Verification Based on Natural Language Instructions'
+  authors:
+  - Mayoore Jaiswal
+  - Frank Liu
+  - Anupama Jagannathan
+  - Anne Gattiker
+  - Inseok Hwang
+  - Jinho Lee
+  - Matthew Tong
+  - Sahil Dureja
+  - Soham Shah
+  - Peter Hofstee
+  - Valerie Chen
+  - Suvadip Paul
+  - Rogerio Feris
+  publisher: 2019 IEEE/CVF International Conference on Computer Vision Workshop (ICCVW)
+  date: '2019-10-01'
+  link: https://doi.org/gtm38v
+  plugin: sources.py
+  file: sources.yaml
+- id: 10.1109/ASAP.2019.00017
+  title: 'Refine and Recycle: A Method to Increase Decompression Parallelism'
+  authors:
+  - Jian Fang
+  - Jianyu Chen
+  - Jinho Lee
+  - Zaid Al-Ars
+  - H.Peter Hofstee
+  publisher: 2019 IEEE 30th International Conference on Application-specific Systems,
+    Architectures and Processors (ASAP)
+  date: '2019-07-01'
+  link: https://doi.org/gtm38w
+  plugin: sources.py
+  file: sources.yaml
+- id: 10.1145/3335783.3335786
+  title: An Efficient Graph Compressor Based on Adaptive Prefix Encoding
+  authors:
+  - Jinho Lee
+  - Frank Liu
+  publisher: Proceedings of the 31st International Conference on Scientific and Statistical
+    Database Management
+  date: '2019-07-23'
+  link: https://doi.org/gtm38x
+  plugin: sources.py
+  file: sources.yaml
+- id: 10.1109/MPRV.2019.2907004
+  title: Accelerating Conversational Agents Built With Off-the-Shelf Modularized Services
+  authors:
+  - Jinho Lee
+  - Inseok Hwang
+  - Thomas S. Hubregtsen
+  - Anne E. Gattiker
+  - Christopher M. Durham
+  publisher: IEEE Pervasive Computing
+  date: '2019-04-01'
+  link: https://doi.org/gf82w5
+  plugin: sources.py
+  file: sources.yaml
+- id: https://dx.doi.org/10.1109/MDAT.2018.2890238
+  title: A Diagnosable Network-on-Chip for FPGA Verification of Intellectual Properties
+  authors:
+  - Kyuseung Han
+  - Jae-Jin Lee
+  - Woojoo Lee
+  - Jinho Lee
+  publisher: IEEE Design & Test
+  date: '2019-04-01'
+  link: https://ieeexplore.ieee.org/document/8594625/
+  plugin: sources.py
+  file: sources.yaml
+- id: 10.1016/j.neucom.2018.05.087
+  title: Deep neural networks with weighted spikes
+  authors:
+  - Jaehyun Kim
+  - Heesu Kim
+  - Subin Huh
+  - Jinho Lee
+  - Kiyoung Choi
+  publisher: Neurocomputing
+  date: '2018-10-01'
+  link: https://doi.org/gnm66t
+  plugin: sources.py
+  file: sources.yaml
+- id: 10.1145/3210240.3210348
+  title: My Being to Your Place, Your Being to My Place
+  authors:
+  - Bumsoo Kang
+  - Inseok Hwang
+  - Jinho Lee
+  - Seungchul Lee
+  - Taegyeong Lee
+  - Youngjae Chang
+  - Min Kyung Lee
+  publisher: Proceedings of the 16th Annual International Conference on Mobile Systems,
+    Applications, and Services
+  date: '2018-06-10'
+  link: https://doi.org/gtm382
+  plugin: sources.py
+  file: sources.yaml
+- id: https://arxiv.org/abs/1802.03057
+  title: System G Distributed Graph Database
+  authors:
+  - Gabriel Tanase
+  - Toyotaro Suzumura
+  - Jinho Lee
+  - Chun-Fu Chen
+  - Jason Crawford
+  - Hiroki Kanezashi
+  - Song Zhang
+  - Warut D. Vijitbenjaronk
+  publisher: arXiv
+  date: '2018-02-08'
+  link: http://arxiv.org/abs/1802.03057
+  plugin: sources.py
+  file: sources.yaml
+- id: 10.1109/BigData.2017.8258092
+  title: Scalable time-versioning support for property graph databases
+  authors:
+  - Warut D. Vijitbenjaronk
+  - Jinho Lee
+  - Toyotaro Suzumura
+  - Gabriel Tanase
+  publisher: 2017 IEEE International Conference on Big Data (Big Data)
+  date: '2017-12-01'
+  link: https://doi.org/gtm384
+  plugin: sources.py
+  file: sources.yaml
+- id: https://adms-conf.org/2017/camera-ready/Analyzing_In_Memory_Hash_Joins__Granularity_Matters.pdf
+  title: ''
+  authors:
+  - Jian Fang
+  - Jinho Lee
+  - Peter Hofstee
+  - Jan Hidders
+  publisher: ADMS workshop @VLDB
+  date: '2017-08-28'
+  link: https://adms-conf.org/2017/camera-ready/Analyzing_In_Memory_Hash_Joins__Granularity_Matters.pdf
+  plugin: sources.py
+  file: sources.yaml
+- id: 10.14778/3137765.3137776
+  title: ExtraV
+  authors:
+  - Jinho Lee
+  - Heesu Kim
+  - Sungjoo Yoo
+  - Kiyoung Choi
+  - H. Peter Hofstee
+  - Gi-Joon Nam
+  - Mark R. Nutter
+  - Damir Jamsek
+  publisher: Proceedings of the VLDB Endowment
+  date: '2017-08-01'
+  link: https://doi.org/gc5p2t
+  plugin: sources.py
+  file: sources.yaml
+- id: 10.1109/MDM.2017.45
+  title: 'SCI-FII: Speculative Conversational Interface Framework for Incremental
+    Inference on Modularized Services'
+  authors:
+  - Jinho Lee
+  - Inseok Hwang
+  - Thomas Hubregtsen
+  - Anne E. Gattiker
+  - Christopher M. Durham
+  publisher: 2017 18th IEEE International Conference on Mobile Data Management (MDM)
+  date: '2017-05-01'
+  link: https://doi.org/gk8t4x
+  plugin: sources.py
+  file: sources.yaml
+- id: 10.1109/TCAD.2017.2693269
+  title: 'TEI-NoC: Optimizing Ultralow Power NoCs Exploiting the Temperature Effect
+    Inversion'
+  authors:
+  - Kyuseung Han
+  - Jae-Jin Lee
+  - Jinho Lee
+  - Woojoo Lee
+  - Massoud Pedram
+  publisher: IEEE Transactions on Computer-Aided Design of Integrated Circuits and
+    Systems
+  date: '2018-02-01'
+  link: https://doi.org/gtm385
+  plugin: sources.py
+  file: sources.yaml
+- id: 10.1109/TVLSI.2017.2655722
+  title: Excavating the Hidden Parallelism Inside DRAM Architectures With Buffered
+    Compares
+  authors:
+  - Jinho Lee
+  - Jongwook Chung
+  - Jung Ho Ahn
+  - Kiyoung Choi
+  publisher: IEEE Transactions on Very Large Scale Integration (VLSI) Systems
+  date: '2017-06-01'
+  link: https://doi.org/gtm386
+  plugin: sources.py
+  file: sources.yaml
+- id: https://dl.acm.org/doi/abs/10.5555/2971808.2972099
+  title: 'Buffered compares: excavating the hidden parallelism inside DRAM architectures
+    with lightweight logic'
+  authors:
+  - Jinho Lee
+  - Jung Ho Ahn
+  - Kiyoung Choi
+  publisher: Proceedings of the 2016 Conference on Design, Automation & Test in Europe
+  date: '2016-03-14'
+  link: https://dl.acm.org/doi/abs/10.5555/2971808.2972099
+  plugin: sources.py
+  file: sources.yaml
+- id: 10.1145/2751560
+  title: REDELF
+  authors:
+  - Jinho Lee
+  - Kyungsu Kang
+  - Kiyoung Choi
+  publisher: ACM Journal on Emerging Technologies in Computing Systems
+  date: '2015-09-21'
+  link: https://doi.org/gtm39b
+  plugin: sources.py
+  file: sources.yaml
+- id: 10.1109/ASPDAC.2015.7059104
+  title: 'THOR: Orchestrated thermal management of cores and networks in 3D many-core
+    architectures'
+  authors:
+  - ' Jinho Lee'
+  - Junwhan Ahn
+  - ' Kiyoung Choi'
+  - Kyungsu Kang
+  publisher: The 20th Asia and South Pacific Design Automation Conference
+  date: '2015-01-01'
+  link: https://doi.org/gtm39c
+  plugin: sources.py
+  file: sources.yaml
+- id: 10.1145/2685342.2685346
+  title: Tree-Mesh Heterogeneous Topology for Low-Latency NoC
+  authors:
+  - Sungju Han
+  - Jinho Lee
+  - Kiyoung Choi
+  publisher: Proceedings of the 2014 International Workshop on Network on Chip Architectures
+  date: '2014-12-13'
+  link: https://doi.org/gtm39d
+  plugin: sources.py
+  file: sources.yaml
+- id: 10.1145/2536522.2536534
+  title: Towards optimal adaptive routing in 3D NoC with limited vertical bandwidth
+  authors:
+  - Gunhee Lee
+  - Jinho Lee
+  - Kiyoung Choi
+  publisher: Proceedings of the Sixth International Workshop on Network on Chip Architectures
+  date: '2013-12-08'
+  link: https://doi.org/gtm39g
+  plugin: sources.py
+  file: sources.yaml
+- id: 10.1109/TCAD.2013.2266405
+  title: Mapping and Scheduling of Tasks and Communications on Many-Core SoC Under
+    Local Memory Constraint
+  authors:
+  - ' Jinho Lee'
+  - ' Moo-Kyoung Chung'
+  - ' Yeon-Gon Cho'
+  - ' Soojung Ryu'
+  - ' Jung Ho Ahn'
+  - ' Kiyoung Choi'
+  publisher: IEEE Transactions on Computer-Aided Design of Integrated Circuits and
+    Systems
+  date: '2013-11-01'
+  link: https://doi.org/gtm39h
+  plugin: sources.py
+  file: sources.yaml
+- id: 10.1145/2505011
+  title: Deflection routing in 3D network-on-chip with limited vertical bandwidth
+  authors:
+  - Jinho Lee
+  - Dongwoo Lee
+  - Sunwook Kim
+  - Kiyoung Choi
+  publisher: ACM Transactions on Design Automation of Electronic Systems
+  date: '2013-10-01'
+  link: https://doi.org/gtm39j
+  plugin: sources.py
+  file: sources.yaml
+- id: 10.1109/NoCS.2013.6558407
+  title: A deadlock-free routing algorithm requiring no virtual channel on 3D-NoCs
+    with partial vertical connections
+  authors:
+  - Jinho Lee
+  - Kiyoung Choi
+  publisher: 2013 Seventh IEEE/ACM International Symposium on Networks-on-Chip (NoCS)
+  date: '2013-04-01'
+  link: https://doi.org/gtm39k
+  plugin: sources.py
+  file: sources.yaml
+- id: 10.1109/ASPDAC.2013.6509554
+  title: Deflection routing in 3D Network-on-Chip with TSV serialization
+  authors:
+  - ' Jinho Lee'
+  - ' Dongwoo Lee'
+  - ' Sunwook Kim'
+  - ' Kiyoung Choi'
+  publisher: 2013 18th Asia and South Pacific Design Automation Conference (ASP-DAC)
+  date: '2013-01-01'
+  link: https://doi.org/gtm39m
+  plugin: sources.py
+  file: sources.yaml
+- id: 10.1109/VLSI-SoC.2012.6378999
+  title: An adaptive routing algorithm for 3D mesh NoC with limited vertical bandwidth
+  authors:
+  - Mingyang Zhu
+  - Jinho Lee
+  - Kiyoung Choi
+  publisher: 2012 IEEE/IFIP 20th International Conference on VLSI and System-on-Chip
+    (VLSI-SoC)
+  date: '2012-10-01'
+  link: https://doi.org/gtm39n
+  plugin: sources.py
+  file: sources.yaml
+- id: 10.1109/ASPDAC.2012.6164985
+  title: Memory-aware mapping and scheduling of tasks and communications on many-core
+    SoC
+  authors:
+  - ' Jinho Lee'
+  - Kiyoung Choi
+  publisher: 17th Asia and South Pacific Design Automation Conference
+  date: '2012-01-01'
+  link: https://doi.org/gtm39q
+  plugin: sources.py
+  file: sources.yaml
+- id: 10.1109/isocc.2011.6138783
+  title: 3D network-on-chip with wireless links through inductive coupling
+  authors:
+  - Jinho Lee
+  - Mingyang Zhu
+  - Kiyoung Choi
+  - Jung Ho Ahn
+  - Rohit Sharma
+  publisher: 2011 International SoC Design Conference
+  date: '2011-11-01'
+  link: https://doi.org/fx6k8z
+  plugin: sources.py
+  file: sources.yaml
+- id: 10.1109/SOCDC.2009.5423916
+  title: Leakage power reduction of functional units in processors having zero-overhead
+    loop counter
+  authors:
+  - ' Hanmin Park'
+  - Jong Kyung Paek
+  - ' Jinho Lee'
+  - ' Kiyoung Choi'
+  publisher: 2009 International SoC Design Conference (ISOCC)
+  date: '2009-01-01'
+  link: https://doi.org/cbrdjg
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1109/DAC18074.2021.9586121

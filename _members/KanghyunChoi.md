@@ -19,33 +19,34 @@ I am a graduate student in the Department of Electrical and Computer Engineering
 
 ---
 
-# Publication
-
-{%
-  include citation.html
-  lookup="doi:10.1109/DAC56929.2023.10247930"
-%}
-{%
-  include citation.html
-  lookup="arxiv:2203.17008"
-  style="rich"
-%}
-{%
-  include citation.html
-  lookup="arxiv:2301.09312"
-  style="rich"
-%}
-{%
-  include citation.html
-  lookup="arxiv:2111.02625"
-  style="rich"
-%}
-{%
-  include citation.html
-  lookup="doi:10.1109/DAC18074.2021.9586121"
-  style="rich"
-%}
-
+# Publications 
+{% for paper in site.data.citations %}
+  {% for name in page.aliases %}
+  {% assign supname = name | append: "<sup>1</sup>" %}
+    {% if paper.authors contains name or paper.authors contains supname %}
+      {% 
+        include citation.html
+        authors=paper.authors
+        buttons=paper.buttons
+        date=paper.date
+        print_date=paper.print_date
+        description=paper.description
+        icon=paper.icon
+        id=paper.id
+        image=paper.image
+        link=paper.link
+        name=paper.name
+        publisher=paper.publisher
+        role=paper.role
+        slug=paper.slug
+        style="rich"
+        tags=paper.tags
+        title=paper.title
+        type=paper.type
+      %}
+    {% endif %}
+  {% endfor %}
+{% endfor %}
 
 # Teaching Experience
 * Digital System Design and Practices (430.315A), Teaching Assistant (Fall 2023)

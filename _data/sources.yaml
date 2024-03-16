@@ -11,6 +11,7 @@
   tags:
     - SCI
     - Arch.
+  id: ""
 
 - title: "PeerAiD: Improving Adversarial Distillation from a Specialized Peer Tutor"
   authors:
@@ -23,6 +24,7 @@
   tags:
     - Top Conf.
     - AI/ML
+  id: ""
 
 - id: https://doi.org/10.1145/3627535.3638474
   publisher: ACM Annual Symposium on Principles and Practice of Parallel Programming (PPoPP)
@@ -50,6 +52,7 @@
     - Top Conf.
     - AI/ML
     - Syst. SW
+  id: ""
 
 - title: "Smart-Infinity: Fast Large Language Model Training using Near-Storage Processing on a Real System"
   authors:
@@ -75,6 +78,343 @@
     - Syst. SW
     - Arch. 
     - AI/ML
+  id: ""
+
+- id: doi:10.1109/TC.2023.3299030
+  tags:
+    - SCI
+    - Arch. 
+    - AI/ML
+  buttons:
+    - type: paper
+      link: https://ieeexplore.ieee.org/abstract/document/10198513
+
+- id: https://doi.org/10.1145/3589258
+  tags:
+    - Top Conf.
+    - AI/ML
+    - Syst. SW
+  buttons:
+    - type: paper
+      link: https://dl.acm.org/doi/abs/10.1145/3589258
+
+- id: https://doi.org/10.23919/DATE56975.2023.10137044
+  tags:
+    - Top Conf.
+    - AI/ML
+    - Syst. SW
+  buttons:
+    - type: paper
+      link: https://ieeexplore.ieee.org/abstract/document/10137044
+    - type: arxiv
+      link: https://arxiv.org/abs/2301.12443
+    - type: github
+      link: https://github.com/hongsunjang/Pipe-BD
+
+- id: 10.1145/3575693.3575712
+  authors:
+    - Jaeyong Song<sup>1</sup>
+    - Jinkyu Yim<sup>1</sup>
+    - Jaewon Jung
+    - Hongsun Jang
+    - Hyung-Jin Kim
+    - Youngsok Kim
+    - Jinho Lee
+  tags:
+    - Top Conf.
+    - AI/ML
+    - Syst. SW
+  buttons:
+    - type: arxiv
+      link: https://arxiv.org/abs/2301.09830
+    - type: paper
+      link: https://dl.acm.org/doi/10.1145/3575693.3575712
+    - type: artifact
+      link: https://zenodo.org/record/7220824
+
+- id: doi:10.1109/HPCA56546.2023.10071102
+  authors:
+    - Mingi Yoo<sup>1</sup>
+    - Jaeyong Song<sup>1</sup>
+    - Jounghoo Lee
+    - Namhyung Kim
+    - Youngsok Kim
+    - Jinho Lee
+  tags:
+    - Top Conf.
+    - Arch.
+    - AI/ML
+  buttons:
+    - type: arxiv
+      link: https://arxiv.org/abs/2301.10388
+    - type: paper
+      link: https://ieeexplore.ieee.org/document/10071102/
+
+- id: https://bmvc2022.mpi-inf.mpg.de/0281.pdf
+  title: Improving Gradient Paths for Binary Convolutional Neural Networks
+  authors:
+    - Baozhou Zhu
+    - Peter Hofstee
+    - Jinho Lee
+    - Zaid Al-Ars
+  tags:
+    - Top Conf.
+    - AI/ML
+  buttons: 
+    - type: paper
+      link: https://bmvc2022.mpi-inf.mpg.de/0281.pdf
+  date: '2022-11-21'
+  publisher: BMVC
+
+- id: doi:10.1145/3559009.3569693
+  title: "Slice-and-Forge: Making Better Use of Caches for Graph Convolutional Network Accelerators"
+  authors: 
+    - Mingi Yoo<sup>1</sup>
+    - Jaeyong Song<sup>1</sup>
+    - Hye Yoon Lee
+    - Jounghoo Lee
+    - Namhyung Kim
+    - Youngsok Kim
+    - Jinho Lee
+  tags:
+    - Top Conf.
+    - Arch. 
+    - AI/ML
+  publisher: PACT (Best Paper Award)
+  buttons:
+    - type: arxiv
+      link: https://arxiv.org/abs/2301.09813
+    - type: paper
+      link: https://dl.acm.org/doi/10.1145/3559009.3569693
+
+- id: doi:https://doi.org/10.1145/3559009.3569686
+  tags:
+    - Top Conf.
+    - Syst. SW
+  buttons:
+    - type: paper
+      link: https://dl.acm.org/doi/10.1145/3559009.3569686
+
+- id: doi:https://doi.org/10.1145/3470496.3527384
+  tags:
+    - Top Conf.
+    - Arch.
+  buttons:  
+    - type: paper
+      link: https://dl.acm.org/doi/10.1145/3470496.3527384
+
+- id: doi:https://doi.org/10.1145/3528535.3531513
+  tags:
+    - Top Conf.
+    - Syst. SW
+    - AI/ML
+  buttons:
+    - type: paper
+      link: https://dl.acm.org/doi/10.1145/3528535.3531513
+
+- id: doi:10.1109/IPDPS53621.2022.00076
+  tags: 
+    - Top Conf.
+    - Syst. SW
+    - Bioinfo.
+  buttons: 
+    - type: paper
+      link: https://ieeexplore.ieee.org/document/9820739/
+    - type: arxiv
+      link: https://arxiv.org/abs/2301.09310
+
+- id: doi:10.1109/TC.2021.3092205
+  tags: 
+    - SCI
+    - Arch.
+    - AI/ML
+  buttons:
+    - type: paper
+      link: https://ieeexplore.ieee.org/document/9470992
+
+- id: doi:10.1109/LCA.2021.3090954
+  authors: 
+    - Mingi Yoo<sup>1</sup>
+    - Jaeyong Song<sup>1</sup>
+    - Jounghoo Lee
+    - Namhyung Kim
+    - Youngsok Kim
+    - Jinho Lee
+  tags:
+    - SCI
+    - Arch. 
+    - AI/ML
+  buttons:
+    - type: video
+      link: https://www.youtube.com/watch?v=72088TLwchY
+    - type: paper
+      link: https://ieeexplore.ieee.org/document/9461595
+
+- id: https://www.ijcai.org/proceedings/2021/0478.pdf
+  title: "AutoReCon: Neural Architecture Search-based Reconstruction for Data-free Compression"
+  authors:
+    - Baozhou Zhu
+    - Peter Hofstee
+    - Johan Peltenburg
+    - Jinho Lee
+    - Zaid Al-Ars
+  tags:
+    - Top Conf.
+    - AI/ML
+  buttons: 
+    - type: paper
+      link: https://www.ijcai.org/proceedings/2021/0478.pdf
+  date: '2021-08-19'
+  publisher: IJCAI
+
+- id: doi:10.1109/DAC18074.2021.9586312
+  tags: 
+    - Top Conf.
+    - Arch. 
+    - AI/ML
+  buttons:
+    - type: paper
+      link: https://ieeexplore.ieee.org/document/9586312
+
+- id: 10.1109/HPCA51647.2021.00030
+  tags:
+    - Top Conf.
+    - Arch. 
+    - AI/ML
+  buttons:
+    - type: arxiv
+      link: https://arxiv.org/abs/2102.07511
+    - type: paper
+      link: https://ieeexplore.ieee.org/abstract/document/9407195
+    - type: slide
+      link: https://aisys.snu.ac.kr/papers/HPCA2021-GradPIM.pdf
+
+- id: arxiv:https://arxiv.org/abs/2010.00823
+  title: Deep Composer Classification Using Symbolic Representation
+  authors:
+    - Sunghyeon Kim<sup>1</sup>
+    - Hyeyoon Lee<sup>1</sup>
+    - Sunjong Park<sup>1</sup>
+    - Jinho Lee
+    - Keunwoo Choi
+  publisher: LBD@ISMIR
+  date: "2020-10-11"
+  tags: 
+    - AI/ML
+  buttons:
+    - type: paper
+      link: https://program.ismir2020.net/lbd_431.html
+    - type: arxiv
+      link: https://arxiv.org/abs/2010.00823
+    - type: poster
+      link: https://aisys.snu.ac.kr/papers/deep_composer_poster_1005.pdf
+
+- id: doi:10.1109/DAC18072.2020.9218538
+  tags: 
+    - Top Conf.
+    - AI/ML
+    - Syst. SW
+  buttons:
+    - type: authorcopy
+      link: https://aisys.snu.ac.kr/papers/FlexReduce_DAC_2020.pdf
+    - type: paper
+      link: https://ieeexplore.ieee.org/abstract/document/9218538
+
+- id: doi:10.1109/CVPRW50498.2020.00385
+  tags: 
+    - AI/ML
+
+- id: doi:https://doi.org/10.1007/s11265-020-01547-w
+  tags:
+    - SCI
+    - Arch.
+  buttons:
+    - type: paper
+      link: https://link.springer.com/content/pdf/10.1007/s11265-020-01547-w.pdf
+
+
+- id: doi:https://doi.org/10.1007/s00778-019-00581-w
+  tags: 
+    - SCI
+    - Arch.
+  buttons:
+  - type: paper
+    link: https://link.springer.com/article/10.1007/s00778-019-00581-w
+
+- id: https://arxiv.org/abs/2001.04893
+  tags:
+    - AI/ML
+  buttons:
+    - type: arxiv
+      link: https://arxiv.org/abs/2001.04893
+  publisher: arXiv preprint
+
+- id: 10.1109/ICCVW.2019.00188
+
+- id: 10.1109/ASAP.2019.00017
+
+- id: 10.1145/3335783.3335786
+
+- id: 10.1109/MPRV.2019.2907004
+
+- id: https://dx.doi.org/10.1109/MDAT.2018.2890238
+
+- id: 10.1016/j.neucom.2018.05.087
+
+- id: 10.1145/3210240.3210348
+
+- id: https://arxiv.org/abs/1802.03057
+
+- id: 10.1109/BigData.2017.8258092
+
+- id: https://adms-conf.org/2017/camera-ready/Analyzing_In_Memory_Hash_Joins__Granularity_Matters.pdf
+  authors:
+    - Jian Fang
+    - Jinho Lee
+    - Peter Hofstee
+    - Jan Hidders
+  publisher: ADMS workshop @VLDB
+  date: "2017-08-28"
+
+- id: 10.14778/3137765.3137776
+
+- id: 10.1109/MDM.2017.45
+
+- id: 10.1109/TCAD.2017.2693269
+
+- id: 10.1109/TVLSI.2017.2655722
+
+- id: https://dl.acm.org/doi/abs/10.5555/2971808.2972099
+
+- id: 10.1145/2751560
+
+- id: 10.1109/ASPDAC.2015.7059104
+
+- id: 10.1145/2685342.2685346
+
+- id: 10.1145/2536522.2536534
+
+- id: 10.1109/TCAD.2013.2266405
+
+- id: 10.1145/2505011
+
+- id: 10.1109/NoCS.2013.6558407
+
+- id: 10.1109/ASPDAC.2013.6509554
+
+- id: 10.1109/VLSI-SoC.2012.6378999
+
+- id: 10.1109/ASPDAC.2012.6164985
+
+- id: 10.1109/isocc.2011.6138783
+
+- id: 10.1109/SOCDC.2009.5423916
+
+
+
+
+
+
 
 
 - id: doi:10.1109/DAC18074.2021.9586121

@@ -2,9 +2,6 @@
 
 # team member roles
 
-pi:
-  icon: fa-solid fa-microscope
-  description: Principal Investigator
 
 postdoc:
   icon: fa-solid fa-glasses
@@ -167,6 +164,11 @@ paper:
   icon: fa-solid fa-scroll
   text: Paper
   tooltip: Paper
+
+authorcopy:
+  icon: fa-solid fa-scroll
+  text: Author Copy
+  tooltip: Author Copy
 
 book:
   icon: fa-solid fa-book

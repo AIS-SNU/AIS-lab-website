@@ -18,18 +18,8 @@ layout: default
 
 {% include float.html content=floatcontent %}
 
-{{ content }}
-
-{% assign aliases = page.aliases
-  | default: page.name
-  | default: page.title
-  | join: ","
-  | split: ","
-  | array_filter
-%}
-
 {% capture search -%}
-  research/?search={% for alias in aliases %}"{{ alias }}" {% endfor %}
+  publications/?search={% for alias in aliases %}"{{ alias }}" {% endfor %}
 {%- endcapture %}
 
 <p class="center">
@@ -41,6 +31,18 @@ layout: default
 {% capture search -%}
   blog/?search={{ page.name }}
 {%- endcapture %}
+
+{{ content }}
+
+{% assign aliases = page.aliases
+  | default: page.name
+  | default: page.title
+  | join: ","
+  | split: ","
+  | array_filter
+%}
+
+
 
 <!--
 <p class="center">
