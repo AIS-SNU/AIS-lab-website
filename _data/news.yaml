@@ -1,0 +1,161 @@
+- content: 'Received the best paper award honorable mention from <u>HPCA 2024</u>. Congratulations to the authors of "<u>Smart-Infinity</u>"!'
+  print_date: Mar. 2024
+  date: 2024-03-01
+  
+- content: "Our paper <u>A Case for In-Memory Random Scatter-Gather for Fast Graph Processing</u> has been accepted to IEEE CAL. Congratulations!"
+  print_date: Feb. 2024
+  date: 2024-02-01
+
+- content: "Our paper titled <u>PeerAiD: Improving Adversarial Distillation from a Specialized Peer Tutor</u> has been accepted to CVPR 2024. Congratulations to authors!"
+  print_date: Feb. 2024
+  date: 2024-02-01
+
+- content: "We got a paper accpeted in PPoPP 2024: <u>AGAThA: Fast and Efficient GPU Acceleration of Guided Sequence Alignment for Long Read Mapping</u>. Conguratulations to authors and see you at Edinburgh Ü"
+  print_date: Nov. 2023
+  date: 2023-11-02
+
+- content: "Our paper <u>Pipette: Automatic Fine-grained Large Language Model Training Configurator for Real-World Clusters</u> has been accepted at DATE 2024. Congratulations!"
+  print_date: Nov. 2023
+  date: 2023-11-01
+
+- content: "We got a paper accepted in HPCA 2024: <u>Smart-Infinity: Fast Large Language Model Training using Near-Storage Processing on a Real System</u>. Congratulations to authors!"
+  print_date: Oct. 2023
+  date: 2023-10-01
+
+- content: Jinho Lee joined ECE, Seoul Nationl University as an assistant professor.
+  print_date: Sep. 2023
+  date: 2023-09-01
+
+- content: "Our paper titled <u>Enabling Fine-Grained Spatial Multitasking on Systolic-Array NPUs Using Dataflow Mirroring</u> has been accepted to IEEE TC. Congratulations to authors!"
+  print_date: Jul. 2023
+  date: 2023-07-01
+
+- content: "We got a paper accepted in DAC 2023: <u>Fast Adversarial Training with Dynamic Batch-level Attack Control</u> congratulations to authors!"
+  print_date: Feb. 2023
+  date: 2023-02-01
+
+- content: "We welcome Junguk Hong as our new member Ü"
+  print_date: Jan. 2023
+  date: 2023-01-01
+
+- content: "We got a new year's first paper accepted to SIGMOD 2023: <u>Design and Analysis of a Processing-in-DIMM Join Algorithm: A Case Study with UPMEM DIMMs</u> congratulations to authors!"
+  print_date: Jan. 2023
+  date: 2023-01-01
+
+- content: "We got a paper accepted in DATE 2023: <u>Pipe-BD: Pipelined Parallel Blockwise Distillation</u> congratulations to authors, see you at Antwerp!"
+  print_date: Nov. 2022
+  date: 2022-11-01
+
+- content: "Our paper titled <u>SGCN: Exploiting Compressed-Sparse Features in Deep Graph Convolutional Network Accelerators</u> has been accepted to HPCA 2023. Nice job!"
+  print_date: Oct. 2022
+  date: 2022-10-01
+
+- content: Best paper award received from <a href="https://pact22.cs.illinois.edu/">PACT 2022</a>! Congratulations and thanks to the authors of <b><u><a href="https://dl.acm.org/doi/10.1145/3559009.3569693">"Slice-and-Forge"</a></u></b>
+  print_date: Oct. 2022
+  date: 2022-10-01
+
+- content: "<u>Optimus-CC: Efficient Large NLP Model Training with 3D Parallelism Aware Communication Compression</u> has been accepted to ASPLOS 2023. Congratulations authors!"
+  print_date: Sep. 2022
+  date: 2022-09-01
+
+- content: "Hongsun Jang joins the Lab. Welcome :)"
+  print_date: Aug. 2022
+  date: 2022-08-01
+
+- content: "two papers have been accepted to PACT 2022. Nice work!
+                        <li><u>Slice-and-Forge: Making Better Use of Caches for Graph Convolutional Network Accelerators</u></li>
+                        <li><u>Decoupling Schedule, Topology Layout, and Algorithm to Easily Enlarge the Tuning Space of GPU Graph Processing</u></li>"
+  print_date: Aug. 2022
+  date: 2022-08-01
+
+- content: "Our <a href='https://arxiv.org/abs/2203.17008'>CVPR 2022 paper 'AIT'</a> has been selected for an <u>oral presentation</u> (342/8161 = 4.2%). Double congratulations!"
+  print_date: Mar. 2022
+  date: 2022-03-01
+
+- content: "We have two newly accepted papers on Valentines day. Congratulations authors Ü
+                        <li><a href='https://dl.acm.org/doi/abs/10.1145/3489517.3530507'><u>Enabling Hard Constraints in Differentiable Neural Network and Accelerator Co-Exploration</u></a> @ DAC 2022</li>
+                        <li><u>GuardiaNN: Fast and Secure Inference in TrustZone Using Embedded SRAM and Cryptographic Hardware</u> @ Middleware 2022</li>"
+  print_date: Feb. 2022
+  date: 2022-02-02
+
+- content: Kanghyun Choi, Deokki Hong, and Hye Yoon Lee won a <a href="images/28th_humantech.jpeg">silver prize</a> in <a href="https://humantech.samsung.com">28th Samsung Humantech Paper Awards</a>.
+  print_date: Feb. 2022
+  date: 2022-02-01
+
+- content: "Our paper <u><a href='images/saloba.jpg'>SALoBa</a>: <a href='https://ieeexplore.ieee.org/document/9820739/'>Maximizing Data Locality and Workload Balance for Fast Sequence Alignment on GPUs</a></u> has been accepted at IPDPS 2022. <s>Hope we get to travel to France :)</s> It's going virtual."
+  print_date: Jan. 2022
+  date: 2022-01-02
+
+- content: "SeongYeon Park joins the Lab. Welcome!"
+  print_date: Jan. 2022
+  date: 2022-01-01
+
+- content: "Jaewon Jung joins the Lab. Welcome!"
+  print_date: Oct. 2021
+  date: 2021-10-01
+
+- content: SeongYeon Park became the <a href="images/PACT_SRC_SPark.jpg">first place winner</a> for <a href="http://pact21.snu.ac.kr/index.php/acm-src/">ACM Student Research Competition (SRC) at PACT 2021.</a> Nice work!
+  print_date: Sep. 2021
+  date: 2021-09-02
+
+- content: 'Our paper <a href="https://arxiv.org/abs/2111.02625"><u>Qimera: Data-free Quantization with Synthetic Boundary Supporting Samples</u></a> has been accepted at NeurIPS 2021. Congratulations!'
+  print_date: Sep. 2021
+  date: 2021-09-01
+
+- content: "Jaeyong Song and Hyeyoon Lee join the Lab. Welcome on board!"
+  print_date: Jul. 2021
+  date: 2021-07-01
+
+- content: Our paper <a href="https://ieeexplore.ieee.org/document/9461595"><u>Making a Better Use of Caches for GCN Accelerators with Feature Slicing and Automatic Tile Morphing</u></a> has been accepted at IEEE CAL. Congratulations!
+  print_date: May. 2021
+  date: 2021-05-02
+
+- content: 'Our paper <a href="https://www.ijcai.org/proceedings/2021/0478.pdf"><u>AutoReCon: Neural Architecture Search-based Reconstruction for Data-free Compression</u></a> has been accepted at IJCAI 2021.'
+  print_date: May. 2021
+  date: 2021-05-01
+
+- content: Jinho Lee received Yonsei Best Teaching Award for 2020.
+  print_date: Mar. 2021
+  date: 2021-03-01
+
+- content: 'We have two papers accepted to DAC 2021. Congratulations authors!
+                                        <li><u><a href="https://ieeexplore.ieee.org/abstract/document/9586121">DANCE: Differentiable Accelerator/Network Co-Exploration</a></u></li>
+                                        <li><u><a href="https://ieeexplore.ieee.org/document/9586312">Dataflow Mirroring: Architectural Support for Highly Efficient Fine-Grained Spatial Multitasking on Systolic-Array NPUs</a></u> </li>'
+  print_date: Feb. 2021
+  date: 2021-02-01
+
+- content: Mingi Yoo joins the Lab. Welcome!
+  print_date: Feb. 2021
+  date: 2021-02-01
+
+- content: 'Our paper <a href="https://ieeexplore.ieee.org/abstract/document/9407195"><u>GradPIM: A Practical Processing-in-DRAM Architecture for Gradient Descent</u></a> has been accepted at HPCA 2021'  
+  print_date: Oct. 2020
+  date: 2020-10-01
+
+- content: Deokki Hong and Kanghyun Choi join the Lab. Welcome!
+  print_date: Jul. 2020
+  date: 2020-07-01
+
+- content: 'Our paper <a href="papers/FlexReduce_DAC_2020.pdf"><u>FlexReduce: Flexible All-reduce for Distributed Deep Learning on Asymmetric Network Topology</u></a> is published at DAC 2020'
+  print_date: Jul. 2020
+  date: 2020-07-01
+
+- content: Hohyun Kim joins the Lab. Welcome!
+  print_date: Feb. 2019
+  date: 2019-02-01
+
+- content: 'Our paper <a href="https://link.springer.com/article/10.1007/s00778-019-00581-w">In-memory database acceleration on FPGAs: a survey</a> is published at VLDB Journal'
+  print_date: Oct. 2019
+  date: 2019-10-01
+
+- content: Jinho Lee joined CS, Yonsei University as an assistant professor.
+  print_date: Sep. 2019
+  date: 2019-09-01
+
+- content:  Our paper <a href="https://ieeexplore.ieee.org/abstract/document/8794690">Accelerating conversational agents built with off-the-shelf modularized services</a> is published at IEEE Pervasive Computing
+  print_date: Aug. 2019
+  date: 2019-08-01
+
+- content: Our demo has been selected as the <b>Best Demo Award</b> at <a href="https://sigmobile.org/mobisys/2019/demos/">ACM MobiSys 2019</a>
+  print_date: June 2019
+  date: 2019-06-01

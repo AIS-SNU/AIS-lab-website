@@ -5,15 +5,20 @@
   | data_filter: include.filters
 %}
 
+
 {% assign years = data
   | group_by_exp: "d", "d.date | date: '%Y'"
-  | sort: "name"
-  | reverse
-%}
+  | sort: "date"
+  %}
+  
+{% assign counter = 0 %}
 
 {% for year in years %}
   {% assign data = year.items %}
 
+  {% if counter >= 10 %} 
+    {% continue %}
+  {% endif %}
   {% if years.size > 1 %}
     {{--}}<h3 id="{{ year.name }}">{{ year.name }}</h3>
     {% assign data = data | sort: "date" | reverse %}
@@ -21,7 +26,9 @@
 
   {% for d in data %}
     {% assign style = d.style | default: include.style %}
-
+    {% if counter >= 10 %} 
+      {% continue %}
+    {% endif %}
     {%
       include {{ include.component | append: ".html" }}
       author=d.author
@@ -57,5 +64,6 @@
       url=d.url
       width=d.width
     %}
+    {% assign counter = counter | plus: 1 %}
   {% endfor %}
 {% endfor %}

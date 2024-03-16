@@ -13,6 +13,17 @@ Please contact leejinho at snu dot ac dot kr if you are interested.
 
 석박사 신입생 및 학부생 인턴을 상시 선발하고 있습니다. 관심있는 학생은 leejinho at snu dot ac dot kr 로 연락 바랍니다.
 
+## News
+{% include listnews.html data="news" component="news" %}
+{%
+  include button.html
+  link="news"
+  text="See more"
+  icon="fa-solid fa-folder-open"
+  flip=true
+  style="bare"
+%}
+
 {% include section.html %}
 
 ## Research Topics
