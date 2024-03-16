@@ -33,6 +33,16 @@ link:
   text: Link
   tooltip: Link
 
+video:
+  icon: fa-solid fa-globe
+  text: Video
+  tooltip: Video
+
+poster:
+  icon: fa-solid fa-globe
+  text: Poster
+  tooltip: Poster
+
 website:
   icon: fa-solid fa-globe
   text: Website
@@ -224,6 +234,11 @@ data:
   icon: fa-solid fa-database
   text: Data
   tooltip: Data
+
+artifact:
+  icon: fa-solid fa-database
+  text: Artifact
+  tooltip: Artifact
 
 package:
   icon: fa-solid fa-box
