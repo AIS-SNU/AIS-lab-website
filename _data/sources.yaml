@@ -289,7 +289,7 @@
     - type: slide
       link: https://aisys.snu.ac.kr/papers/HPCA2021-GradPIM.pdf
 
-- id: arxiv:https://arxiv.org/abs/2010.00823
+- id: arxiv:2010.00823
   title: Deep Composer Classification Using Symbolic Representation
   authors:
     - Sunghyeon Kim<sup>1</sup>

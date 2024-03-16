@@ -482,7 +482,7 @@
     link: https://aisys.snu.ac.kr/papers/HPCA2021-GradPIM.pdf
   plugin: sources.py
   file: sources.yaml
-- id: arxiv:https://arxiv.org/abs/2010.00823
+- id: arxiv:2010.00823
   title: Deep Composer Classification Using Symbolic Representation
   authors:
   - Sunghyeon Kim<sup>1</sup>
@@ -492,6 +492,7 @@
   - Keunwoo Choi
   publisher: LBD@ISMIR
   date: '2020-10-11'
+  link: https://arxiv.org/abs/2010.00823
   tags:
   - AI/ML
   buttons:
