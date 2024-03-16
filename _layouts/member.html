@@ -2,6 +2,26 @@
 layout: default
 ---
 
+{% assign aliases = page.aliases
+  | default: page.name
+  | default: page.title
+  | join: ","
+  | split: ","
+  | array_filter
+%}
+
+{% capture search -%}
+  publications/?search={% for alias in aliases %}"{{ alias }}" {% endfor %}
+{%- endcapture %}
+
+<p class="center">
+  <a href="{{ search | relative_url }}">
+    Search for {{ page.name | default: page.title }}'s papers on the Research page
+  </a>
+</p>
+
+
+
 {% capture floatcontent %}
 
 {% include portrait.html lookup=page.slug %}
@@ -18,29 +38,8 @@ layout: default
 
 {% include float.html content=floatcontent %}
 
-{% capture search -%}
-  publications/?search={% for alias in aliases %}"{{ alias }}" {% endfor %}
-{%- endcapture %}
-
-<p class="center">
-  <a href="{{ search | relative_url }}">
-    Search for {{ page.name | default: page.title }}'s papers on the Research page
-  </a>
-</p>
-
-{% capture search -%}
-  blog/?search={{ page.name }}
-{%- endcapture %}
-
 {{ content }}
 
-{% assign aliases = page.aliases
-  | default: page.name
-  | default: page.title
-  | join: ","
-  | split: ","
-  | array_filter
-%}
 
 
 
