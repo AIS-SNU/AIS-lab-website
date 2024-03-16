@@ -26,7 +26,7 @@ jobs:
         uses: crazy-max/ghaction-dump-context@v1
 
       - name: Checkout branch contents
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           repository: ${{ github.event.pull_request.head.repo.full_name }}
           ref: ${{ github.head_ref }}
@@ -41,7 +41,7 @@ jobs:
       - name: Get Pages url
         if: github.event.action != 'closed'
         id: pages
-        uses: actions/configure-pages@v2
+        uses: actions/configure-pages@v4
         with:
           enablement: false
 
