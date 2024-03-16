@@ -20,6 +20,7 @@
   --background-alt: #1c1c1c;
   --light-gray: #404040;
   --gray: #808080;
+  --dark-gray: #b0b0b0;
   --overlay: #ffffff10;
 }
 
@@ -44,8 +45,10 @@
 
   // text line spacing
   --spacing: 2;
+  --compact: 1.5;
 
   // effects
   --rounded: 3px;
   --shadow: 0 0 10px 0 var(--overlay);
+  --transition: 0.2s ease;
 }
