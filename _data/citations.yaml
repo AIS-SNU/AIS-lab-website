@@ -229,21 +229,22 @@
     link: https://ieeexplore.ieee.org/document/10071102/
   plugin: sources.py
   file: sources.yaml
-- id: BMVC_imp
+- id: https://bmvc2022.mpi-inf.mpg.de/281/
   title: Improving Gradient Paths for Binary Convolutional Neural Networks
   authors:
   - Baozhou Zhu
   - Peter Hofstee
   - Jinho Lee
   - Zaid Al-Ars
+  publisher: BMVC
+  date: '2022-11-21'
+  link: https://bmvc2022.mpi-inf.mpg.de/281/
   tags:
   - Top Conf.
   - AI/ML
   buttons:
   - type: paper
     link: https://bmvc2022.mpi-inf.mpg.de/0281.pdf
-  date: '2022-11-21'
-  publisher: BMVC
   plugin: sources.py
   file: sources.yaml
 - id: 10.1145/3559009.3569693
@@ -411,7 +412,7 @@
     link: https://ieeexplore.ieee.org/document/9461595
   plugin: sources.py
   file: sources.yaml
-- id: IJCAI_autorecon
+- id: https://www.ijcai.org/proceedings/2021/478
   title: 'AutoReCon: Neural Architecture Search-based Reconstruction for Data-free
     Compression'
   authors:
@@ -420,14 +421,15 @@
   - Johan Peltenburg
   - Jinho Lee
   - Zaid Al-Ars
+  publisher: IJCAI
+  date: '2021-08-19'
+  link: https://www.ijcai.org/proceedings/2021/478
   tags:
   - Top Conf.
   - AI/ML
   buttons:
   - type: paper
     link: https://www.ijcai.org/proceedings/2021/0478.pdf
-  date: '2021-08-19'
-  publisher: IJCAI
   plugin: sources.py
   file: sources.yaml
 - id: 10.1109/DAC18074.2021.9586312
@@ -723,8 +725,7 @@
   link: https://doi.org/gtm384
   plugin: sources.py
   file: sources.yaml
-- id: ADMS_ANALYZING
-  title: 'Analyzing In-Memory Hash Joins: Granularity Matters'
+- title: 'Analyzing In-Memory Hash Joins: Granularity Matters'
   authors:
   - Jian Fang
   - Jinho Lee
@@ -795,7 +796,16 @@
   link: https://doi.org/gtm386
   plugin: sources.py
   file: sources.yaml
-- id: 10.5555/2971808.2972099
+- id: https://dl.acm.org/doi/abs/10.5555/2971808.2972099#sec-cit
+  title: 'Buffered compares: excavating the hidden parallelism inside DRAM architectures
+    with lightweight logic'
+  authors:
+  - Jinho Lee
+  - Jung Ho Ahn
+  - Kiyoung Choi
+  publisher: Proceedings of the 2016 Conference on Design, Automation & Test in Europe
+  date: '2016-03-14'
+  link: https://dl.acm.org/doi/abs/10.5555/2971808.2972099#sec-cit
   plugin: sources.py
   file: sources.yaml
 - id: 10.1145/2751560

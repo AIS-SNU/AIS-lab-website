@@ -151,7 +151,7 @@
     - type: paper
       link: https://ieeexplore.ieee.org/document/10071102/
 
-- id: BMVC_imp
+- id: https://bmvc2022.mpi-inf.mpg.de/281/
   title: Improving Gradient Paths for Binary Convolutional Neural Networks
   authors:
     - Baozhou Zhu
@@ -251,7 +251,7 @@
     - type: paper
       link: https://ieeexplore.ieee.org/document/9461595
 
-- id: IJCAI_autorecon
+- id: https://www.ijcai.org/proceedings/2021/478
   title: "AutoReCon: Neural Architecture Search-based Reconstruction for Data-free Compression"
   authors:
     - Baozhou Zhu
@@ -368,8 +368,7 @@
 
 - id: 10.1109/BigData.2017.8258092
 
-- id: ADMS_ANALYZING
-  title: "Analyzing In-Memory Hash Joins: Granularity Matters"
+- title: "Analyzing In-Memory Hash Joins: Granularity Matters"
   authors:
     - Jian Fang
     - Jinho Lee
@@ -389,7 +388,7 @@
 
 - id: 10.1109/TVLSI.2017.2655722
 
-- id: 10.5555/2971808.2972099
+- id: https://dl.acm.org/doi/abs/10.5555/2971808.2972099#sec-cit
 
 - id: 10.1145/2751560
 
