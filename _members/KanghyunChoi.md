@@ -9,7 +9,7 @@ aliases:
   - K Choi
 links:
   email: kanghyun.choi@snu.ac.kr
-  github: github.com/iamkanghyunchoi
+  github: iamkanghyunchoi
   google-scholar: n9e6qnsAAAAJ
   cv: CVs/kanghyun_choi_cv.pdf
 
