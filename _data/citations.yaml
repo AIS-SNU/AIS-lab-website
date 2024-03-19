@@ -102,7 +102,7 @@
   id: ''
   plugin: sources.py
   file: sources.yaml
-- id: doi:10.1109/TC.2023.3299030
+- id: 10.1109/TC.2023.3299030
   title: Enabling Fine-Grained Spatial Multitasking on Systolic-Array NPUs Using Dataflow
     Mirroring
   authors:
@@ -202,7 +202,7 @@
     link: https://zenodo.org/record/7220824
   plugin: sources.py
   file: sources.yaml
-- id: doi:10.1109/HPCA56546.2023.10071102
+- id: 10.1109/HPCA56546.2023.10071102
   title: 'SGCN: Exploiting Compressed-Sparse Features in Deep Graph Convolutional
     Network Accelerators'
   authors:
@@ -244,7 +244,7 @@
   publisher: BMVC
   plugin: sources.py
   file: sources.yaml
-- id: doi:10.1145/3559009.3569693
+- id: 10.1145/3559009.3569693
   title: 'Slice-and-Forge: Making Better Use of Caches for Graph Convolutional Network
     Accelerators'
   authors:
@@ -269,7 +269,7 @@
     link: https://dl.acm.org/doi/10.1145/3559009.3569693
   plugin: sources.py
   file: sources.yaml
-- id: doi:https://doi.org/10.1145/3559009.3569686
+- id: https://doi.org/10.1145/3559009.3569686
   title: Decoupling Schedule, Topology Layout, and Algorithm to Easily Enlarge the
     Tuning Space of GPU Graph Processing
   authors:
@@ -284,7 +284,7 @@
   publisher: Proceedings of the International Conference on Parallel Architectures
     and Compilation Techniques
   date: '2023-01-27'
-  link: https://doi.org/gtm37d
+  link: https://doi.org/10.1145/3559009.3569686
   tags:
   - Top Conf.
   - Syst. SW
@@ -293,7 +293,7 @@
     link: https://dl.acm.org/doi/10.1145/3559009.3569686
   plugin: sources.py
   file: sources.yaml
-- id: doi:https://doi.org/10.1145/3470496.3527384
+- id: https://doi.org/10.1145/3470496.3527384
   title: 'GCoM: a detailed GPU core model for accurate analytical modeling of modern
     GPUs'
   authors:
@@ -306,7 +306,7 @@
   - Youngsok Kim
   publisher: Proceedings of the 49th Annual International Symposium on Computer Architecture
   date: '2022-06-11'
-  link: https://doi.org/grg25v
+  link: https://doi.org/10.1145/3470496.3527384
   tags:
   - Top Conf.
   - Arch.
@@ -315,7 +315,7 @@
     link: https://dl.acm.org/doi/10.1145/3470496.3527384
   plugin: sources.py
   file: sources.yaml
-- id: doi:https://doi.org/10.1145/3528535.3531513
+- id: https://doi.org/10.1145/3528535.3531513
   title: 'GuardiaNN: Fast and Secure On-Device Inference in TrustZone Using Embedded
     SRAM and Cryptographic Hardware'
   authors:
@@ -328,7 +328,7 @@
   - Youngsok Kim
   publisher: Proceedings of the 23rd ACM/IFIP International Middleware Conference
   date: '2022-10-24'
-  link: https://doi.org/gtm37g
+  link: https://doi.org/10.1145/3528535.3531513
   tags:
   - Top Conf.
   - Syst. SW
@@ -338,7 +338,7 @@
     link: https://dl.acm.org/doi/10.1145/3528535.3531513
   plugin: sources.py
   file: sources.yaml
-- id: doi:10.1109/IPDPS53621.2022.00076
+- id: 10.1109/IPDPS53621.2022.00076
   title: 'SALoBa: Maximizing Data Locality and Workload Balance for Fast Sequence
     Alignment on GPUs'
   authors:
@@ -365,7 +365,7 @@
     link: https://arxiv.org/abs/2301.09310
   plugin: sources.py
   file: sources.yaml
-- id: doi:10.1109/TC.2021.3092205
+- id: 10.1109/TC.2021.3092205
   title: 'ComPreEND: Computation Pruning through Predictive Early Negative Detection
     for ReLU in a Deep Neural Network Accelerator'
   authors:
@@ -387,7 +387,7 @@
     link: https://ieeexplore.ieee.org/document/9470992
   plugin: sources.py
   file: sources.yaml
-- id: doi:10.1109/LCA.2021.3090954
+- id: 10.1109/LCA.2021.3090954
   title: Making a Better Use of Caches for GCN Accelerators with Feature Slicing and
     Automatic Tile Morphing
   authors:
@@ -431,7 +431,7 @@
     link: https://www.ijcai.org/proceedings/2021/0478.pdf
   plugin: sources.py
   file: sources.yaml
-- id: doi:10.1109/DAC18074.2021.9586312
+- id: 10.1109/DAC18074.2021.9586312
   title: 'Dataflow Mirroring: Architectural Support for Highly Efficient Fine-Grained
     Spatial Multitasking on Systolic-Array NPUs'
   authors:
@@ -503,7 +503,7 @@
     link: https://aisys.snu.ac.kr/papers/deep_composer_poster_1005.pdf
   plugin: sources.py
   file: sources.yaml
-- id: doi:10.1109/DAC18072.2020.9218538
+- id: 10.1109/DAC18072.2020.9218538
   title: 'FlexReduce: Flexible All-reduce for Distributed Deep Learning on Asymmetric
     Network Topology'
   authors:
@@ -525,7 +525,7 @@
     link: https://ieeexplore.ieee.org/abstract/document/9218538
   plugin: sources.py
   file: sources.yaml
-- id: doi:10.1109/CVPRW50498.2020.00385
+- id: 10.1109/CVPRW50498.2020.00385
   title: 'MUTE: Inter-class Ambiguity Driven Multi-hot Target Encoding for Deep Neural
     Network Design'
   authors:
@@ -541,7 +541,7 @@
   - AI/ML
   plugin: sources.py
   file: sources.yaml
-- id: doi:https://doi.org/10.1007/s11265-020-01547-w
+- id: https://doi.org/10.1007/s11265-020-01547-w
   title: An Efficient High-Throughput LZ77-Based Decompressor in Reconfigurable Logic
   authors:
   - Jian Fang
@@ -551,7 +551,7 @@
   - H. Peter Hofstee
   publisher: Journal of Signal Processing Systems
   date: '2020-09-01'
-  link: https://doi.org/gtm379
+  link: https://doi.org/10.1007/s11265-020-01547-w
   tags:
   - SCI
   - Arch.
@@ -560,7 +560,7 @@
     link: https://link.springer.com/content/pdf/10.1007/s11265-020-01547-w.pdf
   plugin: sources.py
   file: sources.yaml
-- id: doi:https://doi.org/10.1007/s00778-019-00581-w
+- id: https://doi.org/10.1007/s00778-019-00581-w
   title: 'In-memory database acceleration on FPGAs: a survey'
   authors:
   - Jian Fang
@@ -570,7 +570,7 @@
   - H. Peter Hofstee
   publisher: The VLDB Journal
   date: '2020-01-01'
-  link: https://doi.org/gtm38t
+  link: https://doi.org/10.1007/s00778-019-00581-w
   tags:
   - SCI
   - Arch.
@@ -952,7 +952,7 @@
   link: https://doi.org/cbrdjg
   plugin: sources.py
   file: sources.yaml
-- id: doi:10.1109/DAC18074.2021.9586121
+- id: 10.1109/DAC18074.2021.9586121
   title: 'DANCE: Differentiable Accelerator/Network Co-Exploration'
   authors:
   - Kanghyun Choi<sup>1</sup>
@@ -1054,7 +1054,7 @@
   - AI/ML
   plugin: sources.py
   file: sources.yaml
-- id: doi:10.1109/DAC56929.2023.10247930
+- id: 10.1109/DAC56929.2023.10247930
   title: Fast Adversarial Training with Dynamic Batch-level Attack Control
   authors:
   - Jaewon Jung
