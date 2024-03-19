@@ -103,7 +103,7 @@
   id: ''
   plugin: sources.py
   file: sources.yaml
-- id: doi:10.1109/TC.2023.3299030
+- id: 10.1109/TC.2023.3299030
   title: Enabling Fine-Grained Spatial Multitasking on Systolic-Array NPUs Using Dataflow
     Mirroring
   authors:
@@ -204,7 +204,7 @@
     link: https://zenodo.org/record/7220824
   plugin: sources.py
   file: sources.yaml
-- id: doi:10.1109/HPCA56546.2023.10071102
+- id: 10.1109/HPCA56546.2023.10071102
   title: 'SGCN: Exploiting Compressed-Sparse Features in Deep Graph Convolutional
     Network Accelerators'
   authors:
@@ -229,25 +229,24 @@
     link: https://ieeexplore.ieee.org/document/10071102/
   plugin: sources.py
   file: sources.yaml
-- id: https://bmvc2022.mpi-inf.mpg.de/0281.pdf
+- id: BMVC_imp
   title: Improving Gradient Paths for Binary Convolutional Neural Networks
   authors:
   - Baozhou Zhu
   - Peter Hofstee
   - Jinho Lee
   - Zaid Al-Ars
-  publisher: BMVC
-  date: '2022-11-21'
-  link: https://bmvc2022.mpi-inf.mpg.de/0281.pdf
   tags:
   - Top Conf.
   - AI/ML
   buttons:
   - type: paper
     link: https://bmvc2022.mpi-inf.mpg.de/0281.pdf
+  date: '2022-11-21'
+  publisher: BMVC
   plugin: sources.py
   file: sources.yaml
-- id: doi:10.1145/3559009.3569693
+- id: 10.1145/3559009.3569693
   title: 'Slice-and-Forge: Making Better Use of Caches for Graph Convolutional Network
     Accelerators'
   authors:
@@ -339,7 +338,7 @@
     link: https://dl.acm.org/doi/10.1145/3528535.3531513
   plugin: sources.py
   file: sources.yaml
-- id: doi:10.1109/IPDPS53621.2022.00076
+- id: 10.1109/IPDPS53621.2022.00076
   title: 'SALoBa: Maximizing Data Locality and Workload Balance for Fast Sequence
     Alignment on GPUs'
   authors:
@@ -366,7 +365,7 @@
     link: https://arxiv.org/abs/2301.09310
   plugin: sources.py
   file: sources.yaml
-- id: doi:10.1109/TC.2021.3092205
+- id: 10.1109/TC.2021.3092205
   title: 'ComPreEND: Computation Pruning through Predictive Early Negative Detection
     for ReLU in a Deep Neural Network Accelerator'
   authors:
@@ -388,7 +387,7 @@
     link: https://ieeexplore.ieee.org/document/9470992
   plugin: sources.py
   file: sources.yaml
-- id: doi:10.1109/LCA.2021.3090954
+- id: 10.1109/LCA.2021.3090954
   title: Making a Better Use of Caches for GCN Accelerators with Feature Slicing and
     Automatic Tile Morphing
   authors:
@@ -412,7 +411,7 @@
     link: https://ieeexplore.ieee.org/document/9461595
   plugin: sources.py
   file: sources.yaml
-- id: https://www.ijcai.org/proceedings/2021/0478.pdf
+- id: IJCAI_autorecon
   title: 'AutoReCon: Neural Architecture Search-based Reconstruction for Data-free
     Compression'
   authors:
@@ -421,18 +420,17 @@
   - Johan Peltenburg
   - Jinho Lee
   - Zaid Al-Ars
-  publisher: IJCAI
-  date: '2021-08-19'
-  link: https://www.ijcai.org/proceedings/2021/0478.pdf
   tags:
   - Top Conf.
   - AI/ML
   buttons:
   - type: paper
     link: https://www.ijcai.org/proceedings/2021/0478.pdf
+  date: '2021-08-19'
+  publisher: IJCAI
   plugin: sources.py
   file: sources.yaml
-- id: doi:10.1109/DAC18074.2021.9586312
+- id: 10.1109/DAC18074.2021.9586312
   title: 'Dataflow Mirroring: Architectural Support for Highly Efficient Fine-Grained
     Spatial Multitasking on Systolic-Array NPUs'
   authors:
@@ -504,7 +502,7 @@
     link: https://aisys.snu.ac.kr/papers/deep_composer_poster_1005.pdf
   plugin: sources.py
   file: sources.yaml
-- id: doi:10.1109/DAC18072.2020.9218538
+- id: 10.1109/DAC18072.2020.9218538
   title: 'FlexReduce: Flexible All-reduce for Distributed Deep Learning on Asymmetric
     Network Topology'
   authors:
@@ -526,7 +524,7 @@
     link: https://ieeexplore.ieee.org/abstract/document/9218538
   plugin: sources.py
   file: sources.yaml
-- id: doi:10.1109/CVPRW50498.2020.00385
+- id: 10.1109/CVPRW50498.2020.00385
   title: 'MUTE: Inter-class Ambiguity Driven Multi-hot Target Encoding for Deep Neural
     Network Design'
   authors:
@@ -656,16 +654,16 @@
   link: https://doi.org/gf82w5
   plugin: sources.py
   file: sources.yaml
-- id: https://dx.doi.org/10.1109/MDAT.2018.2890238
+- id: 10.1109/MDAT.2018.2890238
   title: A Diagnosable Network-on-Chip for FPGA Verification of Intellectual Properties
   authors:
   - Kyuseung Han
   - Jae-Jin Lee
   - Woojoo Lee
   - Jinho Lee
-  publisher: IEEE Design & Test
+  publisher: IEEE Design &amp; Test
   date: '2019-04-01'
-  link: https://ieeexplore.ieee.org/document/8594625/
+  link: https://doi.org/gtnckt
   plugin: sources.py
   file: sources.yaml
 - id: 10.1016/j.neucom.2018.05.087
@@ -725,8 +723,8 @@
   link: https://doi.org/gtm384
   plugin: sources.py
   file: sources.yaml
-- id: https://adms-conf.org/2017/camera-ready/Analyzing_In_Memory_Hash_Joins__Granularity_Matters.pdf
-  title: ''
+- id: ADMS_ANALYZING
+  title: 'Analyzing In-Memory Hash Joins: Granularity Matters'
   authors:
   - Jian Fang
   - Jinho Lee
@@ -734,7 +732,9 @@
   - Jan Hidders
   publisher: ADMS workshop @VLDB
   date: '2017-08-28'
-  link: https://adms-conf.org/2017/camera-ready/Analyzing_In_Memory_Hash_Joins__Granularity_Matters.pdf
+  buttons:
+  - type: paper
+    link: https://adms-conf.org/2017/camera-ready/Analyzing_In_Memory_Hash_Joins__Granularity_Matters.pdf
   plugin: sources.py
   file: sources.yaml
 - id: 10.14778/3137765.3137776
@@ -795,16 +795,7 @@
   link: https://doi.org/gtm386
   plugin: sources.py
   file: sources.yaml
-- id: https://dl.acm.org/doi/abs/10.5555/2971808.2972099
-  title: 'Buffered compares: excavating the hidden parallelism inside DRAM architectures
-    with lightweight logic'
-  authors:
-  - Jinho Lee
-  - Jung Ho Ahn
-  - Kiyoung Choi
-  publisher: Proceedings of the 2016 Conference on Design, Automation & Test in Europe
-  date: '2016-03-14'
-  link: https://dl.acm.org/doi/abs/10.5555/2971808.2972099
+- id: 10.5555/2971808.2972099
   plugin: sources.py
   file: sources.yaml
 - id: 10.1145/2751560
@@ -953,7 +944,7 @@
   link: https://doi.org/cbrdjg
   plugin: sources.py
   file: sources.yaml
-- id: doi:10.1109/DAC18074.2021.9586121
+- id: 10.1109/DAC18074.2021.9586121
   title: 'DANCE: Differentiable Accelerator/Network Co-Exploration'
   authors:
   - Kanghyun Choi<sup>1</sup>
@@ -1055,7 +1046,7 @@
   - AI/ML
   plugin: sources.py
   file: sources.yaml
-- id: doi:10.1109/DAC56929.2023.10247930
+- id: 10.1109/DAC56929.2023.10247930
   title: Fast Adversarial Training with Dynamic Batch-level Attack Control
   authors:
   - Jaewon Jung

@@ -81,7 +81,7 @@
     - AI/ML
   id: ""
 
-- id: doi:10.1109/TC.2023.3299030
+- id: 10.1109/TC.2023.3299030
   tags:
     - SCI
     - Arch. 
@@ -133,7 +133,7 @@
     - type: artifact
       link: https://zenodo.org/record/7220824
 
-- id: doi:10.1109/HPCA56546.2023.10071102
+- id: 10.1109/HPCA56546.2023.10071102
   authors:
     - Mingi Yoo<sup>1</sup>
     - Jaeyong Song<sup>1</sup>
@@ -151,7 +151,7 @@
     - type: paper
       link: https://ieeexplore.ieee.org/document/10071102/
 
-- id: https://bmvc2022.mpi-inf.mpg.de/0281.pdf
+- id: BMVC_imp
   title: Improving Gradient Paths for Binary Convolutional Neural Networks
   authors:
     - Baozhou Zhu
@@ -167,7 +167,7 @@
   date: '2022-11-21'
   publisher: BMVC
 
-- id: doi:10.1145/3559009.3569693
+- id: 10.1145/3559009.3569693
   title: "Slice-and-Forge: Making Better Use of Caches for Graph Convolutional Network Accelerators"
   authors: 
     - Mingi Yoo<sup>1</sup>
@@ -213,7 +213,7 @@
     - type: paper
       link: https://dl.acm.org/doi/10.1145/3528535.3531513
 
-- id: doi:10.1109/IPDPS53621.2022.00076
+- id: 10.1109/IPDPS53621.2022.00076
   tags: 
     - Top Conf.
     - Syst. SW
@@ -224,7 +224,7 @@
     - type: arxiv
       link: https://arxiv.org/abs/2301.09310
 
-- id: doi:10.1109/TC.2021.3092205
+- id: 10.1109/TC.2021.3092205
   tags: 
     - SCI
     - Arch.
@@ -233,7 +233,7 @@
     - type: paper
       link: https://ieeexplore.ieee.org/document/9470992
 
-- id: doi:10.1109/LCA.2021.3090954
+- id: 10.1109/LCA.2021.3090954
   authors: 
     - Mingi Yoo<sup>1</sup>
     - Jaeyong Song<sup>1</sup>
@@ -251,7 +251,7 @@
     - type: paper
       link: https://ieeexplore.ieee.org/document/9461595
 
-- id: https://www.ijcai.org/proceedings/2021/0478.pdf
+- id: IJCAI_autorecon
   title: "AutoReCon: Neural Architecture Search-based Reconstruction for Data-free Compression"
   authors:
     - Baozhou Zhu
@@ -268,7 +268,7 @@
   date: '2021-08-19'
   publisher: IJCAI
 
-- id: doi:10.1109/DAC18074.2021.9586312
+- id: 10.1109/DAC18074.2021.9586312
   tags: 
     - Top Conf.
     - Arch. 
@@ -310,7 +310,7 @@
     - type: poster
       link: https://aisys.snu.ac.kr/papers/deep_composer_poster_1005.pdf
 
-- id: doi:10.1109/DAC18072.2020.9218538
+- id: 10.1109/DAC18072.2020.9218538
   tags: 
     - Top Conf.
     - AI/ML
@@ -321,7 +321,7 @@
     - type: paper
       link: https://ieeexplore.ieee.org/abstract/document/9218538
 
-- id: doi:10.1109/CVPRW50498.2020.00385
+- id: 10.1109/CVPRW50498.2020.00385
   tags: 
     - AI/ML
 
@@ -358,7 +358,7 @@
 
 - id: 10.1109/MPRV.2019.2907004
 
-- id: https://dx.doi.org/10.1109/MDAT.2018.2890238
+- id: 10.1109/MDAT.2018.2890238
 
 - id: 10.1016/j.neucom.2018.05.087
 
@@ -368,7 +368,8 @@
 
 - id: 10.1109/BigData.2017.8258092
 
-- id: https://adms-conf.org/2017/camera-ready/Analyzing_In_Memory_Hash_Joins__Granularity_Matters.pdf
+- id: ADMS_ANALYZING
+  title: "Analyzing In-Memory Hash Joins: Granularity Matters"
   authors:
     - Jian Fang
     - Jinho Lee
@@ -376,6 +377,9 @@
     - Jan Hidders
   publisher: ADMS workshop @VLDB
   date: "2017-08-28"
+  buttons:
+    - type: paper
+      link: https://adms-conf.org/2017/camera-ready/Analyzing_In_Memory_Hash_Joins__Granularity_Matters.pdf
 
 - id: 10.14778/3137765.3137776
 
@@ -385,7 +389,7 @@
 
 - id: 10.1109/TVLSI.2017.2655722
 
-- id: https://dl.acm.org/doi/abs/10.5555/2971808.2972099
+- id: 10.5555/2971808.2972099
 
 - id: 10.1145/2751560
 
@@ -418,7 +422,7 @@
 
 
 
-- id: doi:10.1109/DAC18074.2021.9586121
+- id: 10.1109/DAC18074.2021.9586121
   type: paper
   image: images_paper/dance.png
   authors:
@@ -481,7 +485,7 @@
     - Top Conf. 
     - AI/ML 
 
-- id: doi:10.1109/DAC56929.2023.10247930
+- id: 10.1109/DAC56929.2023.10247930
   type: paper
   image: images_paper/dbac.png
   publisher: Design Automation Conference (DAC)
