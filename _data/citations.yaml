@@ -30,7 +30,7 @@
   id: ''
   plugin: sources.py
   file: sources.yaml
-- id: https://doi.org/10.1145/3627535.3638474
+- id: 10.1145/3627535.3638474
   title: 'AGAThA: Fast and Efficient GPU Acceleration of Guided Sequence Alignment
     for Long Read Mapping'
   authors:
@@ -43,7 +43,7 @@
   publisher: ACM Annual Symposium on Principles and Practice of Parallel Programming
     (PPoPP)
   date: '2024-02-20'
-  link: https://dl.acm.org/doi/10.1145/3627535.3638474
+  link: https://doi.org/gtnchb
   buttons:
   - type: paper
     link: https://dl.acm.org/doi/10.1145/3627535.3638474
@@ -125,7 +125,7 @@
     link: https://ieeexplore.ieee.org/abstract/document/10198513
   plugin: sources.py
   file: sources.yaml
-- id: https://doi.org/10.1145/3589258
+- id: 10.1145/3589258
   title: 'Design and Analysis of a Processing-in-DIMM Join Algorithm: A Case Study
     with UPMEM DIMMs'
   authors:
@@ -138,8 +138,8 @@
   - Jinho Lee
   - Youngsok Kim
   publisher: Proceedings of the ACM on Management of Data
-  date: '2023-06-20'
-  link: https://doi.org/10.1145/3589258
+  date: '2023-06-13'
+  link: https://doi.org/gtnchc
   tags:
   - Top Conf.
   - AI/ML
@@ -149,7 +149,7 @@
     link: https://dl.acm.org/doi/abs/10.1145/3589258
   plugin: sources.py
   file: sources.yaml
-- id: https://doi.org/10.23919/DATE56975.2023.10137044
+- id: 10.23919/DATE56975.2023.10137044
   title: 'Pipe-BD: Pipelined Parallel Blockwise Distillation'
   authors:
   - Hongsun Jang
@@ -158,9 +158,10 @@
   - Joonsang Yu
   - Youngsok Kim
   - Jinho Lee
-  publisher: 2023 Design, Automation & Test in Europe Conference & Exhibition (DATE)
+  publisher: 2023 Design, Automation &amp; Test in Europe Conference &amp; Exhibition
+    (DATE)
   date: '2023-04-01'
-  link: https://ieeexplore.ieee.org/document/10137044/
+  link: https://doi.org/gtnchd
   tags:
   - Top Conf.
   - AI/ML
@@ -270,7 +271,7 @@
     link: https://dl.acm.org/doi/10.1145/3559009.3569693
   plugin: sources.py
   file: sources.yaml
-- id: doi:https://doi.org/10.1145/3559009.3569686
+- id: 10.1145/3559009.3569686
   title: Decoupling Schedule, Topology Layout, and Algorithm to Easily Enlarge the
     Tuning Space of GPU Graph Processing
   authors:
@@ -284,7 +285,7 @@
   - Hanjun Kim
   publisher: Proceedings of the International Conference on Parallel Architectures
     and Compilation Techniques
-  date: '2023-01-27'
+  date: '2022-10-08'
   link: https://doi.org/gtm37d
   tags:
   - Top Conf.
@@ -294,9 +295,8 @@
     link: https://dl.acm.org/doi/10.1145/3559009.3569686
   plugin: sources.py
   file: sources.yaml
-- id: doi:https://doi.org/10.1145/3470496.3527384
-  title: 'GCoM: a detailed GPU core model for accurate analytical modeling of modern
-    GPUs'
+- id: 10.1145/3470496.3527384
+  title: GCoM
   authors:
   - Jounghoo Lee
   - Yeonan Ha
@@ -316,9 +316,8 @@
     link: https://dl.acm.org/doi/10.1145/3470496.3527384
   plugin: sources.py
   file: sources.yaml
-- id: doi:https://doi.org/10.1145/3528535.3531513
-  title: 'GuardiaNN: Fast and Secure On-Device Inference in TrustZone Using Embedded
-    SRAM and Cryptographic Hardware'
+- id: 10.1145/3528535.3531513
+  title: GuardiaNN
   authors:
   - Jinwoo Choi
   - Jaeyeon Kim
@@ -542,7 +541,7 @@
   - AI/ML
   plugin: sources.py
   file: sources.yaml
-- id: doi:https://doi.org/10.1007/s11265-020-01547-w
+- id: 10.1007/s11265-020-01547-w
   title: An Efficient High-Throughput LZ77-Based Decompressor in Reconfigurable Logic
   authors:
   - Jian Fang
@@ -551,7 +550,7 @@
   - Zaid Al-Ars
   - H. Peter Hofstee
   publisher: Journal of Signal Processing Systems
-  date: '2020-09-01'
+  date: '2020-05-28'
   link: https://doi.org/gtm379
   tags:
   - SCI
@@ -561,7 +560,7 @@
     link: https://link.springer.com/content/pdf/10.1007/s11265-020-01547-w.pdf
   plugin: sources.py
   file: sources.yaml
-- id: doi:https://doi.org/10.1007/s00778-019-00581-w
+- id: 10.1007/s00778-019-00581-w
   title: 'In-memory database acceleration on FPGAs: a survey'
   authors:
   - Jian Fang
@@ -570,7 +569,7 @@
   - Jinho Lee
   - H. Peter Hofstee
   publisher: The VLDB Journal
-  date: '2020-01-01'
+  date: '2019-10-26'
   link: https://doi.org/gtm38t
   tags:
   - SCI
