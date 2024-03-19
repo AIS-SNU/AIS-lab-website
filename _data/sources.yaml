@@ -150,7 +150,7 @@
     - type: paper
       link: https://ieeexplore.ieee.org/document/10071102/
 
-- id: https://bmvc2022.mpi-inf.mpg.de/0281.pdf
+- id: BMVC_Imp
   title: Improving Gradient Paths for Binary Convolutional Neural Networks
   authors:
     - Baozhou Zhu

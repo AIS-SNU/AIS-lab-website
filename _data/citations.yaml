@@ -227,22 +227,21 @@
     link: https://ieeexplore.ieee.org/document/10071102/
   plugin: sources.py
   file: sources.yaml
-- id: https://bmvc2022.mpi-inf.mpg.de/0281.pdf
+- id: BMVC_Imp
   title: Improving Gradient Paths for Binary Convolutional Neural Networks
   authors:
   - Baozhou Zhu
   - Peter Hofstee
   - Jinho Lee
   - Zaid Al-Ars
-  publisher: BMVC
-  date: '2022-11-21'
-  link: https://bmvc2022.mpi-inf.mpg.de/0281.pdf
   tags:
   - Top Conf.
   - AI/ML
   buttons:
   - type: paper
     link: https://bmvc2022.mpi-inf.mpg.de/0281.pdf
+  date: '2022-11-21'
+  publisher: BMVC
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1145/3559009.3569693
