@@ -24,6 +24,11 @@
   - Jinho Lee
   date: '2024-03-09'
   publisher: Computer Vision and Pattern Recognition Conference (CVPR)
+  buttons:
+  - type: arxiv
+    link: https://arxiv.org/abs/2403.06668
+  - type: github
+    link: https://github.com/jaewonalive/PeerAiD
   tags:
   - Top Conf.
   - AI/ML
