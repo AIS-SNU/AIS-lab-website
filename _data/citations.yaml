@@ -24,6 +24,11 @@
   - Jinho Lee
   date: '2024-03-09'
   publisher: Computer Vision and Pattern Recognition Conference (CVPR)
+  buttons:
+  - type: arxiv
+    link: https://arxiv.org/abs/2403.06668
+  - type: github
+    link: jaewonalive/PeerAiD
   tags:
   - Top Conf.
   - AI/ML
@@ -90,11 +95,11 @@
   - type: arxiv
     link: http://arxiv.org/abs/2403.06664
   - type: github
-    link: https://github.com/AIS-SNU/smart-infinity
+    link: AIS-SNU/smart-infinity
   - type: video
     link: https://www.youtube.com/watch?v=o1O3-mQCSv4&feature=youtu.be
   - type: poster
-    link: https://github.com/AIS-SNU/smart-infinity/blob/main/assets/smart-infinity_poster_hpca24.pdf
+    link: AIS-SNU/smart-infinity/blob/main/assets/smart-infinity_poster_hpca24.pdf
   tags:
   - Top Conf.
   - Syst. SW
@@ -173,7 +178,7 @@
   - type: arxiv
     link: https://arxiv.org/abs/2301.12443
   - type: github
-    link: https://github.com/hongsunjang/Pipe-BD
+    link: hongsunjang/Pipe-BD
   plugin: sources.py
   file: sources.yaml
 - id: 10.1145/3575693.3575712
@@ -999,7 +1004,7 @@
   - type: slide
     link: resources_paper/qimera_slides.pdf
   - type: github
-    link: https://github.com/iamkanghyunchoi/qimera
+    link: iamkanghyunchoi/qimera
   tags:
   - Top Conf.
   - AI/ML
@@ -1051,7 +1056,7 @@
   - type: slide
     link: resources_paper/cvpr_ait.pdf
   - type: github
-    link: https://github.com/iamkanghyunchoi/ait
+    link: iamkanghyunchoi/ait
   tags:
   - Top Conf.
   - AI/ML
