@@ -68,6 +68,7 @@ I am a Ph.D student in the Department of Electrical and Computer Engineering at 
 
 * **Electronics and Telecommunications Research Institute (July 2020 - August 2020)**
   * Research Trainee
+  * TM/TDP : Correlation analysis between the number of mobile stations and traffic volume and prediction of the number of subscribers and traffic volume.
 
 * **MINDs and company (December 2019 - March 2020)**
   * Intern
