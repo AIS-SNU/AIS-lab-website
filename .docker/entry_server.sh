@@ -15,7 +15,7 @@ watchmedo auto-restart \
     --debug-force-polling \
     --patterns="_config.yaml" \
     --signal SIGTERM \
-    -- bundle exec jekyll build --incremental --force_polling --trace --watch\
+    -- bundle exec jekyll build --force_polling --trace --watch\
     | sed "s/LiveReload address.*//g;s/0.0.0.0/localhost/g" &
 
 # rerun cite process whenever _data files change

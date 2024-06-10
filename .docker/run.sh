@@ -29,6 +29,7 @@ ${DOCKER_RUN} ${PLATFORM} \
     --name ${CONTAINER} \
     --init \
     --rm \
+    --privileged \
     --interactive \
     --tty \
     --publish 4000:4000 \
