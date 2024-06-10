@@ -1,3 +1,9 @@
-@font-face {}
+@font-face {
+  font-family: "Font Awesome 6 Free";
+  font-style: normal;
+  font-weight: 900;
+  src: url("../fontawesome-free-6.5.2-web/webfonts/fa-solid-900.eot");
+  src: url("../fontawesome-free-6.5.2-web/webfonts/fa-solid-900.eot?#iefix") format("embedded-opentype"), url("../fontawesome-free-6.5.2-web/webfonts/fa-solid-900.woff2") format("woff2"), url("../fontawesome-free-6.5.2-web/webfonts/fa-solid-900.woff") format("woff"), url("../fontawesome-free-6.5.2-web/webfonts/fa-solid-900.ttf") format("truetype"), url("../fontawesome-free-6.5.2-web/webfonts/fa-solid-900.svg#fontawesome") format("svg");
+}
 
 /*# sourceMappingURL=font.css.map */
