@@ -1,3 +1,38 @@
+- title: "DataFreeShield: Defending Adversarial Attacks without Training Data"
+  authors:
+    - Hyeyoon Lee
+    - Kanghyun Choi
+    - Dain Kwon
+    - SunJong Park
+    - Mayoore Selvarasa Jaiswal
+    - Noseong Park
+    - Jonghyun Choi
+    - Jinho Lee
+  date: '2024-05-02'
+  publisher: International Conference on Machine Learning (ICML)
+  tags:
+    - Top Conf.
+    - AI/ML
+  id: ""
+
+- title: "PID-Comm: A Fast and Flexible Collective Communication Framework for Commodity Processing-in-DIMMs"
+  authors:
+    - Si Ung Noh<sup>1</sup>
+    - Junguk Hong<sup>1</sup>
+    - Chaemin Lim
+    - Seongyeon Park
+    - Jeehyun Kim
+    - Hanjun Kim
+    - Youngsok Kim
+    - Jinho Lee
+  date: '2024-05-01'
+  publisher: International Symposium on Computer Architecture (ISCA)
+  tags:
+    - Top Conf.
+    - Arch.
+    - Syst. SW
+  id: ""
+
 - title: A Case for In-Memory Random Scatter-Gather for Fast Graph Processing
   authors:
     - Changmin Shin<sup>1</sup>
