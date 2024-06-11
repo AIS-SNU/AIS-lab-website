@@ -11,7 +11,7 @@ nav:
 ---
 {%
   include button.html
-  link="members/JinhoLee"
+  link="members/JinhoLee.html"
   text="Jinho Lee"
   flip=true
   style="bare"
@@ -27,7 +27,7 @@ Office: 301-1009
 {%
   include feature.html
   image="images_profile/jinho1.jpg"
-  link="members/JinhoLee"
+  link="members/JinhoLee.html"
   flip=true
   style="bare"
   text=text
