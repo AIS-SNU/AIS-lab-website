@@ -22,6 +22,7 @@ I'm also interested in all system- and architecture-related researches :)
 ---
 
 # Publication
+<sup>1</sup> indicates co-first authors.
 
 {% for paper in site.data.citations %}
   {% for name in page.aliases %}
