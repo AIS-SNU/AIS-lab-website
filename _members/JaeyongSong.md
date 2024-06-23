@@ -41,7 +41,6 @@ I'm also interested in all system- and architecture-related researches :)
         publisher=paper.publisher
         role=paper.role
         slug=paper.slug
-        style="rich"
         tags=paper.tags
         title=paper.title
         type=paper.type
