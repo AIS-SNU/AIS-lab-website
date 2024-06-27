@@ -1,5 +1,27 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- title: 'GraNNDis: Fast Distributed Graph Neural Network Training Framework for Multi-Server
+    Clusters'
+  authors:
+  - Jaeyong Song
+  - Hongsun Jang
+  - Hunseong Lim
+  - Jaewon Jung
+  - Youngsok Kim
+  - Jinho Lee
+  date: '2024-06-27'
+  publisher: The International Conference on Parallel Architectures and Compilation
+    Techniques (PACT)
+  buttons:
+  - type: arxiv
+    link: https://arxiv.org/abs/2311.06837
+  tags:
+  - Top Conf.
+  - AI/ML
+  - Syst. SW
+  id: ''
+  plugin: sources.py
+  file: sources.yaml
 - title: 'DataFreeShield: Defending Adversarial Attacks without Training Data'
   authors:
   - Hyeyoon Lee
