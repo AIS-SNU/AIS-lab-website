@@ -37,7 +37,6 @@
   tags:
   - Top Conf.
   - AI/ML
-  image: images_paper/datafreeshield.png
   id: ''
   plugin: sources.py
   file: sources.yaml
