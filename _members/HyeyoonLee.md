@@ -10,7 +10,8 @@ aliases:
   - H Lee
 links:
   email: hylee817@snu.ac.kr
-  google-scholar: 
+  github: hylee817
+  google-scholar: lYXg5nsAAAAJ
   cv: CVs/hyeyoon_lee_cv.pdf
 ---
 
