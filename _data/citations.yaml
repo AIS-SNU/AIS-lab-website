@@ -37,7 +37,6 @@
   tags:
   - Top Conf.
   - AI/ML
-  image: images_paper/datafreeshield.pdf
   id: ''
   plugin: sources.py
   file: sources.yaml
@@ -561,7 +560,6 @@
   link: https://arxiv.org/abs/2010.00823
   tags:
   - AI/ML
-  image: images_paper/deepcomposer.png
   buttons:
   - type: paper
     link: https://program.ismir2020.net/lbd_431.html
