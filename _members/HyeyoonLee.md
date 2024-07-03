@@ -57,7 +57,7 @@ I am a Ph.D. student in the Department of Electrical and Computer Engineering at
   * **Yonsei University (September 2021 - August 2023)**
     * M.S in Computer Science
 
-  * **Yonsei University (September 2019 - February 2021)**
+  * **Yonsei University (March 2019 - February 2021)**
     * B.S in Computer Science
 
 # Awards
