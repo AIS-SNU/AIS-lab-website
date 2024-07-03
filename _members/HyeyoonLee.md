@@ -6,6 +6,7 @@ iphak: 2021-8
 aliases:
   - Hyeyoon Lee
   - Hye yoon Lee
+  - Hye Yoon Lee
   - H. Lee
   - H Lee
 links:
