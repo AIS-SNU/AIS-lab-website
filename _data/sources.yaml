@@ -32,6 +32,7 @@
   tags:
     - Top Conf.
     - AI/ML
+  image: images_paper/datafreeshield.pdf
   id: ""
 
 - title: "PID-Comm: A Fast and Flexible Collective Communication Framework for Commodity Processing-in-DIMMs"
@@ -361,6 +362,7 @@
   date: "2020-10-11"
   tags: 
     - AI/ML
+  image: images_paper/deepcomposer.png
   buttons:
     - type: paper
       link: https://program.ismir2020.net/lbd_431.html
