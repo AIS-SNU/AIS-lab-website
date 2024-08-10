@@ -16,7 +16,7 @@ I am a Ph.D student in the Department of Electrical and Computer Engineering at 
 
 ---
 
-# Publication
+# Publications 
 {% for paper in site.data.citations %}
   {% for name in page.aliases %}
   {% assign supname = name | append: "<sup>1</sup>" %}
@@ -51,11 +51,11 @@ I am a Ph.D student in the Department of Electrical and Computer Engineering at 
     * Ph.D student in Electrical and Computer Engineering
 
   * **Yonsei University (September 2021 - August 2023)**
-    * M.S in Artificial Intelligence
+    * Master of Artificial Intelligence
 
   * **Korea University (March 2017 - February 2021)**
-    * B.S in Statistics
-    * B.S in Financial Engineering (Interdisciplinary Program)
+    * Bachelor of Economics in Statistics
+    * Bachelor of Financial Engineering
 
 
 # Experience
