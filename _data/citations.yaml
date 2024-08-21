@@ -52,12 +52,13 @@
   - Hanjun Kim
   - Youngsok Kim
   - Jinho Lee
-  date: '2024-05-01'
+  date: '2024-07-01'
   publisher: International Symposium on Computer Architecture (ISCA)
   tags:
   - Top Conf.
   - Arch.
   - Syst. SW
+  image: images_paper/PIDComm.png
   id: ''
   plugin: sources.py
   file: sources.yaml
