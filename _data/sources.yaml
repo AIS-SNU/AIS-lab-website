@@ -45,12 +45,13 @@
     - Hanjun Kim
     - Youngsok Kim
     - Jinho Lee
-  date: '2024-05-01'
+  date: '2024-07-01'
   publisher: International Symposium on Computer Architecture (ISCA)
   tags:
     - Top Conf.
     - Arch.
     - Syst. SW
+  image: images_paper/PIDComm.png
   id: ""
 
 - title: A Case for In-Memory Random Scatter-Gather for Fast Graph Processing
