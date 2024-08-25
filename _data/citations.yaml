@@ -22,7 +22,8 @@
   id: ''
   plugin: sources.py
   file: sources.yaml
-- title: 'DataFreeShield: Defending Adversarial Attacks without Training Data'
+- id: 10.48550/arXiv.2406.15635
+  title: 'DataFreeShield: Defending Adversarial Attacks without Training Data'
   authors:
   - Hyeyoon Lee
   - Kanghyun Choi
@@ -32,16 +33,17 @@
   - Noseong Park
   - Jonghyun Choi
   - Jinho Lee
-  date: '2024-05-02'
   publisher: International Conference on Machine Learning (ICML)
+  date: '2024-05-02'
+  link: https://doi.org/gt7t5j
   tags:
   - Top Conf.
   - AI/ML
   image: images_paper/datafreeshield.pdf
-  id: ''
   plugin: sources.py
   file: sources.yaml
-- title: 'PID-Comm: A Fast and Flexible Collective Communication Framework for Commodity
+- id: 10.1109/ISCA59077.2024.00027
+  title: 'PID-Comm: A Fast and Flexible Collective Communication Framework for Commodity
     Processing-in-DIMMs'
   authors:
   - Si Ung Noh<sup>1</sup>
@@ -52,17 +54,18 @@
   - Hanjun Kim
   - Youngsok Kim
   - Jinho Lee
-  date: '2024-07-01'
   publisher: International Symposium on Computer Architecture (ISCA)
+  date: '2024-07-01'
+  link: https://doi.org/gt7t5k
   tags:
   - Top Conf.
   - Arch.
   - Syst. SW
   image: images_paper/PIDComm.png
-  id: ''
   plugin: sources.py
   file: sources.yaml
-- title: A Case for In-Memory Random Scatter-Gather for Fast Graph Processing
+- id: 10.1109/LCA.2024.3376680
+  title: A Case for In-Memory Random Scatter-Gather for Fast Graph Processing
   authors:
   - Changmin Shin<sup>1</sup>
   - Taehee Kwon<sup>1</sup>
@@ -70,22 +73,24 @@
   - Jae Hyung Ju
   - Frank Liu
   - Jinho Lee
-  date: '2024-03-10'
   publisher: IEEE Computer Architecture Letters (CAL)
+  date: '2024-03-10'
+  link: https://doi.org/gts4br
   tags:
   - SCI
   - Arch.
-  id: ''
   plugin: sources.py
   file: sources.yaml
-- title: 'PeerAiD: Improving Adversarial Distillation from a Specialized Peer Tutor'
+- id: 10.48550/arXiv.2403.06668
+  title: 'PeerAiD: Improving Adversarial Distillation from a Specialized Peer Tutor'
   authors:
   - Jaewon Jung
   - Hongsun Jang
   - Jaeyong Song
   - Jinho Lee
-  date: '2024-03-09'
   publisher: Computer Vision and Pattern Recognition Conference (CVPR)
+  date: '2024-03-09'
+  link: https://doi.org/gts4bt
   buttons:
   - type: arxiv
     link: https://arxiv.org/abs/2403.06668
@@ -101,7 +106,6 @@
   - Top Conf.
   - AI/ML
   image: images_paper/PeerAiD_poster_cvpr24.png
-  id: ''
   plugin: sources.py
   file: sources.yaml
 - id: 10.1145/3627535.3638474
@@ -129,7 +133,8 @@
   - Syst. SW
   plugin: sources.py
   file: sources.yaml
-- title: 'Pipette: Automatic Fine-Grained Large Language Model Training Configurator
+- id: 10.23919/DATE58400.2024.10546826
+  title: 'Pipette: Automatic Fine-Grained Large Language Model Training Configurator
     for Real-World Clusters'
   authors:
   - Jinkyu Yim<sup>1</sup>
@@ -139,16 +144,17 @@
   - Jaewon Jung
   - Hongsun Jang
   - Jinho Lee
-  date: '2024-03-27'
   publisher: Design, Automation and Test in Europe Conference (DATE)
+  date: '2024-03-27'
+  link: https://doi.org/gt7t5m
   tags:
   - Top Conf.
   - AI/ML
   - Syst. SW
-  id: ''
   plugin: sources.py
   file: sources.yaml
-- title: 'Smart-Infinity: Fast Large Language Model Training using Near-Storage Processing
+- id: 10.1109/HPCA57654.2024.00034
+  title: 'Smart-Infinity: Fast Large Language Model Training using Near-Storage Processing
     on a Real System'
   authors:
   - Hongsun Jang
@@ -157,9 +163,10 @@
   - Jaeyoung Park
   - Youngsok Kim
   - Jinho Lee
-  date: '2024-03-02'
   publisher: Best Paper Award-Honorable Mention, International Symposium on High-Performance
     Computer Architecture (HPCA)
+  date: '2024-03-02'
+  link: https://doi.org/gts4bv
   buttons:
   - type: arxiv
     link: http://arxiv.org/abs/2403.06664
@@ -174,7 +181,6 @@
   - Syst. SW
   - Arch.
   - AI/ML
-  id: ''
   plugin: sources.py
   file: sources.yaml
 - id: 10.1109/TC.2023.3299030
@@ -371,7 +377,8 @@
   plugin: sources.py
   file: sources.yaml
 - id: 10.1145/3470496.3527384
-  title: GCoM
+  title: 'GCoM: a detailed GPU core model for accurate analytical modeling of modern
+    GPUs'
   authors:
   - Jounghoo Lee
   - Yeonan Ha
@@ -392,7 +399,8 @@
   plugin: sources.py
   file: sources.yaml
 - id: 10.1145/3528535.3531513
-  title: GuardiaNN
+  title: 'GuardiaNN: Fast and Secure On-Device Inference in TrustZone Using Embedded
+    SRAM and Cryptographic Hardware'
   authors:
   - Jinwoo Choi
   - Jaeyeon Kim
