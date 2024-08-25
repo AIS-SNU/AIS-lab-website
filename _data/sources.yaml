@@ -33,7 +33,7 @@
     - Top Conf.
     - AI/ML
   image: images_paper/datafreeshield.pdf
-  id: ""
+  id: 10.48550/arXiv.2406.15635
 
 - title: "PID-Comm: A Fast and Flexible Collective Communication Framework for Commodity Processing-in-DIMMs"
   authors:
@@ -52,7 +52,7 @@
     - Arch.
     - Syst. SW
   image: images_paper/PIDComm.png
-  id: ""
+  id: 10.1109/ISCA59077.2024.00027
 
 - title: A Case for In-Memory Random Scatter-Gather for Fast Graph Processing
   authors:
@@ -67,7 +67,7 @@
   tags:
     - SCI
     - Arch.
-  id: ""
+  id: 10.1109/LCA.2024.3376680
 
 - title: "PeerAiD: Improving Adversarial Distillation from a Specialized Peer Tutor"
   authors:
@@ -93,7 +93,7 @@
     - Top Conf.
     - AI/ML
   image: images_paper/PeerAiD_poster_cvpr24.png
-  id: ""
+  id: 10.48550/arXiv.2403.06668
 
 - id: 10.1145/3627535.3638474
   publisher: ACM Annual Symposium on Principles and Practice of Parallel Programming (PPoPP)
@@ -122,7 +122,7 @@
     - Top Conf.
     - AI/ML
     - Syst. SW
-  id: ""
+  id: 10.23919/DATE58400.2024.10546826
 
 - title: "Smart-Infinity: Fast Large Language Model Training using Near-Storage Processing on a Real System"
   authors:
@@ -148,7 +148,7 @@
     - Syst. SW
     - Arch. 
     - AI/ML
-  id: ""
+  id: 10.1109/HPCA57654.2024.00034
 
 - id: 10.1109/TC.2023.3299030
   tags:
@@ -266,6 +266,7 @@
       link: https://dl.acm.org/doi/10.1145/3559009.3569686
 
 - id: 10.1145/3470496.3527384
+  title: "GCoM: a detailed GPU core model for accurate analytical modeling of modern GPUs"
   tags:
     - Top Conf.
     - Arch.
@@ -274,6 +275,7 @@
       link: https://dl.acm.org/doi/10.1145/3470496.3527384
 
 - id: 10.1145/3528535.3531513
+  title: "GuardiaNN: Fast and Secure On-Device Inference in TrustZone Using Embedded SRAM and Cryptographic Hardware"
   tags:
     - Top Conf.
     - Syst. SW
