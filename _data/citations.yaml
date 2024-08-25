@@ -371,7 +371,7 @@
   plugin: sources.py
   file: sources.yaml
 - id: 10.1145/3470496.3527384
-  title: 'GCoM: A Detailed GPU Core Model for Accurate Analytical Modeling of Modern GPUs'
+  title: GCoM
   authors:
   - Jounghoo Lee
   - Yeonan Ha
@@ -392,7 +392,7 @@
   plugin: sources.py
   file: sources.yaml
 - id: 10.1145/3528535.3531513
-  title: 'GuardiaNN: Fast and Secure On-Device Inference in TrustZone Using Embedded SRAM and Cryptographic Hardware'
+  title: GuardiaNN
   authors:
   - Jinwoo Choi
   - Jaeyeon Kim
