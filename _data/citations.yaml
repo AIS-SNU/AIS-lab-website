@@ -19,7 +19,7 @@
   - Top Conf.
   - AI/ML
   - Syst. SW
-  image: images_paper/granndis_overall.png
+  image: images_paper/granndis.png
   id: ''
   plugin: sources.py
   file: sources.yaml
@@ -152,7 +152,7 @@
   - Top Conf.
   - AI/ML
   - Syst. SW
-  image: images_paper/pipette.png
+  image: images_paper/pipette_overall.png
   plugin: sources.py
   file: sources.yaml
 - id: 10.1109/HPCA57654.2024.00034
@@ -257,6 +257,7 @@
     link: https://arxiv.org/abs/2301.12443
   - type: github
     link: hongsunjang/Pipe-BD
+  image: images_paper/pipebd.png
   plugin: sources.py
   file: sources.yaml
 - id: 10.1145/3575693.3575712
@@ -287,6 +288,7 @@
     link: https://zenodo.org/record/7220824
   plugin: sources.py
   file: sources.yaml
+  image: images_paper/optimus_cc.png
 - id: 10.1109/HPCA56546.2023.10071102
   title: 'SGCN: Exploiting Compressed-Sparse Features in Deep Graph Convolutional
     Network Accelerators'
