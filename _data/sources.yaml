@@ -15,6 +15,7 @@
     - Top Conf.
     - AI/ML
     - Syst. SW
+  image: images_paper/granndis_overall.png
   id: ""
 
 - title: "DataFreeShield: Defending Adversarial Attacks without Training Data"
@@ -122,6 +123,7 @@
     - Top Conf.
     - AI/ML
     - Syst. SW
+  image: images_paper/pipette.png
   id: 10.23919/DATE58400.2024.10546826
 
 - title: "Smart-Infinity: Fast Large Language Model Training using Near-Storage Processing on a Real System"
@@ -148,6 +150,7 @@
     - Syst. SW
     - Arch. 
     - AI/ML
+  image: images_paper/smart_infinity.png
   id: 10.1109/HPCA57654.2024.00034
 
 - id: 10.1109/TC.2023.3299030
