@@ -78,7 +78,7 @@ I am a Ph.D student in the Department of Electrical and Computer Engineering at 
   * 2 years of Compulsory Military Service. Served as a sergeant.
 
 
-# Awards
+# Awards and Honors
 * **[Yulchon AI Star Scholarships](https://aiis.snu.ac.kr/bbs/board.php?bo_table=eng4_3) ($8,000) (September 2024)**
   * Youlchon Foundation & SNU AI Institute
 
