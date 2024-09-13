@@ -19,6 +19,7 @@
   - Top Conf.
   - AI/ML
   - Syst. SW
+  image: images_paper/granndis_overall.png
   id: ''
   plugin: sources.py
   file: sources.yaml
@@ -151,6 +152,7 @@
   - Top Conf.
   - AI/ML
   - Syst. SW
+  image: images_paper/pipette.png
   plugin: sources.py
   file: sources.yaml
 - id: 10.1109/HPCA57654.2024.00034
@@ -181,6 +183,7 @@
   - Syst. SW
   - Arch.
   - AI/ML
+  image: images_paper/smart_infinity.png
   plugin: sources.py
   file: sources.yaml
 - id: 10.1109/TC.2023.3299030

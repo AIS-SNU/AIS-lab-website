@@ -72,18 +72,21 @@ I am a Ph.D student in the Department of Electrical and Computer Engineering at 
 
 * **MINDs and company (December 2019 - March 2020)**
   * Intern
+  * Project : Automatic payment review classification for insurance claims.
 
 * **Republic of Korea Air Force (March 2017 - February 2019)**
   * 2 years of Compulsory Military Service. Served as a sergeant.
 
 
 # Awards
+* **[Yulchon AI Star Scholarships](https://aiis.snu.ac.kr/bbs/board.php?bo_table=eng4_3) ($8,000) (September 2024)**
+  * Youlchon Foundation & SNU AI Institute
+
 * **Best Paper Award Honorable Mention (March 2024)**
   * Smart-Infinity: Fast Large Language Model Training using Near-Storage Processing on a Real System (HPCA'24)
 
-* **The 30th Humantech Paper Award (February 2024)**
+* **The 30th Samsung Humantech Paper Award (February 2024)**
   * Encouragement prize
-
 
 * **LG Display AI & Big Data Competition (December 2022)**
   * Excellence prize
