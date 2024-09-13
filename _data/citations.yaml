@@ -19,7 +19,7 @@
   - Top Conf.
   - AI/ML
   - Syst. SW
-  image: images_paper/granndis_overall.png
+  image: images_paper/granndis.png
   id: ''
   plugin: sources.py
   file: sources.yaml
@@ -152,7 +152,7 @@
   - Top Conf.
   - AI/ML
   - Syst. SW
-  image: images_paper/pipette.png
+  image: images_paper/pipette_overall.png
   plugin: sources.py
   file: sources.yaml
 - id: 10.1109/HPCA57654.2024.00034
@@ -233,6 +233,62 @@
     link: https://dl.acm.org/doi/abs/10.1145/3589258
   plugin: sources.py
   file: sources.yaml
+- id: 10.23919/DATE56975.2023.10137044
+  title: 'Pipe-BD: Pipelined Parallel Blockwise Distillation'
+  authors:
+  - Hongsun Jang
+  - Jaewon Jung
+  - Jaeyong Song
+  - Joonsang Yu
+  - Youngsok Kim
+  - Jinho Lee
+  publisher: 2023 Design, Automation &amp; Test in Europe Conference &amp; Exhibition
+    (DATE)
+  date: '2023-04-01'
+  link: https://doi.org/gtnchd
+  tags:
+  - Top Conf.
+  - AI/ML
+  - Syst. SW
+  buttons:
+  - type: paper
+    link: https://ieeexplore.ieee.org/abstract/document/10137044
+  - type: arxiv
+    link: https://arxiv.org/abs/2301.12443
+  - type: github
+    link: hongsunjang/Pipe-BD
+  image: images_paper/pipebd.png
+  plugin: sources.py
+  file: sources.yaml
+- id: 10.1145/3575693.3575712
+  title: 'Optimus-CC: Efficient Large NLP Model Training with 3D Parallelism Aware
+    Communication Compression'
+  authors:
+  - Jaeyong Song<sup>1</sup>
+  - Jinkyu Yim<sup>1</sup>
+  - Jaewon Jung
+  - Hongsun Jang
+  - Hyung-Jin Kim
+  - Youngsok Kim
+  - Jinho Lee
+  publisher: Proceedings of the 28th ACM International Conference on Architectural
+    Support for Programming Languages and Operating Systems, Volume 2
+  date: '2023-01-27'
+  link: https://doi.org/gtm365
+  tags:
+  - Top Conf.
+  - AI/ML
+  - Syst. SW
+  buttons:
+  - type: arxiv
+    link: https://arxiv.org/abs/2301.09830
+  - type: paper
+    link: https://dl.acm.org/doi/10.1145/3575693.3575712
+  - type: artifact
+    link: https://zenodo.org/record/7220824
+  plugin: sources.py
+  file: sources.yaml
+  image: images_paper/optimus_cc.png
 - id: 10.1109/HPCA56546.2023.10071102
   title: 'SGCN: Exploiting Compressed-Sparse Features in Deep Graph Convolutional
     Network Accelerators'
