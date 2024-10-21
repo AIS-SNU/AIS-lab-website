@@ -1,6 +1,6 @@
 ---
 name: Hohyun Kim
-description: MS, Moreh
+description: MS, Hana Bank
 image: images_profile/profile_default.png
 iphak: 2020-3
 role: alumni
