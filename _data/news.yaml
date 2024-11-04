@@ -1,3 +1,7 @@
+- content: 'Our paper <u>Piccolo: Large-Scale Graph Processing with Fine-Grained In-Memory Scatter-Gather</u> has been accepted to HPCA 2025. Congratulations!'
+  print_date: Nov. 2024
+  date: 2024-11-03
+
 - content: 'Our paper <u>GraNNDis: Fast Distributed Graph Neural Network Training Framework for Multi-Server Clusters</u> has been accepted to PACT 2024. Congratulations!'
   print_date: Jun. 2024
   date: 2024-06-27
