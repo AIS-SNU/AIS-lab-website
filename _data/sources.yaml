@@ -1,3 +1,23 @@
+- title: "Piccolo: Large-Scale Graph Processing with Fine-Grained In-Memory Scatter-Gather"
+  authors:
+    - Changmin Shin
+    - Jaeyong Song
+    - Hongsun Jang
+    - Dogeun Kim
+    - Jun Sung
+    - Taehee Kwon
+    - Jae Hyung Ju
+    - Frank Liu
+    - Yeonkyu Choi
+    - Jinho Lee
+  date: '2024-11-04'
+  publisher: International Symposium on High-Performance Computer Architecture (HPCA)
+  tags:
+    - Top Conf.
+    - Arch.
+  id: ""
+
+
 - title: "GraNNDis: Fast Distributed Graph Neural Network Training Framework for Multi-Server Clusters"
   authors:
     - Jaeyong Song
