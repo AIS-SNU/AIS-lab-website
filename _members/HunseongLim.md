@@ -9,20 +9,20 @@ aliases:
   - H Lim
 links:
   email: hunseong.lim@snu.ac.kr
-  github: 5001945
+  github: '5001945'
 
 ---
 
 
 
 ---
+
 # Education
 * **Seoul National University**
   * Ph.D student in *Electrical and Computer Engineering* (Feb. 2024 - Present)
   * B.S. in *Electrical and Computer Engineering* (Mar. 2018 - Feb. 2024)
 
 # Publication
-
 {% for paper in site.data.citations %}
   {% for name in page.aliases %}
   {% assign supname = name | append: "<sup>1</sup>" %}
