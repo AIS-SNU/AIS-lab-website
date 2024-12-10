@@ -16,6 +16,7 @@
   tags:
   - Top Conf.
   - AI/ML
+  image: images_paper/mimiq.png
   id: ''
   plugin: sources.py
   file: sources.yaml
