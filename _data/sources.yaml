@@ -13,6 +13,7 @@
   tags:
     - Top Conf.
     - AI/ML
+  image: images_paper/mimiq.png
   id: ""
 
 - title: "Piccolo: Large-Scale Graph Processing with Fine-Grained In-Memory Scatter-Gather"
