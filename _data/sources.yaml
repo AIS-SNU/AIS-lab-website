@@ -1,3 +1,20 @@
+- title: "MimiQ: Low-Bit Data-Free Quantization of Vision Transformers with Encouraging Inter-Head Attention Similarity"
+  authors:
+    - Kanghyun Choi
+    - Hyeyoon Lee
+    - Dain Kwon
+    - SunJong Park
+    - Kyuyeun Kim
+    - Noseong Park
+    - Jonghyun Choi
+    - Jinho Lee
+  date: '2025-02-25'
+  publisher: AAAI Conference on Artificial Intelligence (AAAI)
+  tags:
+    - Top Conf.
+    - AI/ML
+  id: ""
+
 - title: "Piccolo: Large-Scale Graph Processing with Fine-Grained In-Memory Scatter-Gather"
   authors:
     - Changmin Shin
