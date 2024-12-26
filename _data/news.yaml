@@ -1,3 +1,7 @@
+- content: 'A big welcome to Dain Kwon, Jun Sung!'
+  print_date: Jan. 2025
+  date: 2025-01-01
+
 - content: 'Our paper <u>MimiQ: Low-Bit Data-Free Quantization of Vision Transformers with Encouraging Inter-Head Attention Similarity</u> has been accepted to AAAI 2025. Congratulations to authors!'
   print_date: Dec. 2024
   date: 2024-12-10
@@ -5,6 +9,10 @@
 - content: 'Our paper <u>Piccolo: Large-Scale Graph Processing with Fine-Grained In-Memory Scatter-Gather</u> has been accepted to HPCA 2025. Congratulations!'
   print_date: Nov. 2024
   date: 2024-11-03
+
+- content: 'Sukjin Kim joined the lab. Welcome aboard!'
+  print_date: Aug. 2024
+  date: 2024-08-01
 
 - content: 'Our paper <u>GraNNDis: Fast Distributed Graph Neural Network Training Framework for Multi-Server Clusters</u> has been accepted to PACT 2024. Congratulations!'
   print_date: Jun. 2024
@@ -21,6 +29,10 @@
 - content: 'Received the best paper award honorable mention from <u>HPCA 2024</u>. Congratulations to the authors of "<u>Smart-Infinity</u>"!'
   print_date: Mar. 2024
   date: 2024-03-02
+
+- content: 'A warm welcome to Changmin Shin, Hunseong Lim, SiUng Noh, and Sunjong Park!'
+  print_date: Mar. 2024
+  date: 2024-03-01
   
 - content: "Our paper <u>A Case for In-Memory Random Scatter-Gather for Fast Graph Processing</u> has been accepted to IEEE CAL. Congratulations!"
   print_date: Feb. 2024
