@@ -5,6 +5,14 @@ nav:
   tooltip: Lecture
 ---
 
+# Fall 2024
+
+Embedded System Design (Undergraduate)
+
+# Spring 2024
+
+Programming Methodology (Undergraduate) <br>
+Memory-centric Computing Systems (Graduate)
 
 # Fall 2023
 
