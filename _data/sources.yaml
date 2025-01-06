@@ -136,6 +136,7 @@
 
 - id: 10.1145/3627535.3638474
   publisher: ACM Annual Symposium on Principles and Practice of Parallel Programming (PPoPP)
+  image: images_paper/agatha.pdf
   buttons:
   - type: paper
     link: https://dl.acm.org/doi/10.1145/3627535.3638474
@@ -355,6 +356,7 @@
       link: https://dl.acm.org/doi/10.1145/3528535.3531513
 
 - id: 10.1109/IPDPS53621.2022.00076
+  image: images_paper/saloba.pdf
   tags: 
     - Top Conf.
     - Syst. SW
