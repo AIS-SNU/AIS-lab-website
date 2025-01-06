@@ -163,6 +163,7 @@
     (PPoPP)
   date: '2024-02-20'
   link: https://doi.org/gtnchb
+  image: images_paper/agatha.pdf
   buttons:
   - type: paper
     link: https://dl.acm.org/doi/10.1145/3627535.3638474
@@ -482,6 +483,7 @@
     (IPDPS)
   date: '2022-05-01'
   link: https://doi.org/gtm37h
+  image: images_paper/saloba.pdf
   tags:
   - Top Conf.
   - Syst. SW
