@@ -33,6 +33,7 @@
   tags:
     - Top Conf.
     - Arch.
+  image: images_paper/piccolo_hpca.png
   id: ""
 
 
@@ -106,6 +107,7 @@
   tags:
     - SCI
     - Arch.
+  image: images_paper/piccolo_cal.png
   id: 10.1109/LCA.2024.3376680
 
 - title: "PeerAiD: Improving Adversarial Distillation from a Specialized Peer Tutor"

@@ -37,6 +37,7 @@
   tags:
   - Top Conf.
   - Arch.
+  image: images_paper/piccolo_hpca.png
   id: ''
   plugin: sources.py
   file: sources.yaml
@@ -120,6 +121,7 @@
   tags:
   - SCI
   - Arch.
+  image: images_paper/piccolo_cal.png
   plugin: sources.py
   file: sources.yaml
 - id: 10.48550/arXiv.2403.06668
