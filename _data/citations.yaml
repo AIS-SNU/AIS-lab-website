@@ -81,7 +81,7 @@
   tags:
   - Top Conf.
   - AI/ML
-  image: images_paper/dfshield.png
+  image: images_paper/datafreeshield.pdf
   plugin: sources.py
   file: sources.yaml
 - id: 10.1109/ISCA59077.2024.00027
