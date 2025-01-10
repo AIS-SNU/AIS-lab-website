@@ -72,7 +72,7 @@
   tags:
     - Top Conf.
     - AI/ML
-  image: images_paper/datafreeshield.pdf
+  image: images_paper/dfshield.png
   id: 10.48550/arXiv.2406.15635
 
 - title: "PID-Comm: A Fast and Flexible Collective Communication Framework for Commodity Processing-in-DIMMs"
