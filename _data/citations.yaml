@@ -930,14 +930,10 @@
   plugin: sources.py
   file: sources.yaml
 - id: https://dl.acm.org/doi/abs/10.5555/2971808.2972099#sec-cit
-  title: 'Buffered compares: excavating the hidden parallelism inside DRAM architectures
-    with lightweight logic'
-  authors:
-  - Jinho Lee
-  - Jung Ho Ahn
-  - Kiyoung Choi
-  publisher: Proceedings of the 2016 Conference on Design, Automation & Test in Europe
-  date: '2016-03-14'
+  title: ''
+  authors: []
+  publisher: ''
+  date: ''
   link: https://dl.acm.org/doi/abs/10.5555/2971808.2972099#sec-cit
   plugin: sources.py
   file: sources.yaml
