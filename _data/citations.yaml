@@ -1,5 +1,21 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- title: "G\xB3SA: A GPU-Accelerated Gold Standard Genetics Library for End-to-End\
+    \ Sequence Alignment"
+  authors:
+  - Yeejoo Han
+  - Sunwoo Kim
+  - Seongyeon Park
+  - Jinho Lee
+  date: '2025-06-08'
+  publisher: International Conference on Supercomputing (ICS)
+  tags:
+  - Top Conf.
+  - AI/ML
+  image: images_paper/mimiq.png
+  id: ''
+  plugin: sources.py
+  file: sources.yaml
 - title: 'MimiQ: Low-Bit Data-Free Quantization of Vision Transformers with Encouraging
     Inter-Head Attention Similarity'
   authors:
@@ -930,14 +946,10 @@
   plugin: sources.py
   file: sources.yaml
 - id: https://dl.acm.org/doi/abs/10.5555/2971808.2972099#sec-cit
-  title: 'Buffered compares: excavating the hidden parallelism inside DRAM architectures
-    with lightweight logic'
-  authors:
-  - Jinho Lee
-  - Jung Ho Ahn
-  - Kiyoung Choi
-  publisher: Proceedings of the 2016 Conference on Design, Automation & Test in Europe
-  date: '2016-03-14'
+  title: ''
+  authors: []
+  publisher: ''
+  date: ''
   link: https://dl.acm.org/doi/abs/10.5555/2971808.2972099#sec-cit
   plugin: sources.py
   file: sources.yaml
