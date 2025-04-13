@@ -12,11 +12,11 @@
   tags:
   - Top Conf.
   - AI/ML
-  image: images_paper/mimiq.png
   id: ''
   plugin: sources.py
   file: sources.yaml
-- title: 'MimiQ: Low-Bit Data-Free Quantization of Vision Transformers with Encouraging
+- id: 10.1609/aaai.v39i15.33761
+  title: 'MimiQ: Low-Bit Data-Free Quantization of Vision Transformers with Encouraging
     Inter-Head Attention Similarity'
   authors:
   - Kanghyun Choi
@@ -27,16 +27,17 @@
   - Noseong Park
   - Jonghyun Choi
   - Jinho Lee
-  date: '2025-02-25'
   publisher: AAAI Conference on Artificial Intelligence (AAAI)
+  date: '2025-02-25'
+  link: https://doi.org/g9fb3w
   tags:
   - Top Conf.
   - AI/ML
   image: images_paper/mimiq.png
-  id: ''
   plugin: sources.py
   file: sources.yaml
-- title: 'Piccolo: Large-Scale Graph Processing with Fine-Grained In-Memory Scatter-Gather'
+- id: 10.1109/HPCA61900.2025.00055
+  title: 'Piccolo: Large-Scale Graph Processing with Fine-Grained In-Memory Scatter-Gather'
   authors:
   - Changmin Shin
   - Jaeyong Song
@@ -48,16 +49,17 @@
   - Frank Liu
   - Yeonkyu Choi
   - Jinho Lee
-  date: '2025-03-01'
   publisher: International Symposium on High-Performance Computer Architecture (HPCA)
+  date: '2025-03-01'
+  link: https://doi.org/g9fb3x
   tags:
   - Top Conf.
   - Arch.
   image: images_paper/piccolo_hpca.png
-  id: ''
   plugin: sources.py
   file: sources.yaml
-- title: 'GraNNDis: Fast Distributed Graph Neural Network Training Framework for Multi-Server
+- id: 10.1145/3656019.3676892
+  title: 'GraNNDis: Fast Distributed Graph Neural Network Training Framework for Multi-Server
     Clusters'
   authors:
   - Jaeyong Song
@@ -66,9 +68,10 @@
   - Jaewon Jung
   - Youngsok Kim
   - Jinho Lee
-  date: '2024-10-13'
   publisher: The International Conference on Parallel Architectures and Compilation
     Techniques (PACT)
+  date: '2024-10-13'
+  link: https://doi.org/g9fb3z
   buttons:
   - type: arxiv
     link: https://arxiv.org/abs/2311.06837
@@ -77,7 +80,6 @@
   - AI/ML
   - Syst. SW
   image: images_paper/granndis.png
-  id: ''
   plugin: sources.py
   file: sources.yaml
 - id: 10.48550/arXiv.2406.15635
