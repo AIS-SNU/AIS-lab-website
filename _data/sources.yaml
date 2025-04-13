@@ -9,7 +9,6 @@
   tags:
     - Top Conf.
     - AI/ML
-  image: images_paper/mimiq.png
   id: ""
 
 - title: "MimiQ: Low-Bit Data-Free Quantization of Vision Transformers with Encouraging Inter-Head Attention Similarity"
