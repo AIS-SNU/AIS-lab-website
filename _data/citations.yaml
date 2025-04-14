@@ -1,6 +1,6 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
-- title: "G\xB3SA: A GPU-Accelerated Gold Standard Genetics Library for End-to-End\
+- title: "G\xB3SA: A GPU-Accelerated Gold Standard Genomics Library for End-to-End\
     \ Sequence Alignment"
   authors:
   - Yeejoo Han
@@ -12,6 +12,7 @@
   tags:
   - Top Conf.
   - AI/ML
+  image: images_paper/g3sa.jpg
   id: ''
   plugin: sources.py
   file: sources.yaml
