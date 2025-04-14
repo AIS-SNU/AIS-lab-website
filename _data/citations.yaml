@@ -1,6 +1,22 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
-- title: 'MimiQ: Low-Bit Data-Free Quantization of Vision Transformers with Encouraging
+- title: "G\xB3SA: A GPU-Accelerated Gold Standard Genetics Library for End-to-End\
+    \ Sequence Alignment"
+  authors:
+  - Yeejoo Han
+  - Sunwoo Kim
+  - Seongyeon Park
+  - Jinho Lee
+  date: '2025-06-08'
+  publisher: International Conference on Supercomputing (ICS)
+  tags:
+  - Top Conf.
+  - AI/ML
+  id: ''
+  plugin: sources.py
+  file: sources.yaml
+- id: 10.1609/aaai.v39i15.33761
+  title: 'MimiQ: Low-Bit Data-Free Quantization of Vision Transformers with Encouraging
     Inter-Head Attention Similarity'
   authors:
   - Kanghyun Choi
@@ -11,16 +27,17 @@
   - Noseong Park
   - Jonghyun Choi
   - Jinho Lee
-  date: '2025-02-25'
   publisher: AAAI Conference on Artificial Intelligence (AAAI)
+  date: '2025-02-25'
+  link: https://doi.org/g9fb3w
   tags:
   - Top Conf.
   - AI/ML
   image: images_paper/mimiq.png
-  id: ''
   plugin: sources.py
   file: sources.yaml
-- title: 'Piccolo: Large-Scale Graph Processing with Fine-Grained In-Memory Scatter-Gather'
+- id: 10.1109/HPCA61900.2025.00055
+  title: 'Piccolo: Large-Scale Graph Processing with Fine-Grained In-Memory Scatter-Gather'
   authors:
   - Changmin Shin
   - Jaeyong Song
@@ -32,16 +49,17 @@
   - Frank Liu
   - Yeonkyu Choi
   - Jinho Lee
-  date: '2025-03-01'
   publisher: International Symposium on High-Performance Computer Architecture (HPCA)
+  date: '2025-03-01'
+  link: https://doi.org/g9fb3x
   tags:
   - Top Conf.
   - Arch.
   image: images_paper/piccolo_hpca.png
-  id: ''
   plugin: sources.py
   file: sources.yaml
-- title: 'GraNNDis: Fast Distributed Graph Neural Network Training Framework for Multi-Server
+- id: 10.1145/3656019.3676892
+  title: 'GraNNDis: Fast Distributed Graph Neural Network Training Framework for Multi-Server
     Clusters'
   authors:
   - Jaeyong Song
@@ -50,9 +68,10 @@
   - Jaewon Jung
   - Youngsok Kim
   - Jinho Lee
-  date: '2024-10-13'
   publisher: The International Conference on Parallel Architectures and Compilation
     Techniques (PACT)
+  date: '2024-10-13'
+  link: https://doi.org/g9fb3z
   buttons:
   - type: arxiv
     link: https://arxiv.org/abs/2311.06837
@@ -61,7 +80,6 @@
   - AI/ML
   - Syst. SW
   image: images_paper/granndis.png
-  id: ''
   plugin: sources.py
   file: sources.yaml
 - id: 10.48550/arXiv.2406.15635
@@ -930,14 +948,10 @@
   plugin: sources.py
   file: sources.yaml
 - id: https://dl.acm.org/doi/abs/10.5555/2971808.2972099#sec-cit
-  title: 'Buffered compares: excavating the hidden parallelism inside DRAM architectures
-    with lightweight logic'
-  authors:
-  - Jinho Lee
-  - Jung Ho Ahn
-  - Kiyoung Choi
-  publisher: Proceedings of the 2016 Conference on Design, Automation & Test in Europe
-  date: '2016-03-14'
+  title: ''
+  authors: []
+  publisher: ''
+  date: ''
   link: https://dl.acm.org/doi/abs/10.5555/2971808.2972099#sec-cit
   plugin: sources.py
   file: sources.yaml

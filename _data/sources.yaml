@@ -28,7 +28,7 @@
     - Top Conf.
     - AI/ML
   image: images_paper/mimiq.png
-  id: ""
+  id: "10.1609/aaai.v39i15.33761"
 
 - title: "Piccolo: Large-Scale Graph Processing with Fine-Grained In-Memory Scatter-Gather"
   authors:
@@ -48,7 +48,7 @@
     - Top Conf.
     - Arch.
   image: images_paper/piccolo_hpca.png
-  id: ""
+  id: "10.1109/HPCA61900.2025.00055"
 
 
 - title: "GraNNDis: Fast Distributed Graph Neural Network Training Framework for Multi-Server Clusters"
@@ -69,7 +69,7 @@
     - AI/ML
     - Syst. SW
   image: images_paper/granndis.png
-  id: ""
+  id: "10.1145/3656019.3676892"
 
 - title: "DataFreeShield: Defending Adversarial Attacks without Training Data"
   authors:
