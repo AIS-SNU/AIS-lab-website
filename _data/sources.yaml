@@ -1,4 +1,4 @@
-- title: "G³SA: A GPU-Accelerated Gold Standard Genetics Library for End-to-End Sequence Alignment"
+- title: "G³SA: A GPU-Accelerated Gold Standard Genomics Library for End-to-End Sequence Alignment"
   authors:
     - Yeejoo Han
     - Sunwoo Kim
@@ -9,6 +9,7 @@
   tags:
     - Top Conf.
     - AI/ML
+  image: images_paper/g3sa.jpg
   id: ""
 
 - title: "MimiQ: Low-Bit Data-Free Quantization of Vision Transformers with Encouraging Inter-Head Attention Similarity"
