@@ -1,3 +1,20 @@
+- title: "PathWeaver: A High-Throughput Multi-GPU System for Graph-Based Approximate Nearest Neighbor Search"
+  authors:
+    - Sukjin Kim
+    - Seongyeon Park
+    - Junguk Hong
+    - Hunseong Lim
+    - Si Ung Noh
+    - Taehee Kwon
+    - Jinho Lee
+  date: '2025-07-07'
+  publisher: USENIX Annual Technical Conference (USENIX ATC)
+  tags:
+    - Top Conf.
+    - Syst. SW
+  image: images_paper/pathweaver.png
+  id: ""
+
 - title: "G³SA: A GPU-Accelerated Gold Standard Genomics Library for End-to-End Sequence Alignment"
   authors:
     - Yeejoo Han
