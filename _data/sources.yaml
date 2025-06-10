@@ -566,7 +566,17 @@
 
 - id: 10.1109/TVLSI.2017.2655722
 
-- id: https://dl.acm.org/doi/abs/10.5555/2971808.2972099#sec-cit
+- title: "Buffered compares: excavating the hidden parallelism inside DRAM architectures with lightweight logic"
+  authors:
+    - Jinho Lee
+    - Jung Ho Ahn
+    - Kiyoung Choi
+  publisher: 2016 Design, Automation and Test in Europe Conference (DATE)
+  date: "2016-03-14"
+  buttons:
+    - type: paper
+      link: https://dl.acm.org/doi/abs/10.5555/2971808.2972099#sec-cit
+  id: https://dl.acm.org/doi/abs/10.5555/2971808.2972099#sec-cit
 
 - id: 10.1145/2751560
 
