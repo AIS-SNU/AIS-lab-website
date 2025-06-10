@@ -1,5 +1,24 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- title: 'PathWeaver: A High-Throughput Multi-GPU System for Graph-Based Approximate
+    Nearest Neighbor Search'
+  authors:
+  - Sukjin Kim
+  - Seongyeon Park
+  - Junguk Hong
+  - Hunseong Lim
+  - Si Ung Noh
+  - Taehee Kwon
+  - Jinho Lee
+  date: '2025-07-07'
+  publisher: USENIX Annual Technical Conference (USENIX ATC)
+  tags:
+  - Top Conf.
+  - Syst. SW
+  image: images_paper/pathweaver.png
+  id: ''
+  plugin: sources.py
+  file: sources.yaml
 - title: "G\xB3SA: A GPU-Accelerated Gold Standard Genomics Library for End-to-End\
     \ Sequence Alignment"
   authors:
@@ -949,11 +968,18 @@
   plugin: sources.py
   file: sources.yaml
 - id: https://dl.acm.org/doi/abs/10.5555/2971808.2972099#sec-cit
-  title: ''
-  authors: []
-  publisher: ''
-  date: ''
+  title: 'Buffered compares: excavating the hidden parallelism inside DRAM architectures
+    with lightweight logic'
+  authors:
+  - Jinho Lee
+  - Jung Ho Ahn
+  - Kiyoung Choi
+  publisher: 2016 Design, Automation and Test in Europe Conference (DATE)
+  date: '2016-03-14'
   link: https://dl.acm.org/doi/abs/10.5555/2971808.2972099#sec-cit
+  buttons:
+  - type: paper
+    link: https://dl.acm.org/doi/abs/10.5555/2971808.2972099#sec-cit
   plugin: sources.py
   file: sources.yaml
 - id: 10.1145/2751560
