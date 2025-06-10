@@ -558,7 +558,22 @@
       link: https://adms-conf.org/2017/camera-ready/Analyzing_In_Memory_Hash_Joins__Granularity_Matters.pdf
   id: ""
 
-- id: 10.14778/3137765.3137776
+- title: "ExtraV: boosting graph processing near storage with a coherent accelerator"
+  authors:
+    - Jinho Lee
+    - Heesu Kim
+    - Sungjoo Yoo
+    - Kiyoung Choi
+    - H. Peter Hofstee
+    - Gi-Joon Nam
+    - Mark R. Nutter
+    - Damir Jamsek
+  publisher: Proceedings of the VLDB Endowment
+  date: "2017-08-01"
+  buttons:
+    - type: paper
+      link: https://dl.acm.org/doi/10.14778/3137765.3137776
+  id: 10.14778/3137765.3137776
 
 - id: 10.1109/MDM.2017.45
 
@@ -578,7 +593,17 @@
       link: https://dl.acm.org/doi/abs/10.5555/2971808.2972099#sec-cit
   id: https://dl.acm.org/doi/abs/10.5555/2971808.2972099#sec-cit
 
-- id: 10.1145/2751560
+- title: "REDELF: An Energy-Efficient Deadlock-Free Routing for 3D NoCs with Partial Vertical Connections"
+  authors:
+    - Jinho Lee
+    - Kyungsu Kang
+    - Kiyoung Choi
+  publisher: ACM Journal on Emerging Technologies in Computing Systems (JETC)
+  date: "2015-09-21"
+  buttons:
+    - type: paper
+      link: https://dl.acm.org/doi/10.1145/2751560
+  id: 10.1145/2751560
 
 - id: 10.1109/ASPDAC.2015.7059104
 
