@@ -1,3 +1,22 @@
+- title: "DANCE++: Differentiable Accelerator/Network Co-Exploration with Hard Constraints and Data-Free Training for Real-World Scenarios"
+  authors:
+    - Kanghyun Choi
+    - Deokki Hong
+    - Hyeyoon Lee
+    - Joonsang Yu
+    - Noseong Park
+    - Youngsok Kim
+    - Jinho Lee
+  date: '2025-06-13'
+  publisher: IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (TCAD)
+  tags:
+    - SCI
+    - AI/ML 
+    - Arch.
+  image: images_paper/dance++_overview.png
+  id: ""
+
+
 - title: "PathWeaver: A High-Throughput Multi-GPU System for Graph-Based Approximate Nearest Neighbor Search"
   authors:
     - Sukjin Kim
@@ -590,8 +609,8 @@
   date: "2016-03-14"
   buttons:
     - type: paper
-      link: https://dl.acm.org/doi/abs/10.5555/2971808.2972099#sec-cit
-  id: https://dl.acm.org/doi/abs/10.5555/2971808.2972099#sec-cit
+      link: https://dl.acm.org/doi/abs/10.5555/2971808.2972099
+  id: 10.3850/9783981537079_0512
 
 - title: "REDELF: An Energy-Efficient Deadlock-Free Routing for 3D NoCs with Partial Vertical Connections"
   authors:

@@ -1,5 +1,26 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- title: 'DANCE++: Differentiable Accelerator/Network Co-Exploration with Hard Constraints
+    and Data-Free Training for Real-World Scenarios'
+  authors:
+  - Kanghyun Choi
+  - Deokki Hong
+  - Hyeyoon Lee
+  - Joonsang Yu
+  - Noseong Park
+  - Youngsok Kim
+  - Jinho Lee
+  date: '2025-06-13'
+  publisher: IEEE Transactions on Computer-Aided Design of Integrated Circuits and
+    Systems (TCAD)
+  tags:
+  - SCI
+  - AI/ML
+  - Arch.
+  image: images_paper/dance++_overview.png
+  id: ''
+  plugin: sources.py
+  file: sources.yaml
 - title: 'PathWeaver: A High-Throughput Multi-GPU System for Graph-Based Approximate
     Nearest Neighbor Search'
   authors:
@@ -910,7 +931,7 @@
   plugin: sources.py
   file: sources.yaml
 - id: 10.14778/3137765.3137776
-  title: ExtraV
+  title: 'ExtraV: boosting graph processing near storage with a coherent accelerator'
   authors:
   - Jinho Lee
   - Heesu Kim
@@ -923,6 +944,9 @@
   publisher: Proceedings of the VLDB Endowment
   date: '2017-08-01'
   link: https://doi.org/gc5p2t
+  buttons:
+  - type: paper
+    link: https://dl.acm.org/doi/10.14778/3137765.3137776
   plugin: sources.py
   file: sources.yaml
 - id: 10.1109/MDM.2017.45
@@ -967,7 +991,7 @@
   link: https://doi.org/gtm386
   plugin: sources.py
   file: sources.yaml
-- id: https://dl.acm.org/doi/abs/10.5555/2971808.2972099#sec-cit
+- id: 10.3850/9783981537079_0512
   title: 'Buffered compares: excavating the hidden parallelism inside DRAM architectures
     with lightweight logic'
   authors:
@@ -976,21 +1000,25 @@
   - Kiyoung Choi
   publisher: 2016 Design, Automation and Test in Europe Conference (DATE)
   date: '2016-03-14'
-  link: https://dl.acm.org/doi/abs/10.5555/2971808.2972099#sec-cit
+  link: https://doi.org/gts4cr
   buttons:
   - type: paper
-    link: https://dl.acm.org/doi/abs/10.5555/2971808.2972099#sec-cit
+    link: https://dl.acm.org/doi/abs/10.5555/2971808.2972099
   plugin: sources.py
   file: sources.yaml
 - id: 10.1145/2751560
-  title: REDELF
+  title: 'REDELF: An Energy-Efficient Deadlock-Free Routing for 3D NoCs with Partial
+    Vertical Connections'
   authors:
   - Jinho Lee
   - Kyungsu Kang
   - Kiyoung Choi
-  publisher: ACM Journal on Emerging Technologies in Computing Systems
+  publisher: ACM Journal on Emerging Technologies in Computing Systems (JETC)
   date: '2015-09-21'
   link: https://doi.org/gtm39b
+  buttons:
+  - type: paper
+    link: https://dl.acm.org/doi/10.1145/2751560
   plugin: sources.py
   file: sources.yaml
 - id: 10.1109/ASPDAC.2015.7059104
