@@ -49,6 +49,7 @@ I am a graduate student in the Department of Electrical and Computer Engineering
 {% endfor %}
 
 # Teaching Experience
+* Programming Methodology (430.211), Head Teaching Assistant (Spring 2024)
 * Digital System Design and Practices (430.315A), Teaching Assistant (Fall 2023)
 * Multi-core and GPU Programming (CSI4119), Teaching Assistant (Spring 2021,2022)
 * Logic Circuit Design (CSI2111), Teaching Assistant (Fall 2020)

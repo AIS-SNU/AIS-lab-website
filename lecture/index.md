@@ -5,6 +5,11 @@ nav:
   tooltip: Lecture
 ---
 
+# Spring 2025
+
+Programming Methodology (Undergraduate) <br>
+Parallel and Distributed Computing (Graduate)
+
 # Fall 2024
 
 Embedded System Design (Undergraduate)
