@@ -910,7 +910,7 @@
   plugin: sources.py
   file: sources.yaml
 - id: 10.14778/3137765.3137776
-  title: ExtraV
+  title: 'ExtraV: boosting graph processing near storage with a coherent accelerator'
   authors:
   - Jinho Lee
   - Heesu Kim
@@ -923,6 +923,9 @@
   publisher: Proceedings of the VLDB Endowment
   date: '2017-08-01'
   link: https://doi.org/gc5p2t
+  buttons:
+  - type: paper
+    link: https://dl.acm.org/doi/10.14778/3137765.3137776
   plugin: sources.py
   file: sources.yaml
 - id: 10.1109/MDM.2017.45
@@ -983,14 +986,18 @@
   plugin: sources.py
   file: sources.yaml
 - id: 10.1145/2751560
-  title: REDELF
+  title: 'REDELF: An Energy-Efficient Deadlock-Free Routing for 3D NoCs with Partial
+    Vertical Connections'
   authors:
   - Jinho Lee
   - Kyungsu Kang
   - Kiyoung Choi
-  publisher: ACM Journal on Emerging Technologies in Computing Systems
+  publisher: ACM Journal on Emerging Technologies in Computing Systems (JETC)
   date: '2015-09-21'
   link: https://doi.org/gtm39b
+  buttons:
+  - type: paper
+    link: https://dl.acm.org/doi/10.1145/2751560
   plugin: sources.py
   file: sources.yaml
 - id: 10.1109/ASPDAC.2015.7059104
