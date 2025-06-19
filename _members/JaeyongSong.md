@@ -1,7 +1,7 @@
 ---
 name: Jaeyong Song
 description: PhD Student
-image: images_profile/profile_default.png
+image: images_profile/profile_jaeyongsong.png
 iphak: 2021-3
 aliases:
   - Jaeyong Song
