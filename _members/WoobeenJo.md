@@ -12,11 +12,16 @@ links:
 
 ---
 
-I am a graduate student.
+Hi, I am a graduate student in the Dept. of Electrical and Computer Engineering (ECE) at Seoul National University.
+My research interests include computer architectures.
 
 ---
 
 # Education
+
+* Seoul National University
+  * MS/Ph.D student in *Electrical and Computer Engineering* (Aug.2025 - Present)
+  * B.S. in *Electrical and Computer Engineering* (Mar.2021 - Aug.2025)
 
 # Publication
 
