@@ -1,7 +1,7 @@
 ---
 name: Changmin Shin
 description: MS/PhD Student
-image: images_profile/profile_default.png
+image: images_profile/profile_changmin.jpg
 iphak: 2024-3
 aliases:
   - Changmin Shin
@@ -10,6 +10,7 @@ aliases:
 links:
   email: scm8432@snu.ac.kr
   google-scholar: oz57DGEAAAAJ
+  cv: CVs/changmin_shin_cv.pdf
 
 ---
 
@@ -43,11 +44,13 @@ I'm also interested in all system- and architecture-related researches for AI
         description=paper.description
         icon=paper.icon
         id=paper.id
+        image=paper.image
         link=paper.link
         name=paper.name
         publisher=paper.publisher
         role=paper.role
         slug=paper.slug
+        style="rich"
         tags=paper.tags
         title=paper.title
         type=paper.type

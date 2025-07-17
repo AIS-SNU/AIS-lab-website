@@ -1,3 +1,21 @@
+- title: "FALA: Locality-Aware PIM-Host Cooperation for Graph Processing with Fine-Grained Column Access"
+  authors:
+    - Changmin Shin
+    - Jaeyong Song
+    - Seongmin Na
+    - Jun Sung
+    - Hongsun Jang
+    - Jinho Lee
+  date: '2025-10-20'
+  publisher: IEEE/ACM International Symposium on Microarchitecture (MICRO)
+  tags:
+    - Top Conf.
+    - Arch.
+  image: images_paper/fala.png
+  id: ""
+
+
+
 - title: "DANCE++: Differentiable Accelerator/Network Co-Exploration with Hard Constraints and Data-Free Training for Real-World Scenarios"
   authors:
     - Kanghyun Choi
