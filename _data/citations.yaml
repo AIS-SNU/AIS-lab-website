@@ -9,12 +9,31 @@
   - Jun Sung
   - Hongsun Jang
   - Jinho Lee
-  date: '2025-10-20'
+  date: '2025-10-21'
   publisher: IEEE/ACM International Symposium on Microarchitecture (MICRO)
   tags:
   - Top Conf.
   - Arch.
   image: images_paper/fala.png
+  id: ''
+  plugin: sources.py
+  file: sources.yaml
+- title: 'CrossBit: Bitwise Computing in NAND Flash Memory with Inter-Bitline Data
+    Communication'
+  authors:
+  - Hyunjin Kim
+  - Seunghwan Song
+  - Sukhyun Choi
+  - Jeongin Choe
+  - Sanghyeok Han
+  - Jisung  Park
+  - Jinho Lee
+  - Jae-Joon Kim
+  date: '2025-10-20'
+  publisher: IEEE/ACM International Symposium on Microarchitecture (MICRO)
+  tags:
+  - Top Conf.
+  - Arch.
   id: ''
   plugin: sources.py
   file: sources.yaml
