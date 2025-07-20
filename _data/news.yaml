@@ -1,7 +1,7 @@
-- content: "two papers have been accepted to MICRO 2025. Congratulations!
+- content: 'two papers have been accepted to MICRO 2025. Congratulations!
                         <li><u>FALA: Locality-Aware PIM-Host Cooperation for Graph Processing with Fine-Grained Column Access</u></li>
                         <li><u>CrossBit: Bitwise Computing in NAND Flash Memory with Inter-Bitline Data Communication</u></li>
-                          FALA was led by our group and CrossBit was led by <a href="https://vlsi.snu.ac.kr/">SNU VLSI lab</a>" 
+                        FALA was done within our group, and CrossBit was done in collaboration with <a href="https://vlsi.snu.ac.kr" style="color: black;">SNU VLSI Lab. </a> (Prof. Jae-Joon Kim), and <a href="https://jisung-park.github.io/" style="color: black;">CAOS Lab. </a> (Prof. Jisung Park) at Postech'
   print_date: Jul. 2025
   date: 2025-07-18
 
