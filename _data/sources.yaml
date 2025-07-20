@@ -14,6 +14,23 @@
   image: images_paper/fala.png
   id: ""
 
+- title: "CrossBit: Bitwise Computing in NAND Flash Memory with Inter-Bitline Data Communication"
+  authors:
+    - Hyunjin Kim
+    - Seunghwan Song
+    - Sukhyun Choi
+    - Jeongin Choe
+    - Sanghyeok Han
+    - Jisung Park
+    - Jinho Lee
+    - Jae-Joon Kim
+  date: '2025-10-20'
+  publisher: IEEE/ACM International Symposium on Microarchitecture (MICRO)
+  tags:
+    - Top Conf.
+    - Arch.
+  id: ""
+
 
 
 - title: "DANCE++: Differentiable Accelerator/Network Co-Exploration with Hard Constraints and Data-Free Training for Real-World Scenarios"
