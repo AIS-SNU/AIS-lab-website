@@ -1,4 +1,7 @@
-- content: 'Our paper <u>FALA: Locality-Aware PIM-Host Cooperation for Graph Processing with Fine-Grained Column Access</u> has been accepted to MICRO 2025. Congratulations!'
+- content: "two papers have been accepted to MICRO 2025. Congratulations!
+                        <li><u>FALA: Locality-Aware PIM-Host Cooperation for Graph Processing with Fine-Grained Column Access</u></li>
+                        <li><u>CrossBit: Bitwise Computing in NAND Flash Memory with Inter-Bitline Data Communication</u></li>
+                          FALA was led by our group and CrossBit was led by <a href="https://vlsi.snu.ac.kr/">SNU VLSI lab</a>" 
   print_date: Jul. 2025
   date: 2025-07-18
 
