@@ -15,7 +15,7 @@ links:
 
 ---
 
-I am a graduate student in the Department of Electrical and Computer Engineering at Seoul National University. My research interests are mainly focusing on compressing heavy neural network architecture by neural network quantization.
+I am a graduate student in the Department of Electrical and Computer Engineering at Seoul National University. My research focuses on neural network optimization, particularly in developing advanced quantization and compression techniques for deep learning models. I am interested in creating efficient architectures that maintain high performance while reducing computational and memory requirements, enabling broader deployment of AI systems across diverse platforms.
 
 ---
 
