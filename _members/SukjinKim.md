@@ -4,17 +4,15 @@ description: MS/PhD Student
 image: images_profile/profile_sukjin.jpg
 iphak: 2024-9
 aliases:
-  - Suk Jin Kim
-  - S. Kim
-  - S. Kim
+  - Sukjin Kim
 links:
   email: iamksj1212@snu.ac.kr
-
+  github: daisyKim12
 
 ---
 
 I am a graduate student in the Department of Electrical and Computer Engineering at Seoul National University.
-My research primarily focuses on accelerating applications in multi-GPU environments.
+My research focuses on vector databases, with a particular interest in accelerating large-scale similarity search in multi-GPU environments and exploring Compute Express Link (CXL) technologies for high-performance data processing.
 
 ---
 
