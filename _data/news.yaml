@@ -1,3 +1,7 @@
+- content: 'Our paper <u>DMO-DB: Mitigating the Data Movement Bottlenecks of GPU-Accelerated Relational OLAP</u> has been accepted to PACT. This work was done in collaboration with HPCP Lab. (Prof. Youngsok Kim) at Yonsei Univ.'
+  print_date: Aug. 2025
+  date: 2025-08-01
+
 - content: 'two papers have been accepted to MICRO 2025. Congratulations!
                         <li><u>FALA: Locality-Aware PIM-Host Cooperation for Graph Processing with Fine-Grained Column Access</u></li>
                         <li><u>CrossBit: Bitwise Computing in NAND Flash Memory with Inter-Bitline Data Communication</u></li>
