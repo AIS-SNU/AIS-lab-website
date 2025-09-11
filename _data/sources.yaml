@@ -1,3 +1,20 @@
+
+- title: "DMO-DB: Mitigating the Data Movement Bottlenecks of GPU-Accelerated Relational OLAP"
+  authors:
+    - Chaemin Lim
+    - Suhyun Lee
+    - Jinwoo Choi
+    - Joonsung Kim
+    - Jinho Lee
+    - Youngsok Kim
+  date: '2025-11-20'
+  publisher:  International Conference on Parallel Architectures and Compilation Techniques (PACT)
+  tags:
+    - Top Conf.
+    - Syst. SW
+  id: ""
+
+
 - title: "FALA: Locality-Aware PIM-Host Cooperation for Graph Processing with Fine-Grained Column Access"
   authors:
     - Changmin Shin
