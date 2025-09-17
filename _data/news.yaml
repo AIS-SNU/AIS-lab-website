@@ -1,4 +1,8 @@
-- content: 'Our paper <u>DMO-DB: Mitigating the Data Movement Bottlenecks of GPU-Accelerated Relational OLAP</u> has been accepted to PACT. This work was done in collaboration with HPCP Lab. (Prof. Youngsok Kim) at Yonsei Univ.'
+- content: 'Our paper <u>AGIS: Fast Approximate Graph Pattern Mining with Structure-Informed Sampling</u> has been accepted to VLDB. Congratulations Seoyong, it is an exceptional achievement as an undergraduate student :)'
+  print_date: Sep. 2025
+  date: 2025-09-16
+
+- content: 'Our paper <u>DMO-DB: Mitigating the Data Movement Bottlenecks of GPU-Accelerated Relational OLAP</u> has been accepted to PACT. This work was done in collaboration with HPCP Lab. (Prof. Youngsok Kim) at Yonsei Univ. and CISA Lab. (Prof. Joonsung Kim) at SKKU'
   print_date: Aug. 2025
   date: 2025-08-01
 

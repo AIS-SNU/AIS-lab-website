@@ -1,5 +1,17 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- title: 'AGIS: Fast Approximate Graph Pattern Mining with Structure-Informed Sampling'
+  authors:
+  - Seoyong Lee
+  - Jinho Lee
+  date: '2026-08-31'
+  publisher: Proceedings of International Conference on Very Large Data Bases (VLDB)
+  tags:
+  - Top Conf.
+  - Syst. SW
+  id: ''
+  plugin: sources.py
+  file: sources.yaml
 - title: 'DMO-DB: Mitigating the Data Movement Bottlenecks of GPU-Accelerated Relational
     OLAP'
   authors:
