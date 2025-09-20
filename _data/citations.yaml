@@ -1,5 +1,22 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- title: 'FlexiWalker: Extensible GPU Framework for Efficient Dynamic Random Walks
+    with Runtime Adaptation'
+  authors:
+  - Seongyeon Park
+  - Jaeyong Song
+  - Changmin Shin
+  - Sukjin Kim
+  - Junguk Hong
+  - Jinho Lee
+  date: '2026-04-27'
+  publisher: European Conference on Computer Systems (EuroSys)
+  tags:
+  - Top Conf.
+  - Syst. SW
+  id: ''
+  plugin: sources.py
+  file: sources.yaml
 - title: 'AGIS: Fast Approximate Graph Pattern Mining with Structure-Informed Sampling'
   authors:
   - Seoyong Lee
