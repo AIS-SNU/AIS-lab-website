@@ -1,3 +1,7 @@
+- content: 'Our paper <u>FALQON: Accelerating LoRA Fine-tuning with FP8 Arithmetic</u> has been accepted to NeurIPS 2025. Congratulations to authors!'
+  print_date: Sep. 2025
+  date: 2025-09-22
+
 - content: 'Our paper <u>FlexiWalker: Extensible GPU Framework for Efficient Dynamic Random Walks with Runtime Adaptation</u> has been accepted to EuroSys. Congratulations!'
   print_date: Sep. 2025
   date: 2025-09-20

@@ -1,5 +1,20 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- title: 'FALQON: Accelerating LoRA Fine-tuning with FP8 Arithmetic'
+  authors:
+  - Kanghyun Choi
+  - Hyeyoon Lee
+  - SunJong Park
+  - Dain Kwon
+  - Jinho Lee
+  date: '2025-12-05'
+  publisher: NeurIPS 2025
+  tags:
+  - Top Conf.
+  - AI/ML
+  id: ''
+  plugin: sources.py
+  file: sources.yaml
 - title: 'FlexiWalker: Extensible GPU Framework for Efficient Dynamic Random Walks
     with Runtime Adaptation'
   authors:
