@@ -1,15 +1,19 @@
-- title: "FALQON: Accelerating LoRA Fine-tuning with FP8 Arithmetic"
+- title: "FALQON: Accelerating LoRA Fine-tuning with Low-Bit Floating-Point Arithmetic"
   authors:
     - Kanghyun Choi
     - Hyeyoon Lee
     - SunJong Park
     - Dain Kwon
     - Jinho Lee
+  buttons:
+    - type: github
+      link: https://github.com/iamkanghyunchoi/falqon
   date: '2025-12-05'
-  publisher: NeurIPS 2025
+  publisher: Neural Information Processing Systems (NeurIPS)
   tags:
     - Top Conf.
     - AI/ML
+  image: images_paper/falqon.png
   id: ""
 
 - title: "FlexiWalker: Extensible GPU Framework for Efficient Dynamic Random Walks with Runtime Adaptation"
@@ -102,13 +106,16 @@
     - Youngsok Kim
     - Jinho Lee
   date: '2025-06-13'
+  buttons:
+    - type: paper
+      link: https://doi.org/10.1109/TCAD.2025.3582196
   publisher: IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (TCAD)
   tags:
     - SCI
     - AI/ML 
     - Arch.
   image: images_paper/dance++_overview.png
-  id: ""
+  id: "10.1109/TCAD.2025.3582196"
 
 
 - title: "PathWeaver: A High-Throughput Multi-GPU System for Graph-Based Approximate Nearest Neighbor Search"
@@ -159,6 +166,15 @@
     - Noseong Park
     - Jonghyun Choi
     - Jinho Lee
+  buttons:
+    - type: arxiv
+      link: https://arxiv.org/abs/2407.20021
+    - type: github
+      link: https://github.com/iamkanghyunchoi/mimiq
+    - type: slide
+      link: images/AAAI25_MimiQ_slides.pdf
+    - type: poster
+      link: images/AAAI25_MimiQ_poster.pdf
   date: '2025-02-25'
   publisher: AAAI Conference on Artificial Intelligence (AAAI)
   tags:
