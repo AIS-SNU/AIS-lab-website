@@ -122,6 +122,13 @@
     - Jinho Lee
   date: '2025-07-07'
   publisher: USENIX Annual Technical Conference (USENIX ATC)
+  buttons:
+    - type: arxiv
+      link: https://arxiv.org/html/2507.17094v1
+    - type: video
+      link: https://www.usenix.org/conference/atc25/presentation/kim
+    - type: github
+      link: https://github.com/AIS-SNU/PathWeaver    
   tags:
     - Top Conf.
     - Syst. SW
