@@ -33,6 +33,7 @@
   tags:
   - Top Conf.
   - Syst. SW
+  image: images_paper/flexiwalker.png
   id: ''
   plugin: sources.py
   file: sources.yaml
