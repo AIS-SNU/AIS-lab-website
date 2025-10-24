@@ -55,3 +55,17 @@ Efficient deployment and training of deep neural networks require reducing both 
   text=text
 %}
 
+{% capture text %}
+
+We focus on optimizing and accelerating diverse programs and applications across emerging commercial hardwares including GPUs, CXL, and PIM (Processing-In-Memory). Our research spans multiple domains: communication libraries, graph processing algorithms, vector databases, and scientific applications. We optimize system software through a combination of hardware-aware acceleration and algorithmic optimization to achieve significant performance improvements for real-world workloads.
+
+{% endcapture %}
+
+{%
+  include feature.html
+  image="images/system.png"
+  link="publications"
+  title="System Optimization and Acceleration"
+  flip=true
+  text=text
+%}
