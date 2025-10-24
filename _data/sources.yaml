@@ -71,7 +71,7 @@
     - Top Conf.
     - Arch.
   image: images_paper/fala.png
-  id: ""
+  id: "10.1145/3725843.3756127"
 
 - title: "CrossBit: Bitwise Computing in NAND Flash Memory with Inter-Bitline Data Communication"
   authors:
@@ -88,7 +88,8 @@
   tags:
     - Top Conf.
     - Arch.
-  id: ""
+  image: images_paper/crossbit.png
+  id: "10.1145/3725843.3756055"
 
 
 
@@ -135,12 +136,15 @@
     - Seongyeon Park
     - Jinho Lee
   date: '2025-06-08'
+  buttons:
+  - type: github
+    link: sunwookim028/G3SA
   publisher: International Conference on Supercomputing (ICS)
   tags:
     - Top Conf.
     - AI/ML
   image: images_paper/g3sa.jpg
-  id: ""
+  id: "10.1145/3721145.3729516"
 
 - title: "MimiQ: Low-Bit Data-Free Quantization of Vision Transformers with Encouraging Inter-Head Attention Similarity"
   authors:
