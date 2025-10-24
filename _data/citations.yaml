@@ -67,7 +67,8 @@
   id: ''
   plugin: sources.py
   file: sources.yaml
-- title: 'FALA: Locality-Aware PIM-Host Cooperation for Graph Processing with Fine-Grained
+- id: 10.1145/3725843.3756127
+  title: 'FALA: Locality-Aware PIM-Host Cooperation for Graph Processing with Fine-Grained
     Column Access'
   authors:
   - Changmin Shin
@@ -76,16 +77,17 @@
   - Jun Sung
   - Hongsun Jang
   - Jinho Lee
-  date: '2025-10-21'
   publisher: IEEE/ACM International Symposium on Microarchitecture (MICRO)
+  date: '2025-10-21'
+  link: https://doi.org/g97wmz
   tags:
   - Top Conf.
   - Arch.
   image: images_paper/fala.png
-  id: ''
   plugin: sources.py
   file: sources.yaml
-- title: 'CrossBit: Bitwise Computing in NAND Flash Memory with Inter-Bitline Data
+- id: 10.1145/3725843.3756055
+  title: 'CrossBit: Bitwise Computing in NAND Flash Memory with Inter-Bitline Data
     Communication'
   authors:
   - Hyunjin Kim
@@ -96,12 +98,13 @@
   - Jisung Park
   - Jinho Lee
   - Jae-Joon Kim
-  date: '2025-10-20'
   publisher: IEEE/ACM International Symposium on Microarchitecture (MICRO)
+  date: '2025-10-20'
+  link: https://doi.org/g97wmw
   tags:
   - Top Conf.
   - Arch.
-  id: ''
+  image: images_paper/crossbit.png
   plugin: sources.py
   file: sources.yaml
 - id: 10.1109/TCAD.2025.3582196
@@ -155,20 +158,24 @@
   id: ''
   plugin: sources.py
   file: sources.yaml
-- title: "G\xB3SA: A GPU-Accelerated Gold Standard Genomics Library for End-to-End\
+- id: 10.1145/3721145.3729516
+  title: "G\xB3SA: A GPU-Accelerated Gold Standard Genomics Library for End-to-End\
     \ Sequence Alignment"
   authors:
   - Yeejoo Han
   - Sunwoo Kim
   - Seongyeon Park
   - Jinho Lee
-  date: '2025-06-08'
   publisher: International Conference on Supercomputing (ICS)
+  date: '2025-06-08'
+  link: https://doi.org/g968xt
+  buttons:
+  - type: github
+    link: sunwookim028/G3SA
   tags:
   - Top Conf.
   - AI/ML
   image: images_paper/g3sa.jpg
-  id: ''
   plugin: sources.py
   file: sources.yaml
 - id: 10.1609/aaai.v39i15.33761
