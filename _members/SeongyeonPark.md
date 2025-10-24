@@ -1,7 +1,7 @@
 ---
 name: Seongyeon Park
 description: MS/PhD Student
-image: images_profile/profile_default.png
+image: images_profile/profile_seongyeonpark.jpg
 iphak: 2022-3
 aliases:
   - Seongyeon Park
