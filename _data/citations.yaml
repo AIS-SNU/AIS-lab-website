@@ -289,6 +289,17 @@
   publisher: International Symposium on Computer Architecture (ISCA)
   date: '2024-07-01'
   link: https://doi.org/gt7t5k
+  buttons:
+  - type: arxiv
+    link: https://arxiv.org/abs/2404.08871
+  - type: slide
+    link: images/ISCA_PIDComm_slides.pdf
+  - type: poster
+    link: images/ISCA_PIDComm_poster.pdf
+  - type: video
+    link: https://www.youtube.com/watch?v=TXQlTKoMG_U&feature=youtu.be
+  - type: github
+    link: https://github.com/AIS-SNU/PID-Comm
   tags:
   - Top Conf.
   - Arch.
