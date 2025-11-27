@@ -15,6 +15,7 @@
     - Top Conf.
     - Arch.
     - Syst. SW
+    image: images_paper/localut.png
   id: ""
 
 - title: "FALQON: Accelerating LoRA Fine-tuning with Low-Bit Floating-Point Arithmetic"
