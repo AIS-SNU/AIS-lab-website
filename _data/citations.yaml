@@ -18,6 +18,7 @@
   - Top Conf.
   - Arch.
   - Syst. SW
+  image: images_paper/localut.png
   id: ''
   plugin: sources.py
   file: sources.yaml
