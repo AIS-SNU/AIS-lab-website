@@ -1,5 +1,26 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- title: 'LoCaLUT: Harnessing Capacity-Computation Tradeoffs for LUT-Based Inference
+    in DRAM-PIM'
+  authors:
+  - Junguk Hong
+  - Changmin Shin
+  - Sukjin Kim
+  - Si Ung Noh
+  - Taehee Kwon
+  - SeongYeon Park
+  - Hanjun Kim
+  - Youngsok Kim
+  - Jinho Lee
+  date: '2026-02-02'
+  publisher: International Symposium on High-Performance Computer Architecture (HPCA)
+  tags:
+  - Top Conf.
+  - Arch.
+  - Syst. SW
+  id: ''
+  plugin: sources.py
+  file: sources.yaml
 - title: 'FALQON: Accelerating LoRA Fine-tuning with Low-Bit Floating-Point Arithmetic'
   authors:
   - Kanghyun Choi
