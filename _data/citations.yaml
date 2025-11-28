@@ -102,6 +102,9 @@
   publisher: IEEE/ACM International Symposium on Microarchitecture (MICRO)
   date: '2025-10-21'
   link: https://doi.org/g97wmz
+  buttons:
+  - type: slide
+    link: resources_paper/fala_micro_2025.pptx
   tags:
   - Top Conf.
   - Arch.
@@ -246,6 +249,9 @@
   publisher: International Symposium on High-Performance Computer Architecture (HPCA)
   date: '2025-03-01'
   link: https://doi.org/g9fb3x
+  buttons:
+  - type: slide
+    link: resources_paper/piccolo_hpca_2025.pptx
   tags:
   - Top Conf.
   - Arch.
@@ -337,10 +343,14 @@
   - Jaeyong Song
   - Jae Hyung Ju
   - Frank Liu
+  - Yeonkyu Choi
   - Jinho Lee
   publisher: IEEE Computer Architecture Letters (CAL)
   date: '2024-03-10'
   link: https://doi.org/gts4br
+  buttons:
+  - type: slide
+    link: resources_paper/piccolo_cal_slides.pptx
   tags:
   - SCI
   - Arch.
