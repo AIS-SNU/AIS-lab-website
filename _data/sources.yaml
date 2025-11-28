@@ -92,6 +92,9 @@
     - Jinho Lee
   date: '2025-10-21'
   publisher: IEEE/ACM International Symposium on Microarchitecture (MICRO)
+  buttons:
+    - type: slide
+      link: resources_paper/fala_micro_2025.pptx
   tags:
     - Top Conf.
     - Arch.
@@ -222,6 +225,9 @@
     - Jinho Lee
   date: '2025-03-01'
   publisher: International Symposium on High-Performance Computer Architecture (HPCA)
+  buttons:
+    - type: slide
+      link: resources_paper/piccolo_hpca_2025.pptx
   tags:
     - Top Conf.
     - Arch.
