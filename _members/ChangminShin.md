@@ -63,5 +63,8 @@ I'm also interested in all system- and architecture-related researches for AI
 
 
 # Teaching Experience
+* Digital Systems Design and Lab. (Seoul National University)
+  * Teaching Assistant (Fall 2025)
+
 * Embedded Systems Design and Lab. (Seoul National University)
   * Teaching Assistant (Fall 2024)

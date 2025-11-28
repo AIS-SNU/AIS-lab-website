@@ -92,6 +92,9 @@
     - Jinho Lee
   date: '2025-10-21'
   publisher: IEEE/ACM International Symposium on Microarchitecture (MICRO)
+  buttons:
+    - type: slide
+      link: resources_paper/fala_micro_2025.pptx
   tags:
     - Top Conf.
     - Arch.
@@ -222,6 +225,9 @@
     - Jinho Lee
   date: '2025-03-01'
   publisher: International Symposium on High-Performance Computer Architecture (HPCA)
+  buttons:
+    - type: slide
+      link: resources_paper/piccolo_hpca_2025.pptx
   tags:
     - Top Conf.
     - Arch.
@@ -304,9 +310,13 @@
     - Jaeyong Song
     - Jae Hyung Ju
     - Frank Liu
+    - Yeonkyu Choi
     - Jinho Lee
   date: '2024-03-10'
   publisher: IEEE Computer Architecture Letters (CAL)
+  buttons:
+    - type: slide
+      link: resources_paper/piccolo_cal_slides.pptx
   tags:
     - SCI
     - Arch.
