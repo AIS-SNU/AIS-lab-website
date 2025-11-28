@@ -304,9 +304,13 @@
     - Jaeyong Song
     - Jae Hyung Ju
     - Frank Liu
+    - Yeonkyu Choi
     - Jinho Lee
   date: '2024-03-10'
   publisher: IEEE Computer Architecture Letters (CAL)
+  buttons:
+    - type: slide
+      link: resources_paper/piccolo_cal_slides.pptx
   tags:
     - SCI
     - Arch.
