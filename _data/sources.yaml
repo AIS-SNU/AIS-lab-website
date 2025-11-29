@@ -1,3 +1,19 @@
+- title: "FaScalSQL: A Fast and Scalable GPU-Accelerated SQL Query Engine for Out-of-Memory Tables"
+  authors:
+    - Chaemin Lim
+    - Suhyun Lee
+    - Jinwoo Choi
+    - Kwanghyun Park
+    - Jinho Lee
+    - Joonsung Kim
+    - Youngsok Kim
+  date: '2026-05-04'
+  publisher:  IEEE International Conference on Data Engineering (ICDE)
+  tags:
+    - Top Conf.
+    - Syst. SW
+  id: ""
+
 - title: "LoCaLUT: Harnessing Capacity-Computation Tradeoffs for LUT-Based Inference in DRAM-PIM"
   authors:
     - Junguk Hong
