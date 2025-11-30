@@ -1,5 +1,28 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- title: Refined classification of YSOs and AGB stars by IR magnitudes, colors, and
+    time-domain analysis with machine learning
+  authors:
+  - Hyunwook Jheonn
+  - Jeong-Eun Lee
+  - Jinho Lee
+  - Seonjae Lee
+  - Hyeyoon Lee
+  - ShinGeon Kim
+  - "Carlos Contreras Pe\xF1a"
+  - Mi-Ryang Kim
+  date: '2026-05-05'
+  publisher: The Astrophysical Journal (ApJ)
+  buttons:
+  - type: arxiv
+    link: https://arxiv.org/abs/2511.21012
+  tags:
+  - SCI
+  - AI/ML
+  image: images_paper/star3.png
+  id: ''
+  plugin: sources.py
+  file: sources.yaml
 - title: 'FaScalSQL: A Fast and Scalable GPU-Accelerated SQL Query Engine for Out-of-Memory
     Tables'
   authors:
@@ -15,6 +38,7 @@
   tags:
   - Top Conf.
   - Syst. SW
+  image: images_paper/fascalsql.png
   id: ''
   plugin: sources.py
   file: sources.yaml
@@ -36,6 +60,7 @@
   - Top Conf.
   - Arch.
   - Syst. SW
+  - AI/ML
   image: images_paper/localut.png
   id: ''
   plugin: sources.py

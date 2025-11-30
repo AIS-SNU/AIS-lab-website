@@ -1,3 +1,24 @@
+- title: "Refined classification of YSOs and AGB stars by IR magnitudes, colors, and time-domain analysis with machine learning"
+  authors:
+    - Hyunwook Jheonn
+    - Jeong-Eun Lee
+    - Jinho Lee
+    - Seonjae Lee
+    - Hyeyoon Lee
+    - ShinGeon Kim
+    - Carlos Contreras Peña
+    - Mi-Ryang Kim
+  date: '2026-05-05'
+  publisher: The Astrophysical Journal (ApJ)
+  buttons:
+    - type: arxiv
+      link: https://arxiv.org/abs/2511.21012
+  tags:
+    - SCI
+    - AI/ML 
+  image: images_paper/star3.png
+  id: ""
+
 - title: "FaScalSQL: A Fast and Scalable GPU-Accelerated SQL Query Engine for Out-of-Memory Tables"
   authors:
     - Chaemin Lim
@@ -12,6 +33,7 @@
   tags:
     - Top Conf.
     - Syst. SW
+  image: images_paper/fascalsql.png
   id: ""
 
 - title: "LoCaLUT: Harnessing Capacity-Computation Tradeoffs for LUT-Based Inference in DRAM-PIM"
@@ -31,6 +53,7 @@
     - Top Conf.
     - Arch.
     - Syst. SW
+    - AI/ML
   image: images_paper/localut.png
   id: ""
 
