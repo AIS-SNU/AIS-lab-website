@@ -65,6 +65,12 @@
     - Dain Kwon
     - Jinho Lee
   buttons:
+    - type: arxiv
+      link: https://arxiv.org/abs/2510.24061
+    - type: poster
+      link: images_paper/falqon_poster.pdf
+    - type: slide
+      link: images_paper/falqon_slides.pdf
     - type: github
       link: https://github.com/iamkanghyunchoi/falqon
   date: '2025-12-05'
