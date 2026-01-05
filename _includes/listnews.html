@@ -8,12 +8,21 @@
 
 {% assign years = data
   | group_by_exp: "d", "d.date | date: '%Y'"
-  | sort: "date"
+  | sort: "name"
+  | reverse
   %}
+
+{% assign filtered_years = emptyarray %}
+{% for year in years %}
+  {% assign year_number = year.name | plus: 0 %}
+  {% if year_number >= 2020 %}
+    {% assign filtered_years = filtered_years | push: year %}
+  {% endif %}
+{% endfor %}
   
 {% assign counter = 0 %}
 
-{% for year in years %}
+{% for year in filtered_years %}
   {% assign data = year.items %}
 
   {% if counter >= 10 %} 

@@ -1,3 +1,7 @@
+- content: 'Our paper <u>A Cost-Effective Near-Storage Processing Solution for Offline Inference of Long-Context LLMs</u> has been accepted to ASPLOS 2026. Congratulations to authors and see you at Pittsburgh!'
+  print_date: Jan. 2026
+  date: 2026-01-05
+
 - content: 'Our paper <u>Refined classification of YSOs and AGB stars by IR magnitudes, colors, and time-domain analysis with machine learning</u> has been accepted to The Astrophysical Journal. Looks like our pursuit of system scalability reached stellar-system scale this time.'
   print_date: Nov. 2025
   date: 2025-11-30

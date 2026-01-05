@@ -1,5 +1,32 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- title: A Cost-Effective Near-Storage Processing Solution for Offline Inference of
+    Long-Context LLMs
+  authors:
+  - Hongsun Jang
+  - Jaeyong Song
+  - Changmin Shin
+  - Si Ung Noh
+  - Jaewon Jung
+  - Jisung Park
+  - Jinho Lee
+  date: '2026-03-26'
+  publisher: Proceedings of the 31st ACM International Conference on Architectural
+    Support for Programming Languages and Operating Systems (ASPLOS)
+  buttons:
+  - type: arxiv
+    link: https://arxiv.org/abs/2502.09921
+  - type: github
+    link: AIS-SNU/HILOS
+  tags:
+  - Top Conf.
+  - Syst. SW
+  - Arch.
+  - AI/ML
+  image: images_paper/hilos.png
+  id: ''
+  plugin: sources.py
+  file: sources.yaml
 - title: Refined classification of YSOs and AGB stars by IR magnitudes, colors, and
     time-domain analysis with machine learning
   authors:
@@ -490,8 +517,8 @@
   - Jaeyoung Park
   - Youngsok Kim
   - Jinho Lee
-  publisher: Best Paper Award-Honorable Mention, International Symposium on High-Performance
-    Computer Architecture (HPCA)
+  publisher: <b>Best Paper Award-Honorable Mention!</b> International Symposium on
+    High-Performance Computer Architecture (HPCA)
   date: '2024-03-02'
   link: https://doi.org/gts4bv
   buttons:
