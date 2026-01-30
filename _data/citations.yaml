@@ -1,5 +1,30 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- title: 'GriNNder: Breaking the Memory Capacity Wall in Full-Graph GNN Training with
+    Storage Offloading'
+  authors:
+  - Jaeyong Song
+  - Seongyeon Park
+  - Hongsun Jang
+  - Jaewon Jung
+  - Hunseong Lim
+  - Junguk Hong
+  - Jinho Lee
+  date: '2026-05-17'
+  publisher: Proceedings of the 9th MLSys Conference (MLSys)
+  buttons:
+  - type: arxiv
+    link: https://arxiv.org/
+  - type: github
+    link: AIS-SNU/GriNNder
+  tags:
+  - Top Conf.
+  - Syst. SW
+  - AI/ML
+  image: images_paper/grinnder.png
+  id: ''
+  plugin: sources.py
+  file: sources.yaml
 - title: A Cost-Effective Near-Storage Processing Solution for Offline Inference of
     Long-Context LLMs
   authors:
