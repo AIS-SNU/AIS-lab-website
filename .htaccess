@@ -15,7 +15,7 @@ Options -Indexes
 # Hide server information
 ServerSignature Off
 <IfModule mod_headers.c>
-    Header always unset Server
+    Header always set Server ""
     Header always unset X-Powered-By
 </IfModule>
 
