@@ -38,7 +38,7 @@
 
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta http-equiv="Content-Security-Policy" content="default-src 'self' 'unsafe-inline' https://*.fontawesome.com;img-src 'self' 'unsafe-inline' data: images; style-src 'self' 'unsafe-inline' /images/ fonts.googleapis.com https://cdn.jsdelivr.net https://use.fontawesome.com;font-src 'self' fonts.gstatic.com data:; script-src 'self' https://unpkg.com/@popperjs/core@2 https://use.fontawesome.com 'unsafe-inline';">
+<meta name="referrer" content="strict-origin-when-cross-origin">
 
 <title>Publications | AISys Lab.</title>
 
@@ -61,7 +61,7 @@
 <meta property="twitter:image" content="/AIS-lab-website/images/share.png">
 
 
-  <meta property="og:type" content="website">
+<meta property="og:type" content="website">
 
 
 <script type="application/ld+json">
@@ -82,7 +82,6 @@
 </script>
 
 <link rel="alternate" type="application/rss+xml" href="/AIS-lab-website/feed.xml">
-
   <!-- Google Fonts -->
 <!-- automatically get url from fonts used in theme file -->
 
@@ -99,7 +98,7 @@
 
   <!-- third party styles -->
 <!-- https://stylishthemes.github.io/Syntax-Themes/pygments/ -->
-<link href="https://cdn.jsdelivr.net/gh/StylishThemes/Syntax-Themes/pygments/css-github/pygments-tomorrow-night-eighties.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/gh/StylishThemes/Syntax-Themes/pygments/css-github/pygments-tomorrow-night-eighties.css" rel="stylesheet" integrity="sha384-nYj9fpDIgFx9ajluB8ykkbLaVqH0pu63FT+pKqwYs2qcSPOKqxSKXMOPTLkNgWv3" crossorigin="anonymous">
 
 <!-- include all sass in styles folder -->
 
@@ -341,12 +340,7 @@
 
 
 
-  <!-- third party scripts -->
-<script src="https://unpkg.com/@popperjs/core@2" defer></script>
-<script src="https://unpkg.com/tippy.js@6" defer></script>
-<script src="https://unpkg.com/mark.js@8" defer></script>
-
-<!-- include all js in scripts folder -->
+  <!-- include all js in scripts folder -->
 
 
   <script src="/AIS-lab-website/_scripts/anchors.js"></script>
@@ -355,9 +349,15 @@
 
   <script src="/AIS-lab-website/_scripts/fetch-tags.js"></script>
 
+  <script src="/AIS-lab-website/_scripts/mark.min.js"></script>
+
+  <script src="/AIS-lab-website/_scripts/popper.min.js"></script>
+
   <script src="/AIS-lab-website/_scripts/search.js"></script>
 
   <script src="/AIS-lab-website/_scripts/site-search.js"></script>
+
+  <script src="/AIS-lab-website/_scripts/tippy.min.js"></script>
 
   <script src="/AIS-lab-website/_scripts/tooltip.js"></script>
 
