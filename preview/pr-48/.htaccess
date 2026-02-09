@@ -1,0 +1,27 @@
+<IfModule mod_headers.c>
+    Header set Content-Security-Policy "default-src 'self' *.ais.snu.ac.kr; script-src 'self' *.ais.snu.ac.kr 'unsafe-inline'; style-src 'self' *.ais.snu.ac.kr 'unsafe-inline' fonts.googleapis.com https://cdn.jsdelivr.net; font-src 'self' *.ais.snu.ac.kr fonts.gstatic.com data:; img-src 'self' *.ais.snu.ac.kr data:; frame-ancestors 'self';"
+    Header set X-Frame-Options "SAMEORIGIN"
+    Header set X-XSS-Protection "1; mode=block"
+    Header set X-Content-Type-Options "nosniff"
+    Header set Cache-Control "no-store, no-cache, must-revalidate, private"
+    Header set Pragma "no-cache"
+    Header set Expires "0"
+    Header set Referrer-Policy "strict-origin-when-cross-origin"
+</IfModule>
+
+# Disable directory listing
+Options -Indexes
+
+# Hide server information
+ServerSignature Off
+<IfModule mod_headers.c>
+    Header always unset Server
+    Header always unset X-Powered-By
+</IfModule>
+
+# Block OPTIONS method
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteCond %{REQUEST_METHOD} ^(OPTIONS)
+    RewriteRule .* - [F]
+</IfModule>
