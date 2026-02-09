@@ -1,0 +1,6 @@
+<IfModule mod_headers.c>
+    Header set Content-Security-Policy "default-src 'self' *.ais.snu.ac.kr; script-src 'self' *.ais.snu.ac.kr 'unsafe-inline' https://unpkg.com https://use.fontawesome.com; style-src 'self' *.ais.snu.ac.kr 'unsafe-inline' fonts.googleapis.com https://cdn.jsdelivr.net https://use.fontawesome.com; font-src 'self' *.ais.snu.ac.kr fonts.gstatic.com data:; img-src 'self' *.ais.snu.ac.kr data:; frame-ancestors 'self';"
+    Header set X-Frame-Options "SAMEORIGIN"
+    Header set X-XSS-Protection "1; mode=block"
+    Header set X-Content-Type-Options "nosniff"
+</IfModule>

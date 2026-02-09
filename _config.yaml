@@ -70,6 +70,7 @@ sass:
 include:
   - _styles
   - _scripts
+  - .htaccess
 
 # force jekyll to exclude certain files/folders
 exclude:
