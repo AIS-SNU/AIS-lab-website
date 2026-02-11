@@ -12,7 +12,7 @@ links:
 
 ---
 
-I am a Ph.D student in the Department of Electrical and Computer Engineering at Seoul National University. My research interests are adversarial robustness and distributed learning. I enjoy boogaloo dance as a hobby.
+I am a Ph.D candidate in the Department of Electrical and Computer Engineering at Seoul National University. My research interests are adversarial robustness, large language model and distributed learning. I enjoy boogaloo dance as a hobby.
 
 ---
 
@@ -48,7 +48,7 @@ I am a Ph.D student in the Department of Electrical and Computer Engineering at 
 
 # Education
   * **Seoul National University (September 2023 - Present)**
-    * Ph.D student in Electrical and Computer Engineering
+    * Ph.D candidate in Electrical and Computer Engineering
 
   * **Yonsei University (September 2021 - August 2023)**
     * Master of Artificial Intelligence
@@ -59,18 +59,22 @@ I am a Ph.D student in the Department of Electrical and Computer Engineering at 
 
 
 # Experience
+* **Carnegie Mellon University (Jan 2026 - Present)**
+  * Visiting Scholar
+  * Collaboration with Haizhong Zheng at InfiniAI Lab.
+
 * **CJ Logistics (June 2021 - July 2021)**
-  * Internship
-  * Job : IT strategy
+  * Internship (IT strategy)
+  * Developed a time-series forecasting model to predict monthly sales for the Warehouse & Distribution (W&D) sector.
 
 * **Bucketplace, Co., Ltd (December 2020 - June 2021)**
-  * Full-time Data Analyst
+  * Data Analyst
 
 * **Electronics and Telecommunications Research Institute (July 2020 - August 2020)**
   * Research Trainee
-  * TM/TDP : Correlation analysis between the number of mobile stations and traffic volume and prediction of the number of subscribers and traffic volume.
+  * Authored a Technical Memorandum titled "Correlation analysis between the number of mobile stations and traffic volume and prediction of the number of subscribers and traffic volume" (First Author).
 
-* **MINDs and company (December 2019 - March 2020)**
+* **MINDs and Company (December 2019 - March 2020)**
   * Intern
   * Project : Automatic payment review classification for insurance claims.
 
@@ -98,8 +102,9 @@ I am a Ph.D student in the Department of Electrical and Computer Engineering at 
 
 # Teaching Experience
   * **Programming Methodology (430.211)**
-    * Teaching Assistant, Spring 2023
+    * Teaching Assistant, Spring 2025
     * Teaching Assistant, Spring 2024
+    * Teaching Assistant, Spring 2023
 
 ---
 * Email : id@snu.ac.kr
