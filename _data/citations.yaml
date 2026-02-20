@@ -11,7 +11,7 @@
   - Junguk Hong
   - Jinho Lee
   date: '2026-05-17'
-  publisher: Proceedings of the 9th MLSys Conference (MLSys)
+  publisher: Annual Conference on Machine Learning and Systems (MLSys)
   buttons:
   - type: arxiv
     link: https://arxiv.org/
@@ -36,8 +36,8 @@
   - Jisung Park
   - Jinho Lee
   date: '2026-03-26'
-  publisher: Proceedings of the 31st ACM International Conference on Architectural
-    Support for Programming Languages and Operating Systems (ASPLOS)
+  publisher: ACM International Conference on Architectural Support for Programming
+    Languages and Operating Systems (ASPLOS)
   buttons:
   - type: arxiv
     link: https://arxiv.org/abs/2502.09921
@@ -169,6 +169,7 @@
   tags:
   - Top Conf.
   - Syst. SW
+  image: images_paper/agis.png
   id: ''
   plugin: sources.py
   file: sources.yaml
@@ -187,6 +188,7 @@
   tags:
   - Top Conf.
   - Syst. SW
+  image: images_paper/dmo_db.png
   id: ''
   plugin: sources.py
   file: sources.yaml
@@ -581,6 +583,7 @@
   - SCI
   - Arch.
   - AI/ML
+  image: images_paper/mirror_tc.png
   buttons:
   - type: paper
     link: https://ieeexplore.ieee.org/abstract/document/10198513
@@ -605,6 +608,7 @@
   - Top Conf.
   - AI/ML
   - Syst. SW
+  image: images_paper/pid_join.png
   buttons:
   - type: paper
     link: https://dl.acm.org/doi/abs/10.1145/3589258
@@ -684,6 +688,7 @@
   - Top Conf.
   - Arch.
   - AI/ML
+  image: images_paper/sgcn.png
   buttons:
   - type: arxiv
     link: https://arxiv.org/abs/2301.10388
