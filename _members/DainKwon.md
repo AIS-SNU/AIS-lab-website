@@ -12,6 +12,7 @@ links:
 
 ---
 I am a graduate student in the Department of Electrical and Computer Engineering at Seoul National University. I am interested in efficient AI, quantization, and innovative ideas to deploy AI in resource-constrained environments while preserving task performance.
+
 ---
 
 # Publication
