@@ -1,5 +1,43 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- title: 'SePArate: Segmenting Patterns from Defects in Wafer Manufacturing Using
+    Weak Supervision'
+  authors:
+  - Dain Kwon
+  - Changmin Shin
+  - Sunjong Park
+  - Kanghyun Choi
+  - Hyeyoon Lee
+  - Jaewon Jang
+  - MINSEOK CHOI
+  - Jinho Lee
+  publisher: Design Automation Conference (DAC)
+  date: '2026-07-26'
+  tags:
+  - Top Conf.
+  - AI/ML
+  image: images_paper/separate.png
+  id: ''
+  plugin: sources.py
+  file: sources.yaml
+- title: 'TopGQ: Fast GNN Post-Training Quantization Leveraging Topology Information'
+  authors:
+  - Dain Kwon
+  - Kanghyun Choi
+  - Hyeyoon Lee
+  - Sunjong Park
+  - Seoyong Lee
+  - Sukjin Kim
+  - Jinho Lee
+  publisher: Design Automation Conference (DAC)
+  date: '2026-07-26'
+  tags:
+  - Top Conf.
+  - AI/ML
+  image: images_paper/topgq.png
+  id: ''
+  plugin: sources.py
+  file: sources.yaml
 - title: 'GriNNder: Breaking the Memory Capacity Wall in Full-Graph GNN Training with
     Storage Offloading'
   authors:
