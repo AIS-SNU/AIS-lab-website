@@ -11,10 +11,7 @@ links:
   email: dain.kwon@snu.ac.kr
 
 ---
-I am a graduate student in the Department of Electrical and Computer Engineering at Seoul National University. My current research interests lie in efficient AI, neural network quantization, and innovative methodologies for deploying AI in resource-constrained environments while preserving high task performance.
-
-
-
+I am a graduate student in the Department of Electrical and Computer Engineering at Seoul National University. I am interested in efficient AI, quantization, and innovative ideas to deploy AI in resource-constrained environments while preserving task performance.
 ---
 
 # Publication
@@ -55,3 +52,8 @@ I am a graduate student in the Department of Electrical and Computer Engineering
 
 
 # Teaching Experience
+* Programming Methodolgy. (Seoul National University)
+  * Teaching Assistant (Spring 2025)
+
+* Embedded Systems Design and Lab. (Seoul National University)
+  * Teaching Assistant (Spring 2026)
