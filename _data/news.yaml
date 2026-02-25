@@ -1,3 +1,13 @@
+- content: 'Kanghyun Choi, Hyeyoon Lee, Sunjong Park, and Dain Kwon won a gold prize, and Hongsun Jang, Jaeyong Song, Changmin Shin, and Si Ung Noh won a silver prize at the <a href="https://humantech.samsung.com">32nd Samsung Humantech Paper Awards</a>. Warm congratulations to the awardees!'
+  print_date: Jan. 2026
+  date: 2026-01-23
+
+- content: 'Two papers have been accepted to DAC 2026. Warm congratulations to the authors!
+                        <li><u>TopGQ: Fast GNN Post-Training Quantization Leveraging Topology Information</u></li>
+                        <li><u>SePArate: Segmenting Patterns from Defects in Wafer Manufacturing Using Weak Supervision</u></li>'
+  print_date: Feb. 2026
+  date: 2026-02-25
+
 - content: 'At HPCA 2026, our paper <a href="https://2026.hpca-conf.org/details/hpca-2026-main-conference/114/LoCaLUT-Harnessing-Capacity-Computation-Tradeoffs-for-LUT-Based-Inference-in-DRAM-PI">"LoCaLUT"</a> was presented in the Best Paper Candidates session. '
   print_date: Feb. 2026
   date: 2026-02-02

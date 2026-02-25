@@ -1,6 +1,6 @@
 ---
 name: Kanghyun Choi
-description: PhD Student
+description: Postdoc Researcher
 image: images_profile/profile_kanghyunchoi.jpeg
 iphak: 2020-9
 aliases:
