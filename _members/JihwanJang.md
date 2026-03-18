@@ -1,7 +1,7 @@
 ---
 name: Jihwan Jang
 description: MS/PhD Student
-image: images_profile/profile_jihwanjang.png
+image: images_profile/profile_jihwanjang.jpg
 iphak: 2026-3
 aliases:
   - Jihwan Jang
@@ -24,4 +24,4 @@ I am a graduate student in the Department of Electrical and Computer Engineering
 
 # Teaching Experience
 * **Embedded System Design (430.417)**
-  * Teaching Assistant (2026 Spring)
+  * Teaching Assistant (Spring 2026)
