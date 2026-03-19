@@ -52,9 +52,9 @@ My research aims to overcome memory and communication bottlenecks in large-scale
 
 ---
 # Awards
-* **Silver Price**, Samsung Humantech Paper Award (Feb. 2026)
+* **Silver Prize**, Samsung Humantech Paper Award (Feb. 2026)
 * **Best Paper Award (Honorable Mention)**, HPCA 2024 (Mar. 2024)
-* **Encouragement Price**, Samsung Humantech Paper Award (Feb. 2024)
+* **Encouragement Prize**, Samsung Humantech Paper Award (Feb. 2024)
 * **1st Graduate School Presidential Science Scholarship**, Republic of Korea (Ranked 120/2,980, Top 4%) (2024)
 
 
