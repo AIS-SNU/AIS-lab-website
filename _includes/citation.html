@@ -36,6 +36,20 @@
       {{ citation.title | default: "[no title info]" }}
     </a>
 
+    {%- comment -%}
+      Build authors display string and, only on member pages for a given person,
+      bold and underline any aliases defined in that member's front matter.
+    {%- endcomment -%}
+    {% assign authors_display = citation.authors | join: "," | split: "," | array_carve: 5 | join: ", " %}
+
+    {% if page.aliases and page.name %}
+      {% assign highlighted_authors = authors_display %}
+      {% for alias in page.aliases %}
+        {% assign alias_marked = '<span style="font-weight: bold; text-decoration: underline;">' | append: alias | append: '</span>' %}
+        {% assign highlighted_authors = highlighted_authors | replace: alias, alias_marked %}
+      {% endfor %}
+    {% endif %}
+
     <div
       class="citation-authors"
       {% if citation.authors.size > 10 %}
@@ -43,14 +57,7 @@
       {% endif %}
       tabindex="0"
     >
-      {{
-        citation.authors
-        | join: ","
-        | split: ","
-        | array_carve: 5
-        | join: ", "
-        | default: "[no author info]"
-      }}
+      {{ highlighted_authors | default: authors_display | default: "[no author info]" }}
     </div>
 
     <div class="citation-details">

@@ -16,14 +16,9 @@ links:
 
 ---
 
-I am a Ph.D. Student at Seoul National University, focusing on optimizing systems for deep learning and distributed LLM inference.
+I am a Ph.D. student in the Accelerated Intelligent Systems Lab (AISys) at Seoul National University (SNU).
 
----
-# Awards
-* **Best Paper Award (Honorable Mention)**, HPCA 2024 (Mar. 2024)
-* **Honorable Mention (Top 6%)**, Samsung Humantech Paper Award (Feb. 2024)
-* **1st Graduate School Presidential Science Scholarship**, Republic of Korea (Ranked 120/2,980, Top 4%) (2024)
-
+My research aims to overcome memory and communication bottlenecks in large-scale AI. Specifically, I explore **offloading-based DNN training/inference leveraging DRAM/SSD** , **Near-Data Processing (NDP)** , and **distributed training**. I also utilize **FPGA-based acceleration** to build high-performance, cost-effective solutions for next-generation workloads.
 
 
 # Publication
@@ -55,21 +50,26 @@ I am a Ph.D. Student at Seoul National University, focusing on optimizing system
   {% endfor %}
 {% endfor %}
 
+---
+# Awards
+* **Silver Price**, Samsung Humantech Paper Award (Feb. 2026)
+* **Best Paper Award (Honorable Mention)**, HPCA 2024 (Mar. 2024)
+* **Encouragement Price**, Samsung Humantech Paper Award (Feb. 2024)
+* **1st Graduate School Presidential Science Scholarship**, Republic of Korea (Ranked 120/2,980, Top 4%) (2024)
+
 
 ## 🎓 Education
 
 **Seoul National University**
-* Ph.D. Student in *Electrical and Computer Engineering*
-* Mar. 2023 – Present
+* Ph.D. Student in *Electrical and Computer Engineering*, Mar. 2023 – Present
 
 **Yonsei University**
-* B.S. in *Computer Science*
-* 2017 - 2022
+* B.S. in *Computer Science*, 2017 - 2022
 
 ## 📝 Academic Service
 
 **Reviewer**
-* 2026: MLSys (ERC), CVPR
+* 2026: MLSys (ERC), IEEE TC (Invited) CVPR
 * 2025: IEEE TETC (Invited)
 * 2024: ACM TACO (Invited), PACT SRC
 
