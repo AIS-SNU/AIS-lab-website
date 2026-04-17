@@ -59,9 +59,9 @@ I am a Ph.D candidate in the Department of Electrical and Computer Engineering a
 
 
 # Experience
-* **Carnegie Mellon University (Jan 2026 - Present)**
+* **Carnegie Mellon University (Jan 2026 - April 2026)**
   * Visiting Scholar
-  * Collaboration with Haizhong Zheng at InfiniAI Lab.
+  * Collaboration with Haizhong Zheng at InfiniAI Lab. (PI: Beidi Chen)
 
 * **CJ Logistics (June 2021 - July 2021)**
   * Internship (IT strategy)
