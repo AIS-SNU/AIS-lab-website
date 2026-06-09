@@ -1,3 +1,4 @@
+
 - title: "SePArate: Segmenting Patterns from Defects in Wafer Manufacturing Using Weak Supervision"
   authors:
     - Dain Kwon
@@ -34,6 +35,55 @@
   image: images_paper/topgq.png
   id: ""
 
+- title: "CRISP: End-to-End Fingerprint Recognition Leveraging Hardware-Anchored Liveness Detection"
+  authors:
+    - Subin Ki
+    - Kyuseung Han
+    - Hyuk Kim
+    - Taewook Kang
+    - Kwang-Il Oh
+    - Hyeonguk Jang
+    - Sukho Lee
+    - Jae-Jin Lee
+    - Jaehyoung Lee
+    - Woojoo Lee
+    - Jinho Lee
+  publisher: Dependable Systems and Networks (DSN) - Industry Track
+  date: '2026-06-22'
+  tags:
+    - AI/ML
+    - Arch.
+  image: 
+  id: ""
+
+- title: "7DT Insight: Variability in Young Stellar Objects"
+  authors:
+    - Mi-Ryang Kim
+    - Jeong-Eun Lee
+    - Myungshin Im
+    - Jinho Lee
+    - Ji Hoon Kim
+    - Seo-Won Chang
+    - Gregory S. H. Paek
+    - Hyeonho Choi
+    - Donggeun Tak
+    - Donghwan Hyun
+    - Won-Hyeong Lee
+    - Hyeyoon Lee
+    - ShinGeon Kim
+    - S. Thomas Megeath  
+  publisher: The Astrophysical Journal (ApJ)
+  date: '2026-05-18'
+  tags:
+    - Top Conf.
+    - AI/ML
+  buttons:
+    - type: arxiv
+      link: https://arxiv.org/abs/2605.18366
+  image: 
+  id: ""
+
+
 
 - title: "GriNNder: Breaking the Memory Capacity Wall in Full-Graph GNN Training with Storage Offloading"
   authors:
@@ -48,7 +98,7 @@
   publisher: Annual Conference on Machine Learning and Systems (MLSys)
   buttons:
     - type: arxiv
-      link: https://arxiv.org/
+      link: https://arxiv.org/abs/2605.11517
     - type: github
       link: AIS-SNU/GriNNder
   tags:
@@ -643,7 +693,7 @@
     - type: paper
       link: https://ieeexplore.ieee.org/document/10071102/
 
-- id: https://bmvc2022.mpi-inf.mpg.de/281/
+- id: ""
   title: Improving Gradient Paths for Binary Convolutional Neural Networks
   authors:
     - Baozhou Zhu
