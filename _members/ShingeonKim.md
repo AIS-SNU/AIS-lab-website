@@ -10,7 +10,7 @@ links:
   email: happyriosshs@snu.ac.kr
 ---
 
-I am a graduate student in the Department of Electrical and Computer Engineering at Seoul National University.
+I am a graduate student in the Department of Electrical and Computer Engineering at Seoul National University. My research interests lie in efficient AI and AI for science, where I focus on developing computationally efficient AI systems and applying AI to solve scientific problems.
 
 ---
 
