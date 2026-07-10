@@ -1,7 +1,7 @@
 ---
 name: Shingeon Kim
 description: MS/PhD Student
-image: images_profile/profile_shingeonkim.png
+image: images_profile/profile_shingeonkim.jpg
 iphak: 2026-3
 aliases:
   - Shingeon Kim
