@@ -1,3 +1,14 @@
+- content: 'Two papers have been accepted to EMNLP 2026. Congratulations!
+                        <li><u>CamoDocs: A Poisoning Attack Against Retrieval-Augmented Language Models Using Camouflaged Documents</u></li>
+                        <li><u>Spexis: Speculative Lookahead Scheduling for LLM Inference</u></li>
+                        CamoDocs is a collaboration with CMU (Prof. Beidi Chen), and Spexis is a collaboration with SNU MLSys Lab. (Prof. Jiwon Seo).'
+  print_date: Aug. 2026
+  date: 2026-08-21
+
+- content: 'Our paper <u>WiFlash: Wordline-Parallel Approximate Nearest Neighbor Search Inside Flash Cell Array</u> has been accepted to MICRO 2026, a collaboration with SNU VLSI Lab. (Prof. Jae-Joon Kim).'
+  print_date: Jun. 2026
+  date: 2026-06-08
+
 
 - content: 'Our paper <u>STARLINC: Satellite Trail Artifact Removal using Inter-Frame Correlation</u> has been accepted to ECCV 2026. Congratulations to authors!'
   print_date: Jun. 2026
