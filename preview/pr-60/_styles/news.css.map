@@ -1,0 +1,1 @@
+{"version":3,"sourceRoot":"","sources":["news.scss"],"names":[],"mappings":"AAAA;EAEI;EACA;EACA;EACA;EACA;EACA","sourcesContent":[".news {\n    // display: inline-flex;\n    flex-wrap: wrap;\n    align-items: left;\n    text-align: left;\n    gap: 3px;\n    margin: 3px 0;\n    padding: 5px;\n    // box-shadow: var(--shadow);\n}\n"],"file":"news.css"}
