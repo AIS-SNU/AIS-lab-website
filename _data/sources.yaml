@@ -1,3 +1,47 @@
+- title: "CamoDocs: A Poisoning Attack Against Retrieval-Augmented Language Models Using Camouflaged Documents"
+  authors: 
+  -  Jaewon Jung
+  -  Haizhong Zheng
+  -  Hongsun Jang
+  -  Jaeyong Song
+  -  Beidi Chen
+  -  Jinho Lee 
+  date: '2026-11-20'
+  publisher: Empirical Methods in Natural Language Processing (EMNLP)
+  tags:
+    - Top Conf.
+    - AI/ML
+  id: ""
+
+- title: "Spexis: Speculative Lookahead Scheduling for LLM Inference"
+  authors:
+    - Hyungyu Jung
+    - Jaehyeok Yu
+    - Hoonseo Choi
+    - Sungkyun Kim
+    - Jinho Lee
+    - Jiwon Seo
+  date: '2026-11-20'
+  publisher: Empirical Methods in Natural Language Processing (EMNLP)
+  tags:
+    - Top Conf.
+    - AI/ML
+  id: ""
+
+- title: "WiFlash: Wordline-Parallel Approximate Nearest Neighbor Search Inside Flash Cell Array"
+  authors:
+    - Hyunjin Kim<sup>1</sup>
+    - Juchan Lee<sup>1</sup>
+    - Inseong Choi
+    - Jinho Lee
+    - Jae-Joon Kim
+  date: '2026-10-20'
+  publisher: IEEE/ACM International Symposium on Microarchitecture (MICRO)
+  tags:
+    - Top Conf.
+    - Arch.
+  id: ""
+
 - title: "STARLINC: Satellite Trail Artifact Removal using Inter-Frame Correlation"
   authors:
     - Shingeon Kim
