@@ -1,65 +1,37 @@
 ---
 ---
 
-.tippy-box {
+[data-tooltip]:not([data-tooltip=""]) {
+  position: relative;
+}
+
+[data-tooltip]:not([data-tooltip=""])::after {
+  content: attr(data-tooltip);
+  position: absolute;
+  left: 50%;
+  bottom: calc(100% + 12px);
+  width: max-content;
+  max-width: calc(100vw - 40px);
+  padding: 7.5px;
+  border-radius: var(--rounded);
   background: var(--background);
   color: var(--text);
-  padding: 7.5px;
+  font-size: var(--small);
+  line-height: 1.4;
   text-align: left;
+  white-space: normal;
   box-shadow: var(--shadow);
-}
-
-.tippy-arrow {
-  width: 30px;
-  height: 30px;
-}
-
-.tippy-arrow:before {
-  width: 10px;
-  height: 10px;
-  background: var(--background);
-  box-shadow: var(--shadow);
-}
-
-// correct tippy arrow styles to support intuitive arrow styles above
-.tippy-arrow {
-  overflow: hidden;
+  opacity: 0;
+  visibility: hidden;
   pointer-events: none;
+  transform: translateX(-50%);
+  transition: opacity 0.2s, visibility 0.2s;
+  z-index: 1000;
 }
-.tippy-box[data-placement="top"] .tippy-arrow {
-  inset: unset;
-  top: 100%;
-}
-.tippy-box[data-placement="bottom"] .tippy-arrow {
-  inset: unset;
-  bottom: 100%;
-}
-.tippy-box[data-placement="left"] .tippy-arrow {
-  inset: unset;
-  left: 100%;
-}
-.tippy-box[data-placement="right"] .tippy-arrow {
-  inset: unset;
-  right: 100%;
-}
-.tippy-arrow:before {
-  border: unset !important;
-  transform-origin: center !important;
-  transform: translate(-50%, -50%) rotate(45deg) !important;
-}
-.tippy-box[data-placement="top"] .tippy-arrow:before {
-  left: 50% !important;
-  top: 0 !important;
-}
-.tippy-box[data-placement="bottom"] .tippy-arrow:before {
-  left: 50% !important;
-  top: 100% !important;
-}
-.tippy-box[data-placement="left"] .tippy-arrow:before {
-  left: 0 !important;
-  top: 50% !important;
-}
-.tippy-box[data-placement="right"] .tippy-arrow:before {
-  left: 100% !important;
-  top: 50% !important;
+
+[data-tooltip]:not([data-tooltip=""]):hover::after,
+[data-tooltip]:not([data-tooltip=""]):focus::after,
+[data-tooltip]:not([data-tooltip=""]):focus-visible::after {
+  opacity: 1;
+  visibility: visible;
 }

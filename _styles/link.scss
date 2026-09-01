@@ -14,3 +14,6 @@ a:hover {
 a:not([href]) {
   color: var(--text);
 }
+a.link-black {
+  color: black;
+}

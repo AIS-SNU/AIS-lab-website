@@ -8,7 +8,6 @@
 
 <header
   class="background"
-  style="--image: url('{{ image }}')"
   {% if dark == true or dark == false %}
     data-dark="{{ dark }}"
   {% endif %}
@@ -16,6 +15,9 @@
     data-big
   {% endif %}
 >
+  {% if image and image != "" %}
+    <img class="background-image" src="{{ image }}" alt="" aria-hidden="true">
+  {% endif %}
   <a href="/" class="home">
     {% if logo %}
       <span class="logo">

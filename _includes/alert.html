@@ -1,5 +1,4 @@
-{% assign color = site.data.types[include.type].color | default: "#808080" %}
-<div class="alert" style="--color: {{ color }}">
+<div class="alert alert-{{ include.type | default: 'default' }}">
   {% assign icon = site.data.types[include.type].icon
     | default: "fa-solid fa-circle-info"
   %}

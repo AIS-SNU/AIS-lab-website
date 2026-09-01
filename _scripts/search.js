@@ -84,9 +84,9 @@
     // filter elements
     for (const element of elements) {
       if (elementMatches(element, parts)) {
-        element.style.display = "";
+        element.hidden = false;
         x++;
-      } else element.style.display = "none";
+      } else element.hidden = true;
     }
 
     return [x, n, tags];
@@ -132,7 +132,7 @@
 
     if (query.trim()) {
       // show all info boxes
-      boxes.forEach((info) => (info.style.display = ""));
+      boxes.forEach((info) => (info.hidden = false));
 
       // info template
       let info = "";
@@ -145,7 +145,7 @@
     // if nothing searched
     else {
       // hide all info boxes
-      boxes.forEach((info) => (info.style.display = "none"));
+      boxes.forEach((info) => (info.hidden = true));
     }
   };
 
@@ -197,19 +197,29 @@
 
   // when user types into search box
   const debouncedRunSearch = debounce(runSearch, 1000);
-  window.onSearchInput = (target) => {
+  const onSearchInput = (target) => {
     debouncedRunSearch(target.value);
     updateUrl(target.value);
   };
 
   // when user clears search box with button
-  window.onSearchClear = () => {
+  const onSearchClear = () => {
     runSearch();
     updateUrl();
   };
 
+  const addSearchListeners = () => {
+    document.querySelectorAll(searchBoxSelector).forEach((box) => {
+      box.querySelector("input").addEventListener("input", (event) =>
+        onSearchInput(event.target)
+      );
+      box.querySelector("button").addEventListener("click", onSearchClear);
+    });
+  };
+
   // after page loads
   window.addEventListener("load", searchFromUrl);
+  window.addEventListener("load", addSearchListeners);
   // after tags load
   window.addEventListener("tagsfetched", searchFromUrl);
 }

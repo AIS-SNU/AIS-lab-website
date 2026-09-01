@@ -1,4 +1,5 @@
-<div class="cols" style="--cols: {{ include | object_items | size }}">
+{% assign col_count = include | object_items | size %}
+<div class="cols cols-{{ col_count }}">
   {% for param in include %}
     {% assign key = param[0] %}
     <div>{{ include[key] | markdownify }}</div>

@@ -1,5 +1,7 @@
 <!-- include all js in scripts folder -->
 {% assign scripts = site.static_files | where_exp: "file", "file.path contains '/_scripts'" %}
 {% for script in scripts %}
-  <script src="{{ script.path | relative_url }}"></script>
+  {% unless script.path contains "popper.min.js" or script.path contains "tippy.min.js" %}
+    <script src="{{ script.path | relative_url }}"></script>
+  {% endunless %}
 {% endfor %}

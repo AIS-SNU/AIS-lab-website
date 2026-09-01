@@ -6,12 +6,18 @@ $one: 500px;
 
 .cols {
   display: grid;
-  --repeat: min(3, var(--cols));
   grid-template-columns: repeat(var(--repeat), 1fr);
   align-items: flex-start;
   gap: 40px;
   margin: 40px 0;
 }
+
+.cols-1 { --repeat: 1; }
+.cols-2 { --repeat: 2; }
+.cols-3,
+.cols-4,
+.cols-5,
+.cols-6 { --repeat: 3; }
 
 .cols > * {
   min-width: 0;
@@ -27,9 +33,11 @@ $one: 500px;
 }
 
 @media (max-width: $two) {
-  .cols {
-    --repeat: min(2, var(--cols));
-  }
+  .cols-2,
+  .cols-3,
+  .cols-4,
+  .cols-5,
+  .cols-6 { --repeat: 2; }
 }
 
 @media (max-width: $one) {

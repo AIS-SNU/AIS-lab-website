@@ -45,7 +45,7 @@
     {% if page.aliases and page.name %}
       {% assign highlighted_authors = authors_display %}
       {% for alias in page.aliases %}
-        {% assign alias_marked = '<span style="font-weight: bold; text-decoration: underline;">' | append: alias | append: '</span>' %}
+        {% assign alias_marked = '<span class="citation-author-highlight">' | append: alias | append: '</span>' %}
         {% assign highlighted_authors = highlighted_authors | replace: alias, alias_marked %}
       {% endfor %}
     {% endif %}

@@ -8,10 +8,7 @@
   >
     <img
       src="{{ include.image | relative_url }}"
-      style="
-        width: {{ include.width | default: "auto" }};
-        max-height: {{ include.height | default: "unset" }};
-      "
+      class="figure-content"
       alt="{{ include.caption | default: "figure image" }}"
       loading="lazy"
       {% include fallback.html %}

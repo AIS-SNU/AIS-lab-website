@@ -29,10 +29,10 @@
     {% if dark == "true" or dark == "false" %}
       data-dark="{{ dark }}"
     {% endif %}
-    {% if background %}
-      style="--image: url('{{ background | relative_url }}')"
-    {% endif %}
   >
+    {% if background %}
+      <img class="background-image" src="{{ background | relative_url }}" alt="" aria-hidden="true">
+    {% endif %}
     {{ section }}
   </section>
 {% endfor %}
