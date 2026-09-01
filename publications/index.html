@@ -64,24 +64,8 @@
 <meta property="og:type" content="website">
 
 
-<script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    
-      "@type": "WebSite",
-    
-    "name": "Publications",
-    "description": "ECE, Seoul National University. Accelerated Intelligent Systems Lab (AISys) is affiliated with ECE, Seoul National University. We conduct research on system and architectural issues for accelerating various applications such as deep learning, compression algorithms and graph processing.",
-    "headline": "Publications",
-    "publisher": {
-      "@type": "Organization",
-      "logo": { "@type": "ImageObject", "url": "/AIS-lab-website/images/icon.png" }
-    },
-    "url": ""
-  }
-</script>
-
 <link rel="alternate" type="application/rss+xml" href="/AIS-lab-website/feed.xml">
+
   <!-- Google Fonts -->
 <!-- automatically get url from fonts used in theme file -->
 
@@ -91,10 +75,7 @@
 <!-- Font Awesome icons (load asynchronously due to size) -->
 <!--  -->
 
-<link href="/fontawesome-free-6.5.2-web/css/all.css" rel="preload" as="style" onload="this.onload = null; this.rel = 'stylesheet';">
-<noscript>
-  <link href="/fontawesome-free-6.5.2-web/css/all.css" rel="stylesheet">
-</noscript>
+<link href="/fontawesome-free-6.5.2-web/css/all.css" rel="stylesheet">
 
   <!-- third party styles -->
 <!-- https://stylishthemes.github.io/Syntax-Themes/pygments/ -->
@@ -343,23 +324,41 @@
   <!-- include all js in scripts folder -->
 
 
-  <script src="/AIS-lab-website/_scripts/anchors.js"></script>
+  
+    <script src="/AIS-lab-website/_scripts/anchors.js"></script>
+  
 
-  <script src="/AIS-lab-website/_scripts/dark-mode.js"></script>
+  
+    <script src="/AIS-lab-website/_scripts/dark-mode.js"></script>
+  
 
-  <script src="/AIS-lab-website/_scripts/fetch-tags.js"></script>
+  
+    <script src="/AIS-lab-website/_scripts/fetch-tags.js"></script>
+  
 
-  <script src="/AIS-lab-website/_scripts/mark.min.js"></script>
+  
+    <script src="/AIS-lab-website/_scripts/image-fallback.js"></script>
+  
 
-  <script src="/AIS-lab-website/_scripts/popper.min.js"></script>
+  
+    <script src="/AIS-lab-website/_scripts/mark.min.js"></script>
+  
 
-  <script src="/AIS-lab-website/_scripts/search.js"></script>
+  
 
-  <script src="/AIS-lab-website/_scripts/site-search.js"></script>
+  
+    <script src="/AIS-lab-website/_scripts/search.js"></script>
+  
 
-  <script src="/AIS-lab-website/_scripts/tippy.min.js"></script>
+  
+    <script src="/AIS-lab-website/_scripts/site-search.js"></script>
+  
 
-  <script src="/AIS-lab-website/_scripts/tooltip.js"></script>
+  
+
+  
+    <script src="/AIS-lab-website/_scripts/tooltip.js"></script>
+  
 
 
 </head>
@@ -373,7 +372,8 @@
 
 
 
-<header class="background" style="--image: url('')" data-dark="false">
+<header class="background" data-dark="false">
+  
   <a href="/" class="home">
     
       <span class="logo">
@@ -475,6 +475,7 @@
   
 
   <section class="background" data-size="page">
+    
     <!--
   background: ;
   dark: ;
@@ -486,8 +487,8 @@
 <h2 id="all">All</h2>
 
 <div class="search-box">
-  <input type="text" class="search-input" oninput="onSearchInput(this)" placeholder="Search items on this page">
-  <button disabled data-tooltip="Clear search" aria-label="clear search" onclick="onSearchClear()">
+  <input type="text" class="search-input" placeholder="Search items on this page">
+  <button disabled data-tooltip="Clear search" aria-label="clear search">
     <i class="icon fa-solid fa-magnifying-glass"></i>
   </button>
 </div>
@@ -499,7 +500,7 @@
 <div class="citation">
   
     <a class="citation-image" aria-label="Spexis: Speculative Lookahead Scheduling for LLM Inference">
-      <img src="" alt="Spexis: Speculative Lookahead Scheduling for LLM Inference" loading="lazy" onerror="this.src = '/AIS-lab-website/images/share.png'; this.onerror = null;">
+      <img src="" alt="Spexis: Speculative Lookahead Scheduling for LLM Inference" loading="lazy" data-fallback-src="/AIS-lab-website/images/share.png">
     </a>
   
 
@@ -553,7 +554,7 @@
 <div class="citation">
   
     <a class="citation-image" aria-label="CamoDocs: A Poisoning Attack Against Retrieval-Augmented Language Models Using Camouflaged Documents">
-      <img src="" alt="CamoDocs: A Poisoning Attack Against Retrieval-Augmented Language Models Using Camouflaged Documents" loading="lazy" onerror="this.src = '/AIS-lab-website/images/share.png'; this.onerror = null;">
+      <img src="" alt="CamoDocs: A Poisoning Attack Against Retrieval-Augmented Language Models Using Camouflaged Documents" loading="lazy" data-fallback-src="/AIS-lab-website/images/share.png">
     </a>
   
 
@@ -607,7 +608,7 @@
 <div class="citation">
   
     <a class="citation-image" aria-label="WiFlash: Wordline-Parallel Approximate Nearest Neighbor Search Inside Flash Cell Array">
-      <img src="" alt="WiFlash: Wordline-Parallel Approximate Nearest Neighbor Search Inside Flash Cell Array" loading="lazy" onerror="this.src = '/AIS-lab-website/images/share.png'; this.onerror = null;">
+      <img src="" alt="WiFlash: Wordline-Parallel Approximate Nearest Neighbor Search Inside Flash Cell Array" loading="lazy" data-fallback-src="/AIS-lab-website/images/share.png">
     </a>
   
 
@@ -661,7 +662,7 @@
 <div class="citation">
   
     <a class="citation-image" aria-label="STARLINC: Satellite Trail Artifact Removal using Inter-Frame Correlation">
-      <img src="/AIS-lab-website/images_paper/starlinc.png" alt="STARLINC: Satellite Trail Artifact Removal using Inter-Frame Correlation" loading="lazy" onerror="this.src = '/AIS-lab-website/images/share.png'; this.onerror = null;">
+      <img src="/AIS-lab-website/images_paper/starlinc.png" alt="STARLINC: Satellite Trail Artifact Removal using Inter-Frame Correlation" loading="lazy" data-fallback-src="/AIS-lab-website/images/share.png">
     </a>
   
 
@@ -715,7 +716,7 @@
 <div class="citation">
   
     <a class="citation-image" aria-label="TopGQ: Fast GNN Post-Training Quantization Leveraging Topology Information">
-      <img src="/AIS-lab-website/images_paper/topgq.png" alt="TopGQ: Fast GNN Post-Training Quantization Leveraging Topology Information" loading="lazy" onerror="this.src = '/AIS-lab-website/images/share.png'; this.onerror = null;">
+      <img src="/AIS-lab-website/images_paper/topgq.png" alt="TopGQ: Fast GNN Post-Training Quantization Leveraging Topology Information" loading="lazy" data-fallback-src="/AIS-lab-website/images/share.png">
     </a>
   
 
@@ -769,7 +770,7 @@
 <div class="citation">
   
     <a class="citation-image" aria-label="SePArate: Segmenting Patterns from Defects in Wafer Manufacturing Using Weak Supervision">
-      <img src="/AIS-lab-website/images_paper/separate.png" alt="SePArate: Segmenting Patterns from Defects in Wafer Manufacturing Using Weak Supervision" loading="lazy" onerror="this.src = '/AIS-lab-website/images/share.png'; this.onerror = null;">
+      <img src="/AIS-lab-website/images_paper/separate.png" alt="SePArate: Segmenting Patterns from Defects in Wafer Manufacturing Using Weak Supervision" loading="lazy" data-fallback-src="/AIS-lab-website/images/share.png">
     </a>
   
 
@@ -823,7 +824,7 @@
 <div class="citation">
   
     <a class="citation-image" aria-label="CRISP: End-to-End Fingerprint Recognition Leveraging Hardware-Anchored Liveness Detection">
-      <img src="" alt="CRISP: End-to-End Fingerprint Recognition Leveraging Hardware-Anchored Liveness Detection" loading="lazy" onerror="this.src = '/AIS-lab-website/images/share.png'; this.onerror = null;">
+      <img src="" alt="CRISP: End-to-End Fingerprint Recognition Leveraging Hardware-Anchored Liveness Detection" loading="lazy" data-fallback-src="/AIS-lab-website/images/share.png">
     </a>
   
 
@@ -877,7 +878,7 @@
 <div class="citation">
   
     <a class="citation-image" aria-label="7DT Insight: Variability in Young Stellar Objects">
-      <img src="" alt="7DT Insight: Variability in Young Stellar Objects" loading="lazy" onerror="this.src = '/AIS-lab-website/images/share.png'; this.onerror = null;">
+      <img src="" alt="7DT Insight: Variability in Young Stellar Objects" loading="lazy" data-fallback-src="/AIS-lab-website/images/share.png">
     </a>
   
 
@@ -950,7 +951,7 @@
 <div class="citation">
   
     <a class="citation-image" aria-label="GriNNder: Breaking the Memory Capacity Wall in Full-Graph GNN Training with Storage Offloading">
-      <img src="/AIS-lab-website/images_paper/grinnder.png" alt="GriNNder: Breaking the Memory Capacity Wall in Full-Graph GNN Training with Storage Offloading" loading="lazy" onerror="this.src = '/AIS-lab-website/images/share.png'; this.onerror = null;">
+      <img src="/AIS-lab-website/images_paper/grinnder.png" alt="GriNNder: Breaking the Memory Capacity Wall in Full-Graph GNN Training with Storage Offloading" loading="lazy" data-fallback-src="/AIS-lab-website/images/share.png">
     </a>
   
 
@@ -1042,7 +1043,7 @@
 <div class="citation">
   
     <a class="citation-image" aria-label="Refined classification of YSOs and AGB stars by IR magnitudes, colors, and time-domain analysis with machine learning">
-      <img src="/AIS-lab-website/images_paper/star3.png" alt="Refined classification of YSOs and AGB stars by IR magnitudes, colors, and time-domain analysis with machine learning" loading="lazy" onerror="this.src = '/AIS-lab-website/images/share.png'; this.onerror = null;">
+      <img src="/AIS-lab-website/images_paper/star3.png" alt="Refined classification of YSOs and AGB stars by IR magnitudes, colors, and time-domain analysis with machine learning" loading="lazy" data-fallback-src="/AIS-lab-website/images/share.png">
     </a>
   
 
@@ -1115,7 +1116,7 @@
 <div class="citation">
   
     <a class="citation-image" aria-label="FaScalSQL: A Fast and Scalable GPU-Accelerated SQL Query Engine for Out-of-Memory Tables">
-      <img src="/AIS-lab-website/images_paper/fascalsql.png" alt="FaScalSQL: A Fast and Scalable GPU-Accelerated SQL Query Engine for Out-of-Memory Tables" loading="lazy" onerror="this.src = '/AIS-lab-website/images/share.png'; this.onerror = null;">
+      <img src="/AIS-lab-website/images_paper/fascalsql.png" alt="FaScalSQL: A Fast and Scalable GPU-Accelerated SQL Query Engine for Out-of-Memory Tables" loading="lazy" data-fallback-src="/AIS-lab-website/images/share.png">
     </a>
   
 
@@ -1169,7 +1170,7 @@
 <div class="citation">
   
     <a class="citation-image" aria-label="FlexiWalker: Extensible GPU Framework for Efficient Dynamic Random Walks with Runtime Adaptation">
-      <img src="/AIS-lab-website/images_paper/flexiwalker.png" alt="FlexiWalker: Extensible GPU Framework for Efficient Dynamic Random Walks with Runtime Adaptation" loading="lazy" onerror="this.src = '/AIS-lab-website/images/share.png'; this.onerror = null;">
+      <img src="/AIS-lab-website/images_paper/flexiwalker.png" alt="FlexiWalker: Extensible GPU Framework for Efficient Dynamic Random Walks with Runtime Adaptation" loading="lazy" data-fallback-src="/AIS-lab-website/images/share.png">
     </a>
   
 
@@ -1223,7 +1224,7 @@
 <div class="citation">
   
     <a class="citation-image" aria-label="A Cost-Effective Near-Storage Processing Solution for Offline Inference of Long-Context LLMs">
-      <img src="/AIS-lab-website/images_paper/hilos.png" alt="A Cost-Effective Near-Storage Processing Solution for Offline Inference of Long-Context LLMs" loading="lazy" onerror="this.src = '/AIS-lab-website/images/share.png'; this.onerror = null;">
+      <img src="/AIS-lab-website/images_paper/hilos.png" alt="A Cost-Effective Near-Storage Processing Solution for Offline Inference of Long-Context LLMs" loading="lazy" data-fallback-src="/AIS-lab-website/images/share.png">
     </a>
   
 
@@ -1319,7 +1320,7 @@
 <div class="citation">
   
     <a class="citation-image" aria-label="LoCaLUT: Harnessing Capacity-Computation Tradeoffs for LUT-Based Inference in DRAM-PIM">
-      <img src="/AIS-lab-website/images_paper/localut.png" alt="LoCaLUT: Harnessing Capacity-Computation Tradeoffs for LUT-Based Inference in DRAM-PIM" loading="lazy" onerror="this.src = '/AIS-lab-website/images/share.png'; this.onerror = null;">
+      <img src="/AIS-lab-website/images_paper/localut.png" alt="LoCaLUT: Harnessing Capacity-Computation Tradeoffs for LUT-Based Inference in DRAM-PIM" loading="lazy" data-fallback-src="/AIS-lab-website/images/share.png">
     </a>
   
 
@@ -1383,7 +1384,7 @@
 <div class="citation">
   
     <a class="citation-image" aria-label="FALQON: Accelerating LoRA Fine-tuning with Low-Bit Floating-Point Arithmetic">
-      <img src="/AIS-lab-website/images_paper/falqon.png" alt="FALQON: Accelerating LoRA Fine-tuning with Low-Bit Floating-Point Arithmetic" loading="lazy" onerror="this.src = '/AIS-lab-website/images/share.png'; this.onerror = null;">
+      <img src="/AIS-lab-website/images_paper/falqon.png" alt="FALQON: Accelerating LoRA Fine-tuning with Low-Bit Floating-Point Arithmetic" loading="lazy" data-fallback-src="/AIS-lab-website/images/share.png">
     </a>
   
 
@@ -1501,7 +1502,7 @@
 <div class="citation">
   
     <a class="citation-image" aria-label="AGIS: Fast Approximate Graph Pattern Mining with Structure-Informed Sampling">
-      <img src="/AIS-lab-website/images_paper/agis.png" alt="AGIS: Fast Approximate Graph Pattern Mining with Structure-Informed Sampling" loading="lazy" onerror="this.src = '/AIS-lab-website/images/share.png'; this.onerror = null;">
+      <img src="/AIS-lab-website/images_paper/agis.png" alt="AGIS: Fast Approximate Graph Pattern Mining with Structure-Informed Sampling" loading="lazy" data-fallback-src="/AIS-lab-website/images/share.png">
     </a>
   
 
@@ -1555,7 +1556,7 @@
 <div class="citation">
   
     <a class="citation-image" aria-label="DMO-DB: Mitigating the Data Movement Bottlenecks of GPU-Accelerated Relational OLAP">
-      <img src="/AIS-lab-website/images_paper/dmo_db.png" alt="DMO-DB: Mitigating the Data Movement Bottlenecks of GPU-Accelerated Relational OLAP" loading="lazy" onerror="this.src = '/AIS-lab-website/images/share.png'; this.onerror = null;">
+      <img src="/AIS-lab-website/images_paper/dmo_db.png" alt="DMO-DB: Mitigating the Data Movement Bottlenecks of GPU-Accelerated Relational OLAP" loading="lazy" data-fallback-src="/AIS-lab-website/images/share.png">
     </a>
   
 
@@ -1609,7 +1610,7 @@
 <div class="citation">
   
     <a href="https://doi.org/g97wmz" class="citation-image" aria-label="FALA: Locality-Aware PIM-Host Cooperation for Graph Processing with Fine-Grained Column Access">
-      <img src="/AIS-lab-website/images_paper/fala.png" alt="FALA: Locality-Aware PIM-Host Cooperation for Graph Processing with Fine-Grained Column Access" loading="lazy" onerror="this.src = '/AIS-lab-website/images/share.png'; this.onerror = null;">
+      <img src="/AIS-lab-website/images_paper/fala.png" alt="FALA: Locality-Aware PIM-Host Cooperation for Graph Processing with Fine-Grained Column Access" loading="lazy" data-fallback-src="/AIS-lab-website/images/share.png">
     </a>
   
 
@@ -1682,7 +1683,7 @@
 <div class="citation">
   
     <a href="https://doi.org/g97wmw" class="citation-image" aria-label="CrossBit: Bitwise Computing in NAND Flash Memory with Inter-Bitline Data Communication">
-      <img src="/AIS-lab-website/images_paper/crossbit.png" alt="CrossBit: Bitwise Computing in NAND Flash Memory with Inter-Bitline Data Communication" loading="lazy" onerror="this.src = '/AIS-lab-website/images/share.png'; this.onerror = null;">
+      <img src="/AIS-lab-website/images_paper/crossbit.png" alt="CrossBit: Bitwise Computing in NAND Flash Memory with Inter-Bitline Data Communication" loading="lazy" data-fallback-src="/AIS-lab-website/images/share.png">
     </a>
   
 
@@ -1736,7 +1737,7 @@
 <div class="citation">
   
     <a class="citation-image" aria-label="PathWeaver: A High-Throughput Multi-GPU System for Graph-Based Approximate Nearest Neighbor Search">
-      <img src="/AIS-lab-website/images_paper/pathweaver.png" alt="PathWeaver: A High-Throughput Multi-GPU System for Graph-Based Approximate Nearest Neighbor Search" loading="lazy" onerror="this.src = '/AIS-lab-website/images/share.png'; this.onerror = null;">
+      <img src="/AIS-lab-website/images_paper/pathweaver.png" alt="PathWeaver: A High-Throughput Multi-GPU System for Graph-Based Approximate Nearest Neighbor Search" loading="lazy" data-fallback-src="/AIS-lab-website/images/share.png">
     </a>
   
 
@@ -1839,7 +1840,7 @@
 <div class="citation">
   
     <a href="https://doi.org/g97rjq" class="citation-image" aria-label="DANCE++: Differentiable Accelerator/Network Co-Exploration with Hard Constraints and Data-Free Training for Real-World Scenarios">
-      <img src="/AIS-lab-website/images_paper/dance++_overview.png" alt="DANCE++: Differentiable Accelerator/Network Co-Exploration with Hard Constraints and Data-Free Training for Real-World Scenarios" loading="lazy" onerror="this.src = '/AIS-lab-website/images/share.png'; this.onerror = null;">
+      <img src="/AIS-lab-website/images_paper/dance++_overview.png" alt="DANCE++: Differentiable Accelerator/Network Co-Exploration with Hard Constraints and Data-Free Training for Real-World Scenarios" loading="lazy" data-fallback-src="/AIS-lab-website/images/share.png">
     </a>
   
 
@@ -1916,7 +1917,7 @@
 <div class="citation">
   
     <a href="https://doi.org/g968xt" class="citation-image" aria-label="G³SA: A GPU-Accelerated Gold Standard Genomics Library for End-to-End Sequence Alignment">
-      <img src="/AIS-lab-website/images_paper/g3sa.jpg" alt="G³SA: A GPU-Accelerated Gold Standard Genomics Library for End-to-End Sequence Alignment" loading="lazy" onerror="this.src = '/AIS-lab-website/images/share.png'; this.onerror = null;">
+      <img src="/AIS-lab-website/images_paper/g3sa.jpg" alt="G³SA: A GPU-Accelerated Gold Standard Genomics Library for End-to-End Sequence Alignment" loading="lazy" data-fallback-src="/AIS-lab-website/images/share.png">
     </a>
   
 
@@ -1989,7 +1990,7 @@
 <div class="citation">
   
     <a href="https://doi.org/g9fb3x" class="citation-image" aria-label="Piccolo: Large-Scale Graph Processing with Fine-Grained In-Memory Scatter-Gather">
-      <img src="/AIS-lab-website/images_paper/piccolo_hpca.png" alt="Piccolo: Large-Scale Graph Processing with Fine-Grained In-Memory Scatter-Gather" loading="lazy" onerror="this.src = '/AIS-lab-website/images/share.png'; this.onerror = null;">
+      <img src="/AIS-lab-website/images_paper/piccolo_hpca.png" alt="Piccolo: Large-Scale Graph Processing with Fine-Grained In-Memory Scatter-Gather" loading="lazy" data-fallback-src="/AIS-lab-website/images/share.png">
     </a>
   
 
@@ -2062,7 +2063,7 @@
 <div class="citation">
   
     <a href="https://doi.org/g9fb3w" class="citation-image" aria-label="MimiQ: Low-Bit Data-Free Quantization of Vision Transformers with Encouraging Inter-Head Attention Similarity">
-      <img src="/AIS-lab-website/images_paper/mimiq.png" alt="MimiQ: Low-Bit Data-Free Quantization of Vision Transformers with Encouraging Inter-Head Attention Similarity" loading="lazy" onerror="this.src = '/AIS-lab-website/images/share.png'; this.onerror = null;">
+      <img src="/AIS-lab-website/images_paper/mimiq.png" alt="MimiQ: Low-Bit Data-Free Quantization of Vision Transformers with Encouraging Inter-Head Attention Similarity" loading="lazy" data-fallback-src="/AIS-lab-website/images/share.png">
     </a>
   
 
@@ -2182,7 +2183,7 @@
 <div class="citation">
   
     <a href="https://doi.org/g9fb3z" class="citation-image" aria-label="GraNNDis: Fast Distributed Graph Neural Network Training Framework for Multi-Server Clusters">
-      <img src="/AIS-lab-website/images_paper/granndis.png" alt="GraNNDis: Fast Distributed Graph Neural Network Training Framework for Multi-Server Clusters" loading="lazy" onerror="this.src = '/AIS-lab-website/images/share.png'; this.onerror = null;">
+      <img src="/AIS-lab-website/images_paper/granndis.png" alt="GraNNDis: Fast Distributed Graph Neural Network Training Framework for Multi-Server Clusters" loading="lazy" data-fallback-src="/AIS-lab-website/images/share.png">
     </a>
   
 
@@ -2259,7 +2260,7 @@
 <div class="citation">
   
     <a href="https://doi.org/gt7t5k" class="citation-image" aria-label="PID-Comm: A Fast and Flexible Collective Communication Framework for Commodity Processing-in-DIMMs">
-      <img src="/AIS-lab-website/images_paper/PIDComm.png" alt="PID-Comm: A Fast and Flexible Collective Communication Framework for Commodity Processing-in-DIMMs" loading="lazy" onerror="this.src = '/AIS-lab-website/images/share.png'; this.onerror = null;">
+      <img src="/AIS-lab-website/images_paper/PIDComm.png" alt="PID-Comm: A Fast and Flexible Collective Communication Framework for Commodity Processing-in-DIMMs" loading="lazy" data-fallback-src="/AIS-lab-website/images/share.png">
     </a>
   
 
@@ -2396,7 +2397,7 @@
 <div class="citation">
   
     <a href="https://doi.org/gt7t5j" class="citation-image" aria-label="DataFreeShield: Defending Adversarial Attacks without Training Data">
-      <img src="/AIS-lab-website/images_paper/dfshield.png" alt="DataFreeShield: Defending Adversarial Attacks without Training Data" loading="lazy" onerror="this.src = '/AIS-lab-website/images/share.png'; this.onerror = null;">
+      <img src="/AIS-lab-website/images_paper/dfshield.png" alt="DataFreeShield: Defending Adversarial Attacks without Training Data" loading="lazy" data-fallback-src="/AIS-lab-website/images/share.png">
     </a>
   
 
@@ -2450,7 +2451,7 @@
 <div class="citation">
   
     <a href="https://doi.org/gt7t5m" class="citation-image" aria-label="Pipette: Automatic Fine-Grained Large Language Model Training Configurator for Real-World Clusters">
-      <img src="/AIS-lab-website/images_paper/pipette_overall.png" alt="Pipette: Automatic Fine-Grained Large Language Model Training Configurator for Real-World Clusters" loading="lazy" onerror="this.src = '/AIS-lab-website/images/share.png'; this.onerror = null;">
+      <img src="/AIS-lab-website/images_paper/pipette_overall.png" alt="Pipette: Automatic Fine-Grained Large Language Model Training Configurator for Real-World Clusters" loading="lazy" data-fallback-src="/AIS-lab-website/images/share.png">
     </a>
   
 
@@ -2508,7 +2509,7 @@
 <div class="citation">
   
     <a href="https://doi.org/gts4br" class="citation-image" aria-label="A Case for In-Memory Random Scatter-Gather for Fast Graph Processing">
-      <img src="/AIS-lab-website/images_paper/piccolo_cal.png" alt="A Case for In-Memory Random Scatter-Gather for Fast Graph Processing" loading="lazy" onerror="this.src = '/AIS-lab-website/images/share.png'; this.onerror = null;">
+      <img src="/AIS-lab-website/images_paper/piccolo_cal.png" alt="A Case for In-Memory Random Scatter-Gather for Fast Graph Processing" loading="lazy" data-fallback-src="/AIS-lab-website/images/share.png">
     </a>
   
 
@@ -2581,7 +2582,7 @@
 <div class="citation">
   
     <a href="https://doi.org/gts4bt" class="citation-image" aria-label="PeerAiD: Improving Adversarial Distillation from a Specialized Peer Tutor">
-      <img src="/AIS-lab-website/images_paper/PeerAiD_poster_cvpr24.png" alt="PeerAiD: Improving Adversarial Distillation from a Specialized Peer Tutor" loading="lazy" onerror="this.src = '/AIS-lab-website/images/share.png'; this.onerror = null;">
+      <img src="/AIS-lab-website/images_paper/PeerAiD_poster_cvpr24.png" alt="PeerAiD: Improving Adversarial Distillation from a Specialized Peer Tutor" loading="lazy" data-fallback-src="/AIS-lab-website/images/share.png">
     </a>
   
 
@@ -2714,7 +2715,7 @@
 <div class="citation">
   
     <a href="https://doi.org/gts4bv" class="citation-image" aria-label="Smart-Infinity: Fast Large Language Model Training using Near-Storage Processing on a Real System">
-      <img src="/AIS-lab-website/images_paper/smart_infinity.png" alt="Smart-Infinity: Fast Large Language Model Training using Near-Storage Processing on a Real System" loading="lazy" onerror="this.src = '/AIS-lab-website/images/share.png'; this.onerror = null;">
+      <img src="/AIS-lab-website/images_paper/smart_infinity.png" alt="Smart-Infinity: Fast Large Language Model Training using Near-Storage Processing on a Real System" loading="lazy" data-fallback-src="/AIS-lab-website/images/share.png">
     </a>
   
 
@@ -2840,7 +2841,7 @@
 <div class="citation">
   
     <a href="https://doi.org/gtnchb" class="citation-image" aria-label="AGAThA: Fast and Efficient GPU Acceleration of Guided Sequence Alignment for Long Read Mapping">
-      <img src="/AIS-lab-website/images_paper/agatha.png" alt="AGAThA: Fast and Efficient GPU Acceleration of Guided Sequence Alignment for Long Read Mapping" loading="lazy" onerror="this.src = '/AIS-lab-website/images/share.png'; this.onerror = null;">
+      <img src="/AIS-lab-website/images_paper/agatha.png" alt="AGAThA: Fast and Efficient GPU Acceleration of Guided Sequence Alignment for Long Read Mapping" loading="lazy" data-fallback-src="/AIS-lab-website/images/share.png">
     </a>
   
 
@@ -2934,7 +2935,7 @@
 <div class="citation">
   
     <a href="https://doi.org/gtm34t" class="citation-image" aria-label="Enabling Fine-Grained Spatial Multitasking on Systolic-Array NPUs Using Dataflow Mirroring">
-      <img src="/AIS-lab-website/images_paper/mirror_tc.png" alt="Enabling Fine-Grained Spatial Multitasking on Systolic-Array NPUs Using Dataflow Mirroring" loading="lazy" onerror="this.src = '/AIS-lab-website/images/share.png'; this.onerror = null;">
+      <img src="/AIS-lab-website/images_paper/mirror_tc.png" alt="Enabling Fine-Grained Spatial Multitasking on Systolic-Array NPUs Using Dataflow Mirroring" loading="lazy" data-fallback-src="/AIS-lab-website/images/share.png">
     </a>
   
 
@@ -3011,7 +3012,7 @@
 <div class="citation">
   
     <a href="https://doi.org/gtjwtc" class="citation-image" aria-label="Fast Adversarial Training with Dynamic Batch-level Attack Control">
-      <img src="/AIS-lab-website/images_paper/dbac.png" alt="Fast Adversarial Training with Dynamic Batch-level Attack Control" loading="lazy" onerror="this.src = '/AIS-lab-website/images/share.png'; this.onerror = null;">
+      <img src="/AIS-lab-website/images_paper/dbac.png" alt="Fast Adversarial Training with Dynamic Batch-level Attack Control" loading="lazy" data-fallback-src="/AIS-lab-website/images/share.png">
     </a>
   
 
@@ -3065,7 +3066,7 @@
 <div class="citation">
   
     <a href="https://doi.org/gtnchc" class="citation-image" aria-label="Design and Analysis of a Processing-in-DIMM Join Algorithm: A Case Study with UPMEM DIMMs">
-      <img src="/AIS-lab-website/images_paper/pid_join.png" alt="Design and Analysis of a Processing-in-DIMM Join Algorithm: A Case Study with UPMEM DIMMs" loading="lazy" onerror="this.src = '/AIS-lab-website/images/share.png'; this.onerror = null;">
+      <img src="/AIS-lab-website/images_paper/pid_join.png" alt="Design and Analysis of a Processing-in-DIMM Join Algorithm: A Case Study with UPMEM DIMMs" loading="lazy" data-fallback-src="/AIS-lab-website/images/share.png">
     </a>
   
 
@@ -3142,7 +3143,7 @@
 <div class="citation">
   
     <a href="https://doi.org/gtnchd" class="citation-image" aria-label="Pipe-BD: Pipelined Parallel Blockwise Distillation">
-      <img src="/AIS-lab-website/images_paper/pipebd.png" alt="Pipe-BD: Pipelined Parallel Blockwise Distillation" loading="lazy" onerror="this.src = '/AIS-lab-website/images/share.png'; this.onerror = null;">
+      <img src="/AIS-lab-website/images_paper/pipebd.png" alt="Pipe-BD: Pipelined Parallel Blockwise Distillation" loading="lazy" data-fallback-src="/AIS-lab-website/images/share.png">
     </a>
   
 
@@ -3249,7 +3250,7 @@
 <div class="citation">
   
     <a href="https://doi.org/gs2t79" class="citation-image" aria-label="SGCN: Exploiting Compressed-Sparse Features in Deep Graph Convolutional Network Accelerators">
-      <img src="/AIS-lab-website/images_paper/sgcn.png" alt="SGCN: Exploiting Compressed-Sparse Features in Deep Graph Convolutional Network Accelerators" loading="lazy" onerror="this.src = '/AIS-lab-website/images/share.png'; this.onerror = null;">
+      <img src="/AIS-lab-website/images_paper/sgcn.png" alt="SGCN: Exploiting Compressed-Sparse Features in Deep Graph Convolutional Network Accelerators" loading="lazy" data-fallback-src="/AIS-lab-website/images/share.png">
     </a>
   
 
@@ -3341,7 +3342,7 @@
 <div class="citation">
   
     <a href="https://doi.org/gtm365" class="citation-image" aria-label="Optimus-CC: Efficient Large NLP Model Training with 3D Parallelism Aware Communication Compression">
-      <img src="/AIS-lab-website/images_paper/optimus_cc.png" alt="Optimus-CC: Efficient Large NLP Model Training with 3D Parallelism Aware Communication Compression" loading="lazy" onerror="this.src = '/AIS-lab-website/images/share.png'; this.onerror = null;">
+      <img src="/AIS-lab-website/images_paper/optimus_cc.png" alt="Optimus-CC: Efficient Large NLP Model Training with 3D Parallelism Aware Communication Compression" loading="lazy" data-fallback-src="/AIS-lab-website/images/share.png">
     </a>
   
 
@@ -3448,7 +3449,7 @@
 <div class="citation">
   
     <a href="https://arxiv.org/abs/2301.09312" class="citation-image" aria-label="Enabling Hard Constraints in Differentiable Neural Network and Accelerator Co-Exploration">
-      <img src="/AIS-lab-website/images_paper/hdx.png" alt="Enabling Hard Constraints in Differentiable Neural Network and Accelerator Co-Exploration" loading="lazy" onerror="this.src = '/AIS-lab-website/images/share.png'; this.onerror = null;">
+      <img src="/AIS-lab-website/images_paper/hdx.png" alt="Enabling Hard Constraints in Differentiable Neural Network and Accelerator Co-Exploration" loading="lazy" data-fallback-src="/AIS-lab-website/images/share.png">
     </a>
   
 
@@ -3527,7 +3528,7 @@
 <div class="citation">
   
     <a class="citation-image" aria-label="Improving Gradient Paths for Binary Convolutional Neural Networks">
-      <img src="" alt="Improving Gradient Paths for Binary Convolutional Neural Networks" loading="lazy" onerror="this.src = '/AIS-lab-website/images/share.png'; this.onerror = null;">
+      <img src="" alt="Improving Gradient Paths for Binary Convolutional Neural Networks" loading="lazy" data-fallback-src="/AIS-lab-website/images/share.png">
     </a>
   
 
@@ -3600,7 +3601,7 @@
 <div class="citation">
   
     <a href="https://doi.org/gtm37g" class="citation-image" aria-label="GuardiaNN: Fast and Secure On-Device Inference in TrustZone Using Embedded SRAM and Cryptographic Hardware">
-      <img src="" alt="GuardiaNN: Fast and Secure On-Device Inference in TrustZone Using Embedded SRAM and Cryptographic Hardware" loading="lazy" onerror="this.src = '/AIS-lab-website/images/share.png'; this.onerror = null;">
+      <img src="" alt="GuardiaNN: Fast and Secure On-Device Inference in TrustZone Using Embedded SRAM and Cryptographic Hardware" loading="lazy" data-fallback-src="/AIS-lab-website/images/share.png">
     </a>
   
 
@@ -3677,7 +3678,7 @@
 <div class="citation">
   
     <a href="https://doi.org/gtm37d" class="citation-image" aria-label="Decoupling Schedule, Topology Layout, and Algorithm to Easily Enlarge the Tuning Space of GPU Graph Processing">
-      <img src="" alt="Decoupling Schedule, Topology Layout, and Algorithm to Easily Enlarge the Tuning Space of GPU Graph Processing" loading="lazy" onerror="this.src = '/AIS-lab-website/images/share.png'; this.onerror = null;">
+      <img src="" alt="Decoupling Schedule, Topology Layout, and Algorithm to Easily Enlarge the Tuning Space of GPU Graph Processing" loading="lazy" data-fallback-src="/AIS-lab-website/images/share.png">
     </a>
   
 
@@ -3750,7 +3751,7 @@
 <div class="citation">
   
     <a href="https://doi.org/gtm37c" class="citation-image" aria-label="Slice-and-Forge: Making Better Use of Caches for Graph Convolutional Network Accelerators">
-      <img src="" alt="Slice-and-Forge: Making Better Use of Caches for Graph Convolutional Network Accelerators" loading="lazy" onerror="this.src = '/AIS-lab-website/images/share.png'; this.onerror = null;">
+      <img src="" alt="Slice-and-Forge: Making Better Use of Caches for Graph Convolutional Network Accelerators" loading="lazy" data-fallback-src="/AIS-lab-website/images/share.png">
     </a>
   
 
@@ -3842,7 +3843,7 @@
 <div class="citation">
   
     <a href="https://doi.org/gtm37p" class="citation-image" aria-label="ComPreEND: Computation Pruning through Predictive Early Negative Detection for ReLU in a Deep Neural Network Accelerator">
-      <img src="" alt="ComPreEND: Computation Pruning through Predictive Early Negative Detection for ReLU in a Deep Neural Network Accelerator" loading="lazy" onerror="this.src = '/AIS-lab-website/images/share.png'; this.onerror = null;">
+      <img src="" alt="ComPreEND: Computation Pruning through Predictive Early Negative Detection for ReLU in a Deep Neural Network Accelerator" loading="lazy" data-fallback-src="/AIS-lab-website/images/share.png">
     </a>
   
 
@@ -3919,7 +3920,7 @@
 <div class="citation">
   
     <a href="https://doi.org/grg25v" class="citation-image" aria-label="GCoM: a detailed GPU core model for accurate analytical modeling of modern GPUs">
-      <img src="" alt="GCoM: a detailed GPU core model for accurate analytical modeling of modern GPUs" loading="lazy" onerror="this.src = '/AIS-lab-website/images/share.png'; this.onerror = null;">
+      <img src="" alt="GCoM: a detailed GPU core model for accurate analytical modeling of modern GPUs" loading="lazy" data-fallback-src="/AIS-lab-website/images/share.png">
     </a>
   
 
@@ -3992,7 +3993,7 @@
 <div class="citation">
   
     <a href="https://doi.org/gtm37h" class="citation-image" aria-label="SALoBa: Maximizing Data Locality and Workload Balance for Fast Sequence Alignment on GPUs">
-      <img src="/AIS-lab-website/images_paper/saloba.png" alt="SALoBa: Maximizing Data Locality and Workload Balance for Fast Sequence Alignment on GPUs" loading="lazy" onerror="this.src = '/AIS-lab-website/images/share.png'; this.onerror = null;">
+      <img src="/AIS-lab-website/images_paper/saloba.png" alt="SALoBa: Maximizing Data Locality and Workload Balance for Fast Sequence Alignment on GPUs" loading="lazy" data-fallback-src="/AIS-lab-website/images/share.png">
     </a>
   
 
@@ -4084,7 +4085,7 @@
 <div class="citation">
   
     <a href="https://arxiv.org/abs/2203.17008" class="citation-image" aria-label="It's All In the Teacher: Zero-Shot Quantization Brought Closer to the Teacher">
-      <img src="/AIS-lab-website/images_paper/ait.png" alt="It's All In the Teacher: Zero-Shot Quantization Brought Closer to the Teacher" loading="lazy" onerror="this.src = '/AIS-lab-website/images/share.png'; this.onerror = null;">
+      <img src="/AIS-lab-website/images_paper/ait.png" alt="It's All In the Teacher: Zero-Shot Quantization Brought Closer to the Teacher" loading="lazy" data-fallback-src="/AIS-lab-website/images/share.png">
     </a>
   
 
@@ -4189,7 +4190,7 @@
 <div class="citation">
   
     <a href="https://doi.org/gtjv5c" class="citation-image" aria-label="DANCE: Differentiable Accelerator/Network Co-Exploration">
-      <img src="/AIS-lab-website/images_paper/dance.png" alt="DANCE: Differentiable Accelerator/Network Co-Exploration" loading="lazy" onerror="this.src = '/AIS-lab-website/images/share.png'; this.onerror = null;">
+      <img src="/AIS-lab-website/images_paper/dance.png" alt="DANCE: Differentiable Accelerator/Network Co-Exploration" loading="lazy" data-fallback-src="/AIS-lab-website/images/share.png">
     </a>
   
 
@@ -4281,7 +4282,7 @@
 <div class="citation">
   
     <a href="https://doi.org/gtm37r" class="citation-image" aria-label="Dataflow Mirroring: Architectural Support for Highly Efficient Fine-Grained Spatial Multitasking on Systolic-Array NPUs">
-      <img src="" alt="Dataflow Mirroring: Architectural Support for Highly Efficient Fine-Grained Spatial Multitasking on Systolic-Array NPUs" loading="lazy" onerror="this.src = '/AIS-lab-website/images/share.png'; this.onerror = null;">
+      <img src="" alt="Dataflow Mirroring: Architectural Support for Highly Efficient Fine-Grained Spatial Multitasking on Systolic-Array NPUs" loading="lazy" data-fallback-src="/AIS-lab-website/images/share.png">
     </a>
   
 
@@ -4358,7 +4359,7 @@
 <div class="citation">
   
     <a href="https://arxiv.org/abs/2111.02625" class="citation-image" aria-label="Qimera: Data-free Quantization with Synthetic Boundary Supporting Samples">
-      <img src="/AIS-lab-website/images_paper/qimera.png" alt="Qimera: Data-free Quantization with Synthetic Boundary Supporting Samples" loading="lazy" onerror="this.src = '/AIS-lab-website/images/share.png'; this.onerror = null;">
+      <img src="/AIS-lab-website/images_paper/qimera.png" alt="Qimera: Data-free Quantization with Synthetic Boundary Supporting Samples" loading="lazy" data-fallback-src="/AIS-lab-website/images/share.png">
     </a>
   
 
@@ -4461,7 +4462,7 @@
 <div class="citation">
   
     <a href="https://www.ijcai.org/proceedings/2021/478" class="citation-image" aria-label="AutoReCon: Neural Architecture Search-based Reconstruction for Data-free Compression">
-      <img src="" alt="AutoReCon: Neural Architecture Search-based Reconstruction for Data-free Compression" loading="lazy" onerror="this.src = '/AIS-lab-website/images/share.png'; this.onerror = null;">
+      <img src="" alt="AutoReCon: Neural Architecture Search-based Reconstruction for Data-free Compression" loading="lazy" data-fallback-src="/AIS-lab-website/images/share.png">
     </a>
   
 
@@ -4534,7 +4535,7 @@
 <div class="citation">
   
     <a href="https://doi.org/gndxg9" class="citation-image" aria-label="Making a Better Use of Caches for GCN Accelerators with Feature Slicing and Automatic Tile Morphing">
-      <img src="" alt="Making a Better Use of Caches for GCN Accelerators with Feature Slicing and Automatic Tile Morphing" loading="lazy" onerror="this.src = '/AIS-lab-website/images/share.png'; this.onerror = null;">
+      <img src="" alt="Making a Better Use of Caches for GCN Accelerators with Feature Slicing and Automatic Tile Morphing" loading="lazy" data-fallback-src="/AIS-lab-website/images/share.png">
     </a>
   
 
@@ -4626,7 +4627,7 @@
 <div class="citation">
   
     <a href="https://doi.org/gkg2mb" class="citation-image" aria-label="GradPIM: A Practical Processing-in-DRAM Architecture for Gradient Descent">
-      <img src="" alt="GradPIM: A Practical Processing-in-DRAM Architecture for Gradient Descent" loading="lazy" onerror="this.src = '/AIS-lab-website/images/share.png'; this.onerror = null;">
+      <img src="" alt="GradPIM: A Practical Processing-in-DRAM Architecture for Gradient Descent" loading="lazy" data-fallback-src="/AIS-lab-website/images/share.png">
     </a>
   
 
@@ -4735,7 +4736,7 @@
 <div class="citation">
   
     <a href="https://arxiv.org/abs/2010.00823" class="citation-image" aria-label="Deep Composer Classification Using Symbolic Representation">
-      <img src="/AIS-lab-website/images_paper/deepcomposer.png" alt="Deep Composer Classification Using Symbolic Representation" loading="lazy" onerror="this.src = '/AIS-lab-website/images/share.png'; this.onerror = null;">
+      <img src="/AIS-lab-website/images_paper/deepcomposer.png" alt="Deep Composer Classification Using Symbolic Representation" loading="lazy" data-fallback-src="/AIS-lab-website/images/share.png">
     </a>
   
 
@@ -4834,7 +4835,7 @@
 <div class="citation">
   
     <a href="https://doi.org/gtm372" class="citation-image" aria-label="FlexReduce: Flexible All-reduce for Distributed Deep Learning on Asymmetric Network Topology">
-      <img src="" alt="FlexReduce: Flexible All-reduce for Distributed Deep Learning on Asymmetric Network Topology" loading="lazy" onerror="this.src = '/AIS-lab-website/images/share.png'; this.onerror = null;">
+      <img src="" alt="FlexReduce: Flexible All-reduce for Distributed Deep Learning on Asymmetric Network Topology" loading="lazy" data-fallback-src="/AIS-lab-website/images/share.png">
     </a>
   
 
@@ -4926,7 +4927,7 @@
 <div class="citation">
   
     <a href="https://doi.org/gtm378" class="citation-image" aria-label="MUTE: Inter-class Ambiguity Driven Multi-hot Target Encoding for Deep Neural Network Design">
-      <img src="" alt="MUTE: Inter-class Ambiguity Driven Multi-hot Target Encoding for Deep Neural Network Design" loading="lazy" onerror="this.src = '/AIS-lab-website/images/share.png'; this.onerror = null;">
+      <img src="" alt="MUTE: Inter-class Ambiguity Driven Multi-hot Target Encoding for Deep Neural Network Design" loading="lazy" data-fallback-src="/AIS-lab-website/images/share.png">
     </a>
   
 
@@ -4976,7 +4977,7 @@
 <div class="citation">
   
     <a href="https://doi.org/gtm379" class="citation-image" aria-label="An Efficient High-Throughput LZ77-Based Decompressor in Reconfigurable Logic">
-      <img src="" alt="An Efficient High-Throughput LZ77-Based Decompressor in Reconfigurable Logic" loading="lazy" onerror="this.src = '/AIS-lab-website/images/share.png'; this.onerror = null;">
+      <img src="" alt="An Efficient High-Throughput LZ77-Based Decompressor in Reconfigurable Logic" loading="lazy" data-fallback-src="/AIS-lab-website/images/share.png">
     </a>
   
 
@@ -5049,7 +5050,7 @@
 <div class="citation">
   
     <a href="http://arxiv.org/abs/2001.04893" class="citation-image" aria-label="SimEx: Express Prediction of Inter-dataset Similarity by a Fleet of Autoencoders">
-      <img src="" alt="SimEx: Express Prediction of Inter-dataset Similarity by a Fleet of Autoencoders" loading="lazy" onerror="this.src = '/AIS-lab-website/images/share.png'; this.onerror = null;">
+      <img src="" alt="SimEx: Express Prediction of Inter-dataset Similarity by a Fleet of Autoencoders" loading="lazy" data-fallback-src="/AIS-lab-website/images/share.png">
     </a>
   
 
@@ -5120,7 +5121,7 @@
 <div class="citation">
   
     <a href="https://doi.org/gtm38t" class="citation-image" aria-label="In-memory database acceleration on FPGAs: a survey">
-      <img src="" alt="In-memory database acceleration on FPGAs: a survey" loading="lazy" onerror="this.src = '/AIS-lab-website/images/share.png'; this.onerror = null;">
+      <img src="" alt="In-memory database acceleration on FPGAs: a survey" loading="lazy" data-fallback-src="/AIS-lab-website/images/share.png">
     </a>
   
 
@@ -5193,7 +5194,7 @@
 <div class="citation">
   
     <a href="https://doi.org/gtm38v" class="citation-image" aria-label="Video-Text Compliance: Activity Verification Based on Natural Language Instructions">
-      <img src="" alt="Video-Text Compliance: Activity Verification Based on Natural Language Instructions" loading="lazy" onerror="this.src = '/AIS-lab-website/images/share.png'; this.onerror = null;">
+      <img src="" alt="Video-Text Compliance: Activity Verification Based on Natural Language Instructions" loading="lazy" data-fallback-src="/AIS-lab-website/images/share.png">
     </a>
   
 
@@ -5230,7 +5231,7 @@
 <div class="citation">
   
     <a href="https://doi.org/gtm38x" class="citation-image" aria-label="An Efficient Graph Compressor Based on Adaptive Prefix Encoding">
-      <img src="" alt="An Efficient Graph Compressor Based on Adaptive Prefix Encoding" loading="lazy" onerror="this.src = '/AIS-lab-website/images/share.png'; this.onerror = null;">
+      <img src="" alt="An Efficient Graph Compressor Based on Adaptive Prefix Encoding" loading="lazy" data-fallback-src="/AIS-lab-website/images/share.png">
     </a>
   
 
@@ -5267,7 +5268,7 @@
 <div class="citation">
   
     <a href="https://doi.org/gtm38w" class="citation-image" aria-label="Refine and Recycle: A Method to Increase Decompression Parallelism">
-      <img src="" alt="Refine and Recycle: A Method to Increase Decompression Parallelism" loading="lazy" onerror="this.src = '/AIS-lab-website/images/share.png'; this.onerror = null;">
+      <img src="" alt="Refine and Recycle: A Method to Increase Decompression Parallelism" loading="lazy" data-fallback-src="/AIS-lab-website/images/share.png">
     </a>
   
 
@@ -5304,7 +5305,7 @@
 <div class="citation">
   
     <a href="https://doi.org/gtnckt" class="citation-image" aria-label="A Diagnosable Network-on-Chip for FPGA Verification of Intellectual Properties">
-      <img src="" alt="A Diagnosable Network-on-Chip for FPGA Verification of Intellectual Properties" loading="lazy" onerror="this.src = '/AIS-lab-website/images/share.png'; this.onerror = null;">
+      <img src="" alt="A Diagnosable Network-on-Chip for FPGA Verification of Intellectual Properties" loading="lazy" data-fallback-src="/AIS-lab-website/images/share.png">
     </a>
   
 
@@ -5341,7 +5342,7 @@
 <div class="citation">
   
     <a href="https://doi.org/gf82w5" class="citation-image" aria-label="Accelerating Conversational Agents Built With Off-the-Shelf Modularized Services">
-      <img src="" alt="Accelerating Conversational Agents Built With Off-the-Shelf Modularized Services" loading="lazy" onerror="this.src = '/AIS-lab-website/images/share.png'; this.onerror = null;">
+      <img src="" alt="Accelerating Conversational Agents Built With Off-the-Shelf Modularized Services" loading="lazy" data-fallback-src="/AIS-lab-website/images/share.png">
     </a>
   
 
@@ -5380,7 +5381,7 @@
 <div class="citation">
   
     <a href="https://doi.org/gnm66t" class="citation-image" aria-label="Deep neural networks with weighted spikes">
-      <img src="" alt="Deep neural networks with weighted spikes" loading="lazy" onerror="this.src = '/AIS-lab-website/images/share.png'; this.onerror = null;">
+      <img src="" alt="Deep neural networks with weighted spikes" loading="lazy" data-fallback-src="/AIS-lab-website/images/share.png">
     </a>
   
 
@@ -5417,7 +5418,7 @@
 <div class="citation">
   
     <a href="https://doi.org/gtm382" class="citation-image" aria-label="My Being to Your Place, Your Being to My Place">
-      <img src="" alt="My Being to Your Place, Your Being to My Place" loading="lazy" onerror="this.src = '/AIS-lab-website/images/share.png'; this.onerror = null;">
+      <img src="" alt="My Being to Your Place, Your Being to My Place" loading="lazy" data-fallback-src="/AIS-lab-website/images/share.png">
     </a>
   
 
@@ -5454,7 +5455,7 @@
 <div class="citation">
   
     <a href="http://arxiv.org/abs/1802.03057" class="citation-image" aria-label="System G Distributed Graph Database">
-      <img src="" alt="System G Distributed Graph Database" loading="lazy" onerror="this.src = '/AIS-lab-website/images/share.png'; this.onerror = null;">
+      <img src="" alt="System G Distributed Graph Database" loading="lazy" data-fallback-src="/AIS-lab-website/images/share.png">
     </a>
   
 
@@ -5491,7 +5492,7 @@
 <div class="citation">
   
     <a href="https://doi.org/gtm385" class="citation-image" aria-label="TEI-NoC: Optimizing Ultralow Power NoCs Exploiting the Temperature Effect Inversion">
-      <img src="" alt="TEI-NoC: Optimizing Ultralow Power NoCs Exploiting the Temperature Effect Inversion" loading="lazy" onerror="this.src = '/AIS-lab-website/images/share.png'; this.onerror = null;">
+      <img src="" alt="TEI-NoC: Optimizing Ultralow Power NoCs Exploiting the Temperature Effect Inversion" loading="lazy" data-fallback-src="/AIS-lab-website/images/share.png">
     </a>
   
 
@@ -5530,7 +5531,7 @@
 <div class="citation">
   
     <a href="https://doi.org/gtm384" class="citation-image" aria-label="Scalable time-versioning support for property graph databases">
-      <img src="" alt="Scalable time-versioning support for property graph databases" loading="lazy" onerror="this.src = '/AIS-lab-website/images/share.png'; this.onerror = null;">
+      <img src="" alt="Scalable time-versioning support for property graph databases" loading="lazy" data-fallback-src="/AIS-lab-website/images/share.png">
     </a>
   
 
@@ -5567,7 +5568,7 @@
 <div class="citation">
   
     <a class="citation-image" aria-label="Analyzing In-Memory Hash Joins: Granularity Matters">
-      <img src="" alt="Analyzing In-Memory Hash Joins: Granularity Matters" loading="lazy" onerror="this.src = '/AIS-lab-website/images/share.png'; this.onerror = null;">
+      <img src="" alt="Analyzing In-Memory Hash Joins: Granularity Matters" loading="lazy" data-fallback-src="/AIS-lab-website/images/share.png">
     </a>
   
 
@@ -5623,7 +5624,7 @@
 <div class="citation">
   
     <a href="https://doi.org/gc5p2t" class="citation-image" aria-label="ExtraV: boosting graph processing near storage with a coherent accelerator">
-      <img src="" alt="ExtraV: boosting graph processing near storage with a coherent accelerator" loading="lazy" onerror="this.src = '/AIS-lab-website/images/share.png'; this.onerror = null;">
+      <img src="" alt="ExtraV: boosting graph processing near storage with a coherent accelerator" loading="lazy" data-fallback-src="/AIS-lab-website/images/share.png">
     </a>
   
 
@@ -5679,7 +5680,7 @@
 <div class="citation">
   
     <a href="https://doi.org/gtm386" class="citation-image" aria-label="Excavating the Hidden Parallelism Inside DRAM Architectures With Buffered Compares">
-      <img src="" alt="Excavating the Hidden Parallelism Inside DRAM Architectures With Buffered Compares" loading="lazy" onerror="this.src = '/AIS-lab-website/images/share.png'; this.onerror = null;">
+      <img src="" alt="Excavating the Hidden Parallelism Inside DRAM Architectures With Buffered Compares" loading="lazy" data-fallback-src="/AIS-lab-website/images/share.png">
     </a>
   
 
@@ -5716,7 +5717,7 @@
 <div class="citation">
   
     <a href="https://doi.org/gk8t4x" class="citation-image" aria-label="SCI-FII: Speculative Conversational Interface Framework for Incremental Inference on Modularized Services">
-      <img src="" alt="SCI-FII: Speculative Conversational Interface Framework for Incremental Inference on Modularized Services" loading="lazy" onerror="this.src = '/AIS-lab-website/images/share.png'; this.onerror = null;">
+      <img src="" alt="SCI-FII: Speculative Conversational Interface Framework for Incremental Inference on Modularized Services" loading="lazy" data-fallback-src="/AIS-lab-website/images/share.png">
     </a>
   
 
@@ -5755,7 +5756,7 @@
 <div class="citation">
   
     <a href="https://doi.org/gts4cr" class="citation-image" aria-label="Buffered compares: excavating the hidden parallelism inside DRAM architectures with lightweight logic">
-      <img src="" alt="Buffered compares: excavating the hidden parallelism inside DRAM architectures with lightweight logic" loading="lazy" onerror="this.src = '/AIS-lab-website/images/share.png'; this.onerror = null;">
+      <img src="" alt="Buffered compares: excavating the hidden parallelism inside DRAM architectures with lightweight logic" loading="lazy" data-fallback-src="/AIS-lab-website/images/share.png">
     </a>
   
 
@@ -5813,7 +5814,7 @@
 <div class="citation">
   
     <a href="https://doi.org/gtm39b" class="citation-image" aria-label="REDELF: An Energy-Efficient Deadlock-Free Routing for 3D NoCs with Partial Vertical Connections">
-      <img src="" alt="REDELF: An Energy-Efficient Deadlock-Free Routing for 3D NoCs with Partial Vertical Connections" loading="lazy" onerror="this.src = '/AIS-lab-website/images/share.png'; this.onerror = null;">
+      <img src="" alt="REDELF: An Energy-Efficient Deadlock-Free Routing for 3D NoCs with Partial Vertical Connections" loading="lazy" data-fallback-src="/AIS-lab-website/images/share.png">
     </a>
   
 
@@ -5869,7 +5870,7 @@
 <div class="citation">
   
     <a href="https://doi.org/gtm39c" class="citation-image" aria-label="THOR: Orchestrated thermal management of cores and networks in 3D many-core architectures">
-      <img src="" alt="THOR: Orchestrated thermal management of cores and networks in 3D many-core architectures" loading="lazy" onerror="this.src = '/AIS-lab-website/images/share.png'; this.onerror = null;">
+      <img src="" alt="THOR: Orchestrated thermal management of cores and networks in 3D many-core architectures" loading="lazy" data-fallback-src="/AIS-lab-website/images/share.png">
     </a>
   
 
@@ -5908,7 +5909,7 @@
 <div class="citation">
   
     <a href="https://doi.org/gtm39d" class="citation-image" aria-label="Tree-Mesh Heterogeneous Topology for Low-Latency NoC">
-      <img src="" alt="Tree-Mesh Heterogeneous Topology for Low-Latency NoC" loading="lazy" onerror="this.src = '/AIS-lab-website/images/share.png'; this.onerror = null;">
+      <img src="" alt="Tree-Mesh Heterogeneous Topology for Low-Latency NoC" loading="lazy" data-fallback-src="/AIS-lab-website/images/share.png">
     </a>
   
 
@@ -5947,7 +5948,7 @@
 <div class="citation">
   
     <a href="https://doi.org/gtm39g" class="citation-image" aria-label="Towards optimal adaptive routing in 3D NoC with limited vertical bandwidth">
-      <img src="" alt="Towards optimal adaptive routing in 3D NoC with limited vertical bandwidth" loading="lazy" onerror="this.src = '/AIS-lab-website/images/share.png'; this.onerror = null;">
+      <img src="" alt="Towards optimal adaptive routing in 3D NoC with limited vertical bandwidth" loading="lazy" data-fallback-src="/AIS-lab-website/images/share.png">
     </a>
   
 
@@ -5984,7 +5985,7 @@
 <div class="citation">
   
     <a href="https://doi.org/gtm39h" class="citation-image" aria-label="Mapping and Scheduling of Tasks and Communications on Many-Core SoC Under Local Memory Constraint">
-      <img src="" alt="Mapping and Scheduling of Tasks and Communications on Many-Core SoC Under Local Memory Constraint" loading="lazy" onerror="this.src = '/AIS-lab-website/images/share.png'; this.onerror = null;">
+      <img src="" alt="Mapping and Scheduling of Tasks and Communications on Many-Core SoC Under Local Memory Constraint" loading="lazy" data-fallback-src="/AIS-lab-website/images/share.png">
     </a>
   
 
@@ -6021,7 +6022,7 @@
 <div class="citation">
   
     <a href="https://doi.org/gtm39j" class="citation-image" aria-label="Deflection routing in 3D network-on-chip with limited vertical bandwidth">
-      <img src="" alt="Deflection routing in 3D network-on-chip with limited vertical bandwidth" loading="lazy" onerror="this.src = '/AIS-lab-website/images/share.png'; this.onerror = null;">
+      <img src="" alt="Deflection routing in 3D network-on-chip with limited vertical bandwidth" loading="lazy" data-fallback-src="/AIS-lab-website/images/share.png">
     </a>
   
 
@@ -6058,7 +6059,7 @@
 <div class="citation">
   
     <a href="https://doi.org/gtm39k" class="citation-image" aria-label="A deadlock-free routing algorithm requiring no virtual channel on 3D-NoCs with partial vertical connections">
-      <img src="" alt="A deadlock-free routing algorithm requiring no virtual channel on 3D-NoCs with partial vertical connections" loading="lazy" onerror="this.src = '/AIS-lab-website/images/share.png'; this.onerror = null;">
+      <img src="" alt="A deadlock-free routing algorithm requiring no virtual channel on 3D-NoCs with partial vertical connections" loading="lazy" data-fallback-src="/AIS-lab-website/images/share.png">
     </a>
   
 
@@ -6095,7 +6096,7 @@
 <div class="citation">
   
     <a href="https://doi.org/gtm39m" class="citation-image" aria-label="Deflection routing in 3D Network-on-Chip with TSV serialization">
-      <img src="" alt="Deflection routing in 3D Network-on-Chip with TSV serialization" loading="lazy" onerror="this.src = '/AIS-lab-website/images/share.png'; this.onerror = null;">
+      <img src="" alt="Deflection routing in 3D Network-on-Chip with TSV serialization" loading="lazy" data-fallback-src="/AIS-lab-website/images/share.png">
     </a>
   
 
@@ -6134,7 +6135,7 @@
 <div class="citation">
   
     <a href="https://doi.org/gtm39n" class="citation-image" aria-label="An adaptive routing algorithm for 3D mesh NoC with limited vertical bandwidth">
-      <img src="" alt="An adaptive routing algorithm for 3D mesh NoC with limited vertical bandwidth" loading="lazy" onerror="this.src = '/AIS-lab-website/images/share.png'; this.onerror = null;">
+      <img src="" alt="An adaptive routing algorithm for 3D mesh NoC with limited vertical bandwidth" loading="lazy" data-fallback-src="/AIS-lab-website/images/share.png">
     </a>
   
 
@@ -6171,7 +6172,7 @@
 <div class="citation">
   
     <a href="https://doi.org/gtm39q" class="citation-image" aria-label="Memory-aware mapping and scheduling of tasks and communications on many-core SoC">
-      <img src="" alt="Memory-aware mapping and scheduling of tasks and communications on many-core SoC" loading="lazy" onerror="this.src = '/AIS-lab-website/images/share.png'; this.onerror = null;">
+      <img src="" alt="Memory-aware mapping and scheduling of tasks and communications on many-core SoC" loading="lazy" data-fallback-src="/AIS-lab-website/images/share.png">
     </a>
   
 
@@ -6210,7 +6211,7 @@
 <div class="citation">
   
     <a href="https://doi.org/fx6k8z" class="citation-image" aria-label="3D network-on-chip with wireless links through inductive coupling">
-      <img src="" alt="3D network-on-chip with wireless links through inductive coupling" loading="lazy" onerror="this.src = '/AIS-lab-website/images/share.png'; this.onerror = null;">
+      <img src="" alt="3D network-on-chip with wireless links through inductive coupling" loading="lazy" data-fallback-src="/AIS-lab-website/images/share.png">
     </a>
   
 
@@ -6249,7 +6250,7 @@
 <div class="citation">
   
     <a href="https://doi.org/cbrdjg" class="citation-image" aria-label="Leakage power reduction of functional units in processors having zero-overhead loop counter">
-      <img src="" alt="Leakage power reduction of functional units in processors having zero-overhead loop counter" loading="lazy" onerror="this.src = '/AIS-lab-website/images/share.png'; this.onerror = null;">
+      <img src="" alt="Leakage power reduction of functional units in processors having zero-overhead loop counter" loading="lazy" data-fallback-src="/AIS-lab-website/images/share.png">
     </a>
   
 
@@ -6289,7 +6290,8 @@
     
 
 
-<footer class="background" style="--image: url('')" data-dark="true" data-size="wide">
+<footer class="background" data-dark="true" data-size="wide">
+  
   <!--
     <div>
       Extra details like contact info or address
@@ -6354,7 +6356,7 @@
     </a>
   </div>
 
-  <input type="checkbox" class="dark-toggle" data-tooltip="Dark mode" aria-label="toggle dark mode" oninput="onDarkToggleChange(event)">
+  <input type="checkbox" class="dark-toggle" data-tooltip="Dark mode" aria-label="toggle dark mode">
 </footer>
 
   </body>

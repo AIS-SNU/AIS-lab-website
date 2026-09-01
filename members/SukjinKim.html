@@ -64,24 +64,8 @@
 <meta property="og:type" content="website">
 
 
-<script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    
-      "@type": "WebSite",
-    
-    "name": "Sukjin Kim",
-    "description": "ECE, Seoul National University. MS/PhD Student",
-    "headline": "Sukjin Kim",
-    "publisher": {
-      "@type": "Organization",
-      "logo": { "@type": "ImageObject", "url": "/AIS-lab-website/images/icon.png" }
-    },
-    "url": ""
-  }
-</script>
-
 <link rel="alternate" type="application/rss+xml" href="/AIS-lab-website/feed.xml">
+
   <!-- Google Fonts -->
 <!-- automatically get url from fonts used in theme file -->
 
@@ -91,10 +75,7 @@
 <!-- Font Awesome icons (load asynchronously due to size) -->
 <!--  -->
 
-<link href="/fontawesome-free-6.5.2-web/css/all.css" rel="preload" as="style" onload="this.onload = null; this.rel = 'stylesheet';">
-<noscript>
-  <link href="/fontawesome-free-6.5.2-web/css/all.css" rel="stylesheet">
-</noscript>
+<link href="/fontawesome-free-6.5.2-web/css/all.css" rel="stylesheet">
 
   <!-- third party styles -->
 <!-- https://stylishthemes.github.io/Syntax-Themes/pygments/ -->
@@ -291,23 +272,41 @@
   <!-- include all js in scripts folder -->
 
 
-  <script src="/AIS-lab-website/_scripts/anchors.js"></script>
+  
+    <script src="/AIS-lab-website/_scripts/anchors.js"></script>
+  
 
-  <script src="/AIS-lab-website/_scripts/dark-mode.js"></script>
+  
+    <script src="/AIS-lab-website/_scripts/dark-mode.js"></script>
+  
 
-  <script src="/AIS-lab-website/_scripts/fetch-tags.js"></script>
+  
+    <script src="/AIS-lab-website/_scripts/fetch-tags.js"></script>
+  
 
-  <script src="/AIS-lab-website/_scripts/mark.min.js"></script>
+  
+    <script src="/AIS-lab-website/_scripts/image-fallback.js"></script>
+  
 
-  <script src="/AIS-lab-website/_scripts/popper.min.js"></script>
+  
+    <script src="/AIS-lab-website/_scripts/mark.min.js"></script>
+  
 
-  <script src="/AIS-lab-website/_scripts/search.js"></script>
+  
 
-  <script src="/AIS-lab-website/_scripts/site-search.js"></script>
+  
+    <script src="/AIS-lab-website/_scripts/search.js"></script>
+  
 
-  <script src="/AIS-lab-website/_scripts/tippy.min.js"></script>
+  
+    <script src="/AIS-lab-website/_scripts/site-search.js"></script>
+  
 
-  <script src="/AIS-lab-website/_scripts/tooltip.js"></script>
+  
+
+  
+    <script src="/AIS-lab-website/_scripts/tooltip.js"></script>
+  
 
 
 </head>
@@ -321,7 +320,8 @@
 
 
 
-<header class="background" style="--image: url('')" data-dark="false">
+<header class="background" data-dark="false">
+  
   <a href="/" class="home">
     
       <span class="logo">
@@ -423,11 +423,12 @@
   
 
   <section class="background" data-size="page">
+    
     <div class="float">
   
 <div class="portrait-wrapper">
   <a class="portrait" data-style="" aria-label="Sukjin Kim">
-    <img src="/AIS-lab-website/images_profile/profile_sukjin.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/AIS-lab-website/images/share.png'; this.onerror = null;">
+    <img src="/AIS-lab-website/images_profile/profile_sukjin.jpg" class="portrait-image" alt="member portrait" loading="lazy" data-fallback-src="/AIS-lab-website/images/share.png">
 
     
       <span class="portrait-text">
@@ -506,7 +507,7 @@ My research focuses on vector databases, with a particular interest in accelerat
 <div class="citation">
   
     <a class="citation-image" aria-label="TopGQ: Fast GNN Post-Training Quantization Leveraging Topology Information">
-      <img src="/AIS-lab-website/images_paper/topgq.png" alt="TopGQ: Fast GNN Post-Training Quantization Leveraging Topology Information" loading="lazy" onerror="this.src = '/AIS-lab-website/images/share.png'; this.onerror = null;">
+      <img src="/AIS-lab-website/images_paper/topgq.png" alt="TopGQ: Fast GNN Post-Training Quantization Leveraging Topology Information" loading="lazy" data-fallback-src="/AIS-lab-website/images/share.png">
     </a>
   
 
@@ -521,7 +522,7 @@ My research focuses on vector databases, with a particular interest in accelerat
     
 
     <div class="citation-authors" tabindex="0">
-      Dain Kwon, Kanghyun Choi, Hyeyoon Lee, Sunjong Park, Seoyong Lee, <span style="font-weight: bold; text-decoration: underline;">Sukjin Kim</span>, Jinho Lee
+      Dain Kwon, Kanghyun Choi, Hyeyoon Lee, Sunjong Park, Seoyong Lee, <span class="citation-author-highlight">Sukjin Kim</span>, Jinho Lee
     </div>
 
     <div class="citation-details">
@@ -560,7 +561,7 @@ My research focuses on vector databases, with a particular interest in accelerat
 <div class="citation">
   
     <a class="citation-image" aria-label="LoCaLUT: Harnessing Capacity-Computation Tradeoffs for LUT-Based Inference in DRAM-PIM">
-      <img src="/AIS-lab-website/images_paper/localut.png" alt="LoCaLUT: Harnessing Capacity-Computation Tradeoffs for LUT-Based Inference in DRAM-PIM" loading="lazy" onerror="this.src = '/AIS-lab-website/images/share.png'; this.onerror = null;">
+      <img src="/AIS-lab-website/images_paper/localut.png" alt="LoCaLUT: Harnessing Capacity-Computation Tradeoffs for LUT-Based Inference in DRAM-PIM" loading="lazy" data-fallback-src="/AIS-lab-website/images/share.png">
     </a>
   
 
@@ -575,7 +576,7 @@ My research focuses on vector databases, with a particular interest in accelerat
     
 
     <div class="citation-authors" tabindex="0">
-      Junguk Hong, Changmin Shin, <span style="font-weight: bold; text-decoration: underline;">Sukjin Kim</span>, Si Ung Noh, Taehee Kwon, SeongYeon Park, Hanjun Kim, Youngsok Kim, Jinho Lee
+      Junguk Hong, Changmin Shin, <span class="citation-author-highlight">Sukjin Kim</span>, Si Ung Noh, Taehee Kwon, SeongYeon Park, Hanjun Kim, Youngsok Kim, Jinho Lee
     </div>
 
     <div class="citation-details">
@@ -622,7 +623,7 @@ My research focuses on vector databases, with a particular interest in accelerat
 <div class="citation">
   
     <a class="citation-image" aria-label="FlexiWalker: Extensible GPU Framework for Efficient Dynamic Random Walks with Runtime Adaptation">
-      <img src="/AIS-lab-website/images_paper/flexiwalker.png" alt="FlexiWalker: Extensible GPU Framework for Efficient Dynamic Random Walks with Runtime Adaptation" loading="lazy" onerror="this.src = '/AIS-lab-website/images/share.png'; this.onerror = null;">
+      <img src="/AIS-lab-website/images_paper/flexiwalker.png" alt="FlexiWalker: Extensible GPU Framework for Efficient Dynamic Random Walks with Runtime Adaptation" loading="lazy" data-fallback-src="/AIS-lab-website/images/share.png">
     </a>
   
 
@@ -637,7 +638,7 @@ My research focuses on vector databases, with a particular interest in accelerat
     
 
     <div class="citation-authors" tabindex="0">
-      Seongyeon Park, Jaeyong Song, Changmin Shin, <span style="font-weight: bold; text-decoration: underline;">Sukjin Kim</span>, Junguk Hong, Jinho Lee
+      Seongyeon Park, Jaeyong Song, Changmin Shin, <span class="citation-author-highlight">Sukjin Kim</span>, Junguk Hong, Jinho Lee
     </div>
 
     <div class="citation-details">
@@ -676,7 +677,7 @@ My research focuses on vector databases, with a particular interest in accelerat
 <div class="citation">
   
     <a class="citation-image" aria-label="PathWeaver: A High-Throughput Multi-GPU System for Graph-Based Approximate Nearest Neighbor Search">
-      <img src="/AIS-lab-website/images_paper/pathweaver.png" alt="PathWeaver: A High-Throughput Multi-GPU System for Graph-Based Approximate Nearest Neighbor Search" loading="lazy" onerror="this.src = '/AIS-lab-website/images/share.png'; this.onerror = null;">
+      <img src="/AIS-lab-website/images_paper/pathweaver.png" alt="PathWeaver: A High-Throughput Multi-GPU System for Graph-Based Approximate Nearest Neighbor Search" loading="lazy" data-fallback-src="/AIS-lab-website/images/share.png">
     </a>
   
 
@@ -691,7 +692,7 @@ My research focuses on vector databases, with a particular interest in accelerat
     
 
     <div class="citation-authors" tabindex="0">
-      <span style="font-weight: bold; text-decoration: underline;">Sukjin Kim</span>, Seongyeon Park, Si Ung Noh, Junguk Hong, Taehee Kwon, Hunseong Lim, Jinho Lee
+      <span class="citation-author-highlight">Sukjin Kim</span>, Seongyeon Park, Si Ung Noh, Junguk Hong, Taehee Kwon, Hunseong Lim, Jinho Lee
     </div>
 
     <div class="citation-details">
@@ -795,7 +796,8 @@ My research focuses on vector databases, with a particular interest in accelerat
     
 
 
-<footer class="background" style="--image: url('')" data-dark="true" data-size="wide">
+<footer class="background" data-dark="true" data-size="wide">
+  
   <!--
     <div>
       Extra details like contact info or address
@@ -860,7 +862,7 @@ My research focuses on vector databases, with a particular interest in accelerat
     </a>
   </div>
 
-  <input type="checkbox" class="dark-toggle" data-tooltip="Dark mode" aria-label="toggle dark mode" oninput="onDarkToggleChange(event)">
+  <input type="checkbox" class="dark-toggle" data-tooltip="Dark mode" aria-label="toggle dark mode">
 </footer>
 
   </body>

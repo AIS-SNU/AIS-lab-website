@@ -64,24 +64,8 @@
 <meta property="og:type" content="website">
 
 
-<script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    
-      "@type": "WebSite",
-    
-    "name": "People",
-    "description": "ECE, Seoul National University. Accelerated Intelligent Systems Lab (AISys) is affiliated with ECE, Seoul National University. We conduct research on system and architectural issues for accelerating various applications such as deep learning, compression algorithms and graph processing.",
-    "headline": "People",
-    "publisher": {
-      "@type": "Organization",
-      "logo": { "@type": "ImageObject", "url": "/AIS-lab-website/images/icon.png" }
-    },
-    "url": ""
-  }
-</script>
-
 <link rel="alternate" type="application/rss+xml" href="/AIS-lab-website/feed.xml">
+
   <!-- Google Fonts -->
 <!-- automatically get url from fonts used in theme file -->
 
@@ -91,10 +75,7 @@
 <!-- Font Awesome icons (load asynchronously due to size) -->
 <!--  -->
 
-<link href="/fontawesome-free-6.5.2-web/css/all.css" rel="preload" as="style" onload="this.onload = null; this.rel = 'stylesheet';">
-<noscript>
-  <link href="/fontawesome-free-6.5.2-web/css/all.css" rel="stylesheet">
-</noscript>
+<link href="/fontawesome-free-6.5.2-web/css/all.css" rel="stylesheet">
 
   <!-- third party styles -->
 <!-- https://stylishthemes.github.io/Syntax-Themes/pygments/ -->
@@ -343,23 +324,41 @@
   <!-- include all js in scripts folder -->
 
 
-  <script src="/AIS-lab-website/_scripts/anchors.js"></script>
+  
+    <script src="/AIS-lab-website/_scripts/anchors.js"></script>
+  
 
-  <script src="/AIS-lab-website/_scripts/dark-mode.js"></script>
+  
+    <script src="/AIS-lab-website/_scripts/dark-mode.js"></script>
+  
 
-  <script src="/AIS-lab-website/_scripts/fetch-tags.js"></script>
+  
+    <script src="/AIS-lab-website/_scripts/fetch-tags.js"></script>
+  
 
-  <script src="/AIS-lab-website/_scripts/mark.min.js"></script>
+  
+    <script src="/AIS-lab-website/_scripts/image-fallback.js"></script>
+  
 
-  <script src="/AIS-lab-website/_scripts/popper.min.js"></script>
+  
+    <script src="/AIS-lab-website/_scripts/mark.min.js"></script>
+  
 
-  <script src="/AIS-lab-website/_scripts/search.js"></script>
+  
 
-  <script src="/AIS-lab-website/_scripts/site-search.js"></script>
+  
+    <script src="/AIS-lab-website/_scripts/search.js"></script>
+  
 
-  <script src="/AIS-lab-website/_scripts/tippy.min.js"></script>
+  
+    <script src="/AIS-lab-website/_scripts/site-search.js"></script>
+  
 
-  <script src="/AIS-lab-website/_scripts/tooltip.js"></script>
+  
+
+  
+    <script src="/AIS-lab-website/_scripts/tooltip.js"></script>
+  
 
 
 </head>
@@ -373,7 +372,8 @@
 
 
 
-<header class="background" style="--image: url('')" data-dark="false">
+<header class="background" data-dark="false">
+  
   <a href="/" class="home">
     
       <span class="logo">
@@ -475,9 +475,10 @@
   
 
   <section class="background" data-size="page">
+    
     <div class="feature" data-flip="">
   <a href="/AIS-lab-website/members/JinhoLee.html" class="feature-image" aria-label="feature link">
-    <img src="/AIS-lab-website/images_profile/jinho1.jpg" loading="lazy" alt="feature image" onerror="this.src = '/AIS-lab-website/images/share.png'; this.onerror = null;">
+    <img src="/AIS-lab-website/images_profile/jinho1.jpg" loading="lazy" alt="feature image" data-fallback-src="/AIS-lab-website/images/share.png">
   </a>
   <div class="feature-text">
     
@@ -508,6 +509,7 @@ Office: 301-1009</p>
   
 
   <section class="background" data-size="page">
+    
     <!--
   background: ;
   dark: ;
@@ -518,7 +520,7 @@ Office: 301-1009</p>
 
 <div class="portrait-wrapper">
   <a href="/AIS-lab-website/members/KanghyunChoi.html" class="portrait" data-style="" aria-label="Kanghyun Choi">
-    <img src="/AIS-lab-website/images_profile/profile_kanghyunchoi.png" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/AIS-lab-website/images/share.png'; this.onerror = null;">
+    <img src="/AIS-lab-website/images_profile/profile_kanghyunchoi.png" class="portrait-image" alt="member portrait" loading="lazy" data-fallback-src="/AIS-lab-website/images/share.png">
 
     
       <span class="portrait-text">
@@ -542,7 +544,7 @@ Office: 301-1009</p>
 
 <div class="portrait-wrapper">
   <a href="/AIS-lab-website/members/JaeyongSong.html" class="portrait" data-style="" aria-label="Jaeyong Song">
-    <img src="/AIS-lab-website/images_profile/profile_jaeyongsong.png" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/AIS-lab-website/images/share.png'; this.onerror = null;">
+    <img src="/AIS-lab-website/images_profile/profile_jaeyongsong.png" class="portrait-image" alt="member portrait" loading="lazy" data-fallback-src="/AIS-lab-website/images/share.png">
 
     
       <span class="portrait-text">
@@ -566,7 +568,7 @@ Office: 301-1009</p>
 
 <div class="portrait-wrapper">
   <a href="/AIS-lab-website/members/HyeyoonLee.html" class="portrait" data-style="" aria-label="Hyeyoon Lee">
-    <img src="/AIS-lab-website/images_profile/profile_hyeyoonlee.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/AIS-lab-website/images/share.png'; this.onerror = null;">
+    <img src="/AIS-lab-website/images_profile/profile_hyeyoonlee.jpg" class="portrait-image" alt="member portrait" loading="lazy" data-fallback-src="/AIS-lab-website/images/share.png">
 
     
       <span class="portrait-text">
@@ -590,7 +592,7 @@ Office: 301-1009</p>
 
 <div class="portrait-wrapper">
   <a href="/AIS-lab-website/members/JaewonJung.html" class="portrait" data-style="" aria-label="Jaewon Jung">
-    <img src="/AIS-lab-website/images_profile/profile_jaewonjung.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/AIS-lab-website/images/share.png'; this.onerror = null;">
+    <img src="/AIS-lab-website/images_profile/profile_jaewonjung.jpg" class="portrait-image" alt="member portrait" loading="lazy" data-fallback-src="/AIS-lab-website/images/share.png">
 
     
       <span class="portrait-text">
@@ -614,7 +616,7 @@ Office: 301-1009</p>
 
 <div class="portrait-wrapper">
   <a href="/AIS-lab-website/members/SeongyeonPark.html" class="portrait" data-style="" aria-label="Seongyeon Park">
-    <img src="/AIS-lab-website/images_profile/profile_seongyeonpark.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/AIS-lab-website/images/share.png'; this.onerror = null;">
+    <img src="/AIS-lab-website/images_profile/profile_seongyeonpark.jpg" class="portrait-image" alt="member portrait" loading="lazy" data-fallback-src="/AIS-lab-website/images/share.png">
 
     
       <span class="portrait-text">
@@ -638,7 +640,7 @@ Office: 301-1009</p>
 
 <div class="portrait-wrapper">
   <a href="/AIS-lab-website/members/HongsunJang.html" class="portrait" data-style="" aria-label="Hongsun Jang">
-    <img src="/AIS-lab-website/images_profile/profile_hongsunjang.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/AIS-lab-website/images/share.png'; this.onerror = null;">
+    <img src="/AIS-lab-website/images_profile/profile_hongsunjang.jpg" class="portrait-image" alt="member portrait" loading="lazy" data-fallback-src="/AIS-lab-website/images/share.png">
 
     
       <span class="portrait-text">
@@ -662,7 +664,7 @@ Office: 301-1009</p>
 
 <div class="portrait-wrapper">
   <a href="/AIS-lab-website/members/JungukHong.html" class="portrait" data-style="" aria-label="Junguk Hong">
-    <img src="/AIS-lab-website/images_profile/profile_jungukhong.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/AIS-lab-website/images/share.png'; this.onerror = null;">
+    <img src="/AIS-lab-website/images_profile/profile_jungukhong.jpg" class="portrait-image" alt="member portrait" loading="lazy" data-fallback-src="/AIS-lab-website/images/share.png">
 
     
       <span class="portrait-text">
@@ -686,7 +688,7 @@ Office: 301-1009</p>
 
 <div class="portrait-wrapper">
   <a href="/AIS-lab-website/members/SunjongPark.html" class="portrait" data-style="" aria-label="SunJong Park">
-    <img src="/AIS-lab-website/images_profile/profile_sunjongpark.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/AIS-lab-website/images/share.png'; this.onerror = null;">
+    <img src="/AIS-lab-website/images_profile/profile_sunjongpark.jpg" class="portrait-image" alt="member portrait" loading="lazy" data-fallback-src="/AIS-lab-website/images/share.png">
 
     
       <span class="portrait-text">
@@ -710,7 +712,7 @@ Office: 301-1009</p>
 
 <div class="portrait-wrapper">
   <a href="/AIS-lab-website/members/SiUngNoh.html" class="portrait" data-style="" aria-label="Si Ung Noh">
-    <img src="/AIS-lab-website/images_profile/profile_default.png" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/AIS-lab-website/images/share.png'; this.onerror = null;">
+    <img src="/AIS-lab-website/images_profile/profile_default.png" class="portrait-image" alt="member portrait" loading="lazy" data-fallback-src="/AIS-lab-website/images/share.png">
 
     
       <span class="portrait-text">
@@ -734,7 +736,7 @@ Office: 301-1009</p>
 
 <div class="portrait-wrapper">
   <a href="/AIS-lab-website/members/HunseongLim.html" class="portrait" data-style="" aria-label="Hunseong Lim">
-    <img src="/AIS-lab-website/images_profile/profile_hunsunglim.png" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/AIS-lab-website/images/share.png'; this.onerror = null;">
+    <img src="/AIS-lab-website/images_profile/profile_hunsunglim.png" class="portrait-image" alt="member portrait" loading="lazy" data-fallback-src="/AIS-lab-website/images/share.png">
 
     
       <span class="portrait-text">
@@ -758,7 +760,7 @@ Office: 301-1009</p>
 
 <div class="portrait-wrapper">
   <a href="/AIS-lab-website/members/ChangminShin.html" class="portrait" data-style="" aria-label="Changmin Shin">
-    <img src="/AIS-lab-website/images_profile/profile_changmin.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/AIS-lab-website/images/share.png'; this.onerror = null;">
+    <img src="/AIS-lab-website/images_profile/profile_changmin.jpg" class="portrait-image" alt="member portrait" loading="lazy" data-fallback-src="/AIS-lab-website/images/share.png">
 
     
       <span class="portrait-text">
@@ -782,7 +784,7 @@ Office: 301-1009</p>
 
 <div class="portrait-wrapper">
   <a href="/AIS-lab-website/members/SukjinKim.html" class="portrait" data-style="" aria-label="Sukjin Kim">
-    <img src="/AIS-lab-website/images_profile/profile_sukjin.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/AIS-lab-website/images/share.png'; this.onerror = null;">
+    <img src="/AIS-lab-website/images_profile/profile_sukjin.jpg" class="portrait-image" alt="member portrait" loading="lazy" data-fallback-src="/AIS-lab-website/images/share.png">
 
     
       <span class="portrait-text">
@@ -806,7 +808,7 @@ Office: 301-1009</p>
 
 <div class="portrait-wrapper">
   <a href="/AIS-lab-website/members/JunSung.html" class="portrait" data-style="" aria-label="Jun Sung">
-    <img src="/AIS-lab-website/images_profile/profile_junsung.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/AIS-lab-website/images/share.png'; this.onerror = null;">
+    <img src="/AIS-lab-website/images_profile/profile_junsung.jpg" class="portrait-image" alt="member portrait" loading="lazy" data-fallback-src="/AIS-lab-website/images/share.png">
 
     
       <span class="portrait-text">
@@ -830,7 +832,7 @@ Office: 301-1009</p>
 
 <div class="portrait-wrapper">
   <a href="/AIS-lab-website/members/DainKwon.html" class="portrait" data-style="" aria-label="Dain Kwon">
-    <img src="/AIS-lab-website/images_profile/profile_dainkwon.jpeg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/AIS-lab-website/images/share.png'; this.onerror = null;">
+    <img src="/AIS-lab-website/images_profile/profile_dainkwon.jpeg" class="portrait-image" alt="member portrait" loading="lazy" data-fallback-src="/AIS-lab-website/images/share.png">
 
     
       <span class="portrait-text">
@@ -854,7 +856,7 @@ Office: 301-1009</p>
 
 <div class="portrait-wrapper">
   <a href="/AIS-lab-website/members/WoobeenJo.html" class="portrait" data-style="" aria-label="Woobeen Jo">
-    <img src="/AIS-lab-website/images_profile/profile_default.png" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/AIS-lab-website/images/share.png'; this.onerror = null;">
+    <img src="/AIS-lab-website/images_profile/profile_default.png" class="portrait-image" alt="member portrait" loading="lazy" data-fallback-src="/AIS-lab-website/images/share.png">
 
     
       <span class="portrait-text">
@@ -878,7 +880,7 @@ Office: 301-1009</p>
 
 <div class="portrait-wrapper">
   <a href="/AIS-lab-website/members/TaeheeKwon.html" class="portrait" data-style="" aria-label="Taehee Kwon">
-    <img src="/AIS-lab-website/images_profile/profile_taeheekwon.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/AIS-lab-website/images/share.png'; this.onerror = null;">
+    <img src="/AIS-lab-website/images_profile/profile_taeheekwon.jpg" class="portrait-image" alt="member portrait" loading="lazy" data-fallback-src="/AIS-lab-website/images/share.png">
 
     
       <span class="portrait-text">
@@ -902,7 +904,7 @@ Office: 301-1009</p>
 
 <div class="portrait-wrapper">
   <a href="/AIS-lab-website/members/ShingeonKim.html" class="portrait" data-style="" aria-label="Shingeon Kim">
-    <img src="/AIS-lab-website/images_profile/profile_shingeonkim.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/AIS-lab-website/images/share.png'; this.onerror = null;">
+    <img src="/AIS-lab-website/images_profile/profile_shingeonkim.jpg" class="portrait-image" alt="member portrait" loading="lazy" data-fallback-src="/AIS-lab-website/images/share.png">
 
     
       <span class="portrait-text">
@@ -926,7 +928,7 @@ Office: 301-1009</p>
 
 <div class="portrait-wrapper">
   <a href="/AIS-lab-website/members/JihwanJang.html" class="portrait" data-style="" aria-label="Jihwan Jang">
-    <img src="/AIS-lab-website/images_profile/profile_jihwanjang.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/AIS-lab-website/images/share.png'; this.onerror = null;">
+    <img src="/AIS-lab-website/images_profile/profile_jihwanjang.jpg" class="portrait-image" alt="member portrait" loading="lazy" data-fallback-src="/AIS-lab-website/images/share.png">
 
     
       <span class="portrait-text">
@@ -954,6 +956,7 @@ Office: 301-1009</p>
   
 
   <section class="background" data-size="page">
+    
     <!--
   background: ;
   dark: ;
@@ -964,7 +967,7 @@ Office: 301-1009</p>
 
 <div class="portrait-wrapper">
   <a href="/AIS-lab-website/members/HohyunKim.html" class="portrait" data-style="" aria-label="Hohyun Kim">
-    <img src="/AIS-lab-website/images_profile/profile_default.png" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/AIS-lab-website/images/share.png'; this.onerror = null;">
+    <img src="/AIS-lab-website/images_profile/profile_default.png" class="portrait-image" alt="member portrait" loading="lazy" data-fallback-src="/AIS-lab-website/images/share.png">
 
     
       <span class="portrait-text">
@@ -988,7 +991,7 @@ Office: 301-1009</p>
 
 <div class="portrait-wrapper">
   <a href="/AIS-lab-website/members/MingiYoo.html" class="portrait" data-style="" aria-label="Mingi Yoo">
-    <img src="/AIS-lab-website/images_profile/profile_default.png" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/AIS-lab-website/images/share.png'; this.onerror = null;">
+    <img src="/AIS-lab-website/images_profile/profile_default.png" class="portrait-image" alt="member portrait" loading="lazy" data-fallback-src="/AIS-lab-website/images/share.png">
 
     
       <span class="portrait-text">
@@ -1012,7 +1015,7 @@ Office: 301-1009</p>
 
 <div class="portrait-wrapper">
   <a href="/AIS-lab-website/members/DeokkiHong.html" class="portrait" data-style="" aria-label="Deokki Hong">
-    <img src="/AIS-lab-website/images_profile/profile_default.png" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/AIS-lab-website/images/share.png'; this.onerror = null;">
+    <img src="/AIS-lab-website/images_profile/profile_default.png" class="portrait-image" alt="member portrait" loading="lazy" data-fallback-src="/AIS-lab-website/images/share.png">
 
     
       <span class="portrait-text">
@@ -1036,7 +1039,7 @@ Office: 301-1009</p>
 
 <div class="portrait-wrapper">
   <a href="/AIS-lab-website/members/Seoyong.html" class="portrait" data-style="" aria-label="Seoyong Lee">
-    <img src="/AIS-lab-website/images_profile/profile_default.png" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/AIS-lab-website/images/share.png'; this.onerror = null;">
+    <img src="/AIS-lab-website/images_profile/profile_default.png" class="portrait-image" alt="member portrait" loading="lazy" data-fallback-src="/AIS-lab-website/images/share.png">
 
     
       <span class="portrait-text">
@@ -1064,7 +1067,8 @@ Office: 301-1009</p>
     
 
 
-<footer class="background" style="--image: url('')" data-dark="true" data-size="wide">
+<footer class="background" data-dark="true" data-size="wide">
+  
   <!--
     <div>
       Extra details like contact info or address
@@ -1129,7 +1133,7 @@ Office: 301-1009</p>
     </a>
   </div>
 
-  <input type="checkbox" class="dark-toggle" data-tooltip="Dark mode" aria-label="toggle dark mode" oninput="onDarkToggleChange(event)">
+  <input type="checkbox" class="dark-toggle" data-tooltip="Dark mode" aria-label="toggle dark mode">
 </footer>
 
   </body>

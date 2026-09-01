@@ -64,24 +64,8 @@
 <meta property="og:type" content="website">
 
 
-<script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    
-      "@type": "WebSite",
-    
-    "name": "Si Ung Noh",
-    "description": "ECE, Seoul National University. MS/PhD Student",
-    "headline": "Si Ung Noh",
-    "publisher": {
-      "@type": "Organization",
-      "logo": { "@type": "ImageObject", "url": "/AIS-lab-website/images/icon.png" }
-    },
-    "url": ""
-  }
-</script>
-
 <link rel="alternate" type="application/rss+xml" href="/AIS-lab-website/feed.xml">
+
   <!-- Google Fonts -->
 <!-- automatically get url from fonts used in theme file -->
 
@@ -91,10 +75,7 @@
 <!-- Font Awesome icons (load asynchronously due to size) -->
 <!--  -->
 
-<link href="/fontawesome-free-6.5.2-web/css/all.css" rel="preload" as="style" onload="this.onload = null; this.rel = 'stylesheet';">
-<noscript>
-  <link href="/fontawesome-free-6.5.2-web/css/all.css" rel="stylesheet">
-</noscript>
+<link href="/fontawesome-free-6.5.2-web/css/all.css" rel="stylesheet">
 
   <!-- third party styles -->
 <!-- https://stylishthemes.github.io/Syntax-Themes/pygments/ -->
@@ -291,23 +272,41 @@
   <!-- include all js in scripts folder -->
 
 
-  <script src="/AIS-lab-website/_scripts/anchors.js"></script>
+  
+    <script src="/AIS-lab-website/_scripts/anchors.js"></script>
+  
 
-  <script src="/AIS-lab-website/_scripts/dark-mode.js"></script>
+  
+    <script src="/AIS-lab-website/_scripts/dark-mode.js"></script>
+  
 
-  <script src="/AIS-lab-website/_scripts/fetch-tags.js"></script>
+  
+    <script src="/AIS-lab-website/_scripts/fetch-tags.js"></script>
+  
 
-  <script src="/AIS-lab-website/_scripts/mark.min.js"></script>
+  
+    <script src="/AIS-lab-website/_scripts/image-fallback.js"></script>
+  
 
-  <script src="/AIS-lab-website/_scripts/popper.min.js"></script>
+  
+    <script src="/AIS-lab-website/_scripts/mark.min.js"></script>
+  
 
-  <script src="/AIS-lab-website/_scripts/search.js"></script>
+  
 
-  <script src="/AIS-lab-website/_scripts/site-search.js"></script>
+  
+    <script src="/AIS-lab-website/_scripts/search.js"></script>
+  
 
-  <script src="/AIS-lab-website/_scripts/tippy.min.js"></script>
+  
+    <script src="/AIS-lab-website/_scripts/site-search.js"></script>
+  
 
-  <script src="/AIS-lab-website/_scripts/tooltip.js"></script>
+  
+
+  
+    <script src="/AIS-lab-website/_scripts/tooltip.js"></script>
+  
 
 
 </head>
@@ -321,7 +320,8 @@
 
 
 
-<header class="background" style="--image: url('')" data-dark="false">
+<header class="background" data-dark="false">
+  
   <a href="/" class="home">
     
       <span class="logo">
@@ -423,11 +423,12 @@
   
 
   <section class="background" data-size="page">
+    
     <div class="float">
   
 <div class="portrait-wrapper">
   <a class="portrait" data-style="" aria-label="Si Ung Noh">
-    <img src="/AIS-lab-website/images_profile/profile_default.png" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/AIS-lab-website/images/share.png'; this.onerror = null;">
+    <img src="/AIS-lab-website/images_profile/profile_default.png" class="portrait-image" alt="member portrait" loading="lazy" data-fallback-src="/AIS-lab-website/images/share.png">
 
     
       <span class="portrait-text">
@@ -488,7 +489,7 @@
 <div class="citation">
   
     <a class="citation-image" aria-label="A Cost-Effective Near-Storage Processing Solution for Offline Inference of Long-Context LLMs">
-      <img src="/AIS-lab-website/images_paper/hilos.png" alt="A Cost-Effective Near-Storage Processing Solution for Offline Inference of Long-Context LLMs" loading="lazy" onerror="this.src = '/AIS-lab-website/images/share.png'; this.onerror = null;">
+      <img src="/AIS-lab-website/images_paper/hilos.png" alt="A Cost-Effective Near-Storage Processing Solution for Offline Inference of Long-Context LLMs" loading="lazy" data-fallback-src="/AIS-lab-website/images/share.png">
     </a>
   
 
@@ -503,7 +504,7 @@
     
 
     <div class="citation-authors" tabindex="0">
-      Hongsun Jang, Jaeyong Song, Changmin Shin, <span style="font-weight: bold; text-decoration: underline;">Si Ung Noh</span>, Jaewon Jung, Jisung Park, Jinho Lee
+      Hongsun Jang, Jaeyong Song, Changmin Shin, <span class="citation-author-highlight">Si Ung Noh</span>, Jaewon Jung, Jisung Park, Jinho Lee
     </div>
 
     <div class="citation-details">
@@ -584,7 +585,7 @@
 <div class="citation">
   
     <a class="citation-image" aria-label="LoCaLUT: Harnessing Capacity-Computation Tradeoffs for LUT-Based Inference in DRAM-PIM">
-      <img src="/AIS-lab-website/images_paper/localut.png" alt="LoCaLUT: Harnessing Capacity-Computation Tradeoffs for LUT-Based Inference in DRAM-PIM" loading="lazy" onerror="this.src = '/AIS-lab-website/images/share.png'; this.onerror = null;">
+      <img src="/AIS-lab-website/images_paper/localut.png" alt="LoCaLUT: Harnessing Capacity-Computation Tradeoffs for LUT-Based Inference in DRAM-PIM" loading="lazy" data-fallback-src="/AIS-lab-website/images/share.png">
     </a>
   
 
@@ -599,7 +600,7 @@
     
 
     <div class="citation-authors" tabindex="0">
-      Junguk Hong, Changmin Shin, Sukjin Kim, <span style="font-weight: bold; text-decoration: underline;">Si Ung Noh</span>, Taehee Kwon, SeongYeon Park, Hanjun Kim, Youngsok Kim, Jinho Lee
+      Junguk Hong, Changmin Shin, Sukjin Kim, <span class="citation-author-highlight">Si Ung Noh</span>, Taehee Kwon, SeongYeon Park, Hanjun Kim, Youngsok Kim, Jinho Lee
     </div>
 
     <div class="citation-details">
@@ -646,7 +647,7 @@
 <div class="citation">
   
     <a class="citation-image" aria-label="PathWeaver: A High-Throughput Multi-GPU System for Graph-Based Approximate Nearest Neighbor Search">
-      <img src="/AIS-lab-website/images_paper/pathweaver.png" alt="PathWeaver: A High-Throughput Multi-GPU System for Graph-Based Approximate Nearest Neighbor Search" loading="lazy" onerror="this.src = '/AIS-lab-website/images/share.png'; this.onerror = null;">
+      <img src="/AIS-lab-website/images_paper/pathweaver.png" alt="PathWeaver: A High-Throughput Multi-GPU System for Graph-Based Approximate Nearest Neighbor Search" loading="lazy" data-fallback-src="/AIS-lab-website/images/share.png">
     </a>
   
 
@@ -661,7 +662,7 @@
     
 
     <div class="citation-authors" tabindex="0">
-      Sukjin Kim, Seongyeon Park, <span style="font-weight: bold; text-decoration: underline;">Si Ung Noh</span>, Junguk Hong, Taehee Kwon, Hunseong Lim, Jinho Lee
+      Sukjin Kim, Seongyeon Park, <span class="citation-author-highlight">Si Ung Noh</span>, Junguk Hong, Taehee Kwon, Hunseong Lim, Jinho Lee
     </div>
 
     <div class="citation-details">
@@ -749,7 +750,7 @@
 <div class="citation">
   
     <a href="https://doi.org/gt7t5k" class="citation-image" aria-label="PID-Comm: A Fast and Flexible Collective Communication Framework for Commodity Processing-in-DIMMs">
-      <img src="/AIS-lab-website/images_paper/PIDComm.png" alt="PID-Comm: A Fast and Flexible Collective Communication Framework for Commodity Processing-in-DIMMs" loading="lazy" onerror="this.src = '/AIS-lab-website/images/share.png'; this.onerror = null;">
+      <img src="/AIS-lab-website/images_paper/PIDComm.png" alt="PID-Comm: A Fast and Flexible Collective Communication Framework for Commodity Processing-in-DIMMs" loading="lazy" data-fallback-src="/AIS-lab-website/images/share.png">
     </a>
   
 
@@ -764,7 +765,7 @@
     
 
     <div class="citation-authors" tabindex="0">
-      <span style="font-weight: bold; text-decoration: underline;">Si Ung Noh</span><sup>1</sup>, Junguk Hong<sup>1</sup>, Chaemin Lim, Seongyeon Park, Jeehyun Kim, Hanjun Kim, Youngsok Kim, Jinho Lee
+      <span class="citation-author-highlight">Si Ung Noh</span><sup>1</sup>, Junguk Hong<sup>1</sup>, Chaemin Lim, Seongyeon Park, Jeehyun Kim, Hanjun Kim, Youngsok Kim, Jinho Lee
     </div>
 
     <div class="citation-details">
@@ -910,7 +911,8 @@
     
 
 
-<footer class="background" style="--image: url('')" data-dark="true" data-size="wide">
+<footer class="background" data-dark="true" data-size="wide">
+  
   <!--
     <div>
       Extra details like contact info or address
@@ -975,7 +977,7 @@
     </a>
   </div>
 
-  <input type="checkbox" class="dark-toggle" data-tooltip="Dark mode" aria-label="toggle dark mode" oninput="onDarkToggleChange(event)">
+  <input type="checkbox" class="dark-toggle" data-tooltip="Dark mode" aria-label="toggle dark mode">
 </footer>
 
   </body>

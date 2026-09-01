@@ -17,6 +17,12 @@
   box-shadow: var(--shadow);
 }
 
+.figure-content {
+  width: auto;
+  max-width: 100%;
+  max-height: none;
+}
+
 .figure-caption {
   font-style: italic;
   text-align: center;

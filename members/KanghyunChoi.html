@@ -64,24 +64,8 @@
 <meta property="og:type" content="website">
 
 
-<script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    
-      "@type": "WebSite",
-    
-    "name": "Kanghyun Choi",
-    "description": "ECE, Seoul National University. Postdoc Researcher",
-    "headline": "Kanghyun Choi",
-    "publisher": {
-      "@type": "Organization",
-      "logo": { "@type": "ImageObject", "url": "/AIS-lab-website/images/icon.png" }
-    },
-    "url": ""
-  }
-</script>
-
 <link rel="alternate" type="application/rss+xml" href="/AIS-lab-website/feed.xml">
+
   <!-- Google Fonts -->
 <!-- automatically get url from fonts used in theme file -->
 
@@ -91,10 +75,7 @@
 <!-- Font Awesome icons (load asynchronously due to size) -->
 <!--  -->
 
-<link href="/fontawesome-free-6.5.2-web/css/all.css" rel="preload" as="style" onload="this.onload = null; this.rel = 'stylesheet';">
-<noscript>
-  <link href="/fontawesome-free-6.5.2-web/css/all.css" rel="stylesheet">
-</noscript>
+<link href="/fontawesome-free-6.5.2-web/css/all.css" rel="stylesheet">
 
   <!-- third party styles -->
 <!-- https://stylishthemes.github.io/Syntax-Themes/pygments/ -->
@@ -291,23 +272,41 @@
   <!-- include all js in scripts folder -->
 
 
-  <script src="/AIS-lab-website/_scripts/anchors.js"></script>
+  
+    <script src="/AIS-lab-website/_scripts/anchors.js"></script>
+  
 
-  <script src="/AIS-lab-website/_scripts/dark-mode.js"></script>
+  
+    <script src="/AIS-lab-website/_scripts/dark-mode.js"></script>
+  
 
-  <script src="/AIS-lab-website/_scripts/fetch-tags.js"></script>
+  
+    <script src="/AIS-lab-website/_scripts/fetch-tags.js"></script>
+  
 
-  <script src="/AIS-lab-website/_scripts/mark.min.js"></script>
+  
+    <script src="/AIS-lab-website/_scripts/image-fallback.js"></script>
+  
 
-  <script src="/AIS-lab-website/_scripts/popper.min.js"></script>
+  
+    <script src="/AIS-lab-website/_scripts/mark.min.js"></script>
+  
 
-  <script src="/AIS-lab-website/_scripts/search.js"></script>
+  
 
-  <script src="/AIS-lab-website/_scripts/site-search.js"></script>
+  
+    <script src="/AIS-lab-website/_scripts/search.js"></script>
+  
 
-  <script src="/AIS-lab-website/_scripts/tippy.min.js"></script>
+  
+    <script src="/AIS-lab-website/_scripts/site-search.js"></script>
+  
 
-  <script src="/AIS-lab-website/_scripts/tooltip.js"></script>
+  
+
+  
+    <script src="/AIS-lab-website/_scripts/tooltip.js"></script>
+  
 
 
 </head>
@@ -321,7 +320,8 @@
 
 
 
-<header class="background" style="--image: url('')" data-dark="false">
+<header class="background" data-dark="false">
+  
   <a href="/" class="home">
     
       <span class="logo">
@@ -423,11 +423,12 @@
   
 
   <section class="background" data-size="page">
+    
     <div class="float">
   
 <div class="portrait-wrapper">
   <a class="portrait" data-style="" aria-label="Kanghyun Choi">
-    <img src="/AIS-lab-website/images_profile/profile_kanghyunchoi.png" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/AIS-lab-website/images/share.png'; this.onerror = null;">
+    <img src="/AIS-lab-website/images_profile/profile_kanghyunchoi.png" class="portrait-image" alt="member portrait" loading="lazy" data-fallback-src="/AIS-lab-website/images/share.png">
 
     
       <span class="portrait-text">
@@ -539,7 +540,7 @@
 <div class="citation">
   
     <a class="citation-image" aria-label="STARLINC: Satellite Trail Artifact Removal using Inter-Frame Correlation">
-      <img src="/AIS-lab-website/images_paper/starlinc.png" alt="STARLINC: Satellite Trail Artifact Removal using Inter-Frame Correlation" loading="lazy" onerror="this.src = '/AIS-lab-website/images/share.png'; this.onerror = null;">
+      <img src="/AIS-lab-website/images_paper/starlinc.png" alt="STARLINC: Satellite Trail Artifact Removal using Inter-Frame Correlation" loading="lazy" data-fallback-src="/AIS-lab-website/images/share.png">
     </a>
   
 
@@ -554,7 +555,7 @@
     
 
     <div class="citation-authors" tabindex="0">
-      Shingeon Kim, Hyeyoon Lee, Dain Kwon, <span style="font-weight: bold; text-decoration: underline;">Kanghyun Choi</span>, Sunjong Park, Mi-Ryang Kim, Jeong-Eun Lee, Jinho Lee
+      Shingeon Kim, Hyeyoon Lee, Dain Kwon, <span class="citation-author-highlight">Kanghyun Choi</span>, Sunjong Park, Mi-Ryang Kim, Jeong-Eun Lee, Jinho Lee
     </div>
 
     <div class="citation-details">
@@ -593,7 +594,7 @@
 <div class="citation">
   
     <a class="citation-image" aria-label="SePArate: Segmenting Patterns from Defects in Wafer Manufacturing Using Weak Supervision">
-      <img src="/AIS-lab-website/images_paper/separate.png" alt="SePArate: Segmenting Patterns from Defects in Wafer Manufacturing Using Weak Supervision" loading="lazy" onerror="this.src = '/AIS-lab-website/images/share.png'; this.onerror = null;">
+      <img src="/AIS-lab-website/images_paper/separate.png" alt="SePArate: Segmenting Patterns from Defects in Wafer Manufacturing Using Weak Supervision" loading="lazy" data-fallback-src="/AIS-lab-website/images/share.png">
     </a>
   
 
@@ -608,7 +609,7 @@
     
 
     <div class="citation-authors" tabindex="0">
-      Dain Kwon, Changmin Shin, Sunjong Park, <span style="font-weight: bold; text-decoration: underline;">Kanghyun Choi</span>, Hyeyoon Lee, Jaewon Jang, Minseok Choi, Jinho Lee
+      Dain Kwon, Changmin Shin, Sunjong Park, <span class="citation-author-highlight">Kanghyun Choi</span>, Hyeyoon Lee, Jaewon Jang, Minseok Choi, Jinho Lee
     </div>
 
     <div class="citation-details">
@@ -647,7 +648,7 @@
 <div class="citation">
   
     <a class="citation-image" aria-label="TopGQ: Fast GNN Post-Training Quantization Leveraging Topology Information">
-      <img src="/AIS-lab-website/images_paper/topgq.png" alt="TopGQ: Fast GNN Post-Training Quantization Leveraging Topology Information" loading="lazy" onerror="this.src = '/AIS-lab-website/images/share.png'; this.onerror = null;">
+      <img src="/AIS-lab-website/images_paper/topgq.png" alt="TopGQ: Fast GNN Post-Training Quantization Leveraging Topology Information" loading="lazy" data-fallback-src="/AIS-lab-website/images/share.png">
     </a>
   
 
@@ -662,7 +663,7 @@
     
 
     <div class="citation-authors" tabindex="0">
-      Dain Kwon, <span style="font-weight: bold; text-decoration: underline;">Kanghyun Choi</span>, Hyeyoon Lee, Sunjong Park, Seoyong Lee, Sukjin Kim, Jinho Lee
+      Dain Kwon, <span class="citation-author-highlight">Kanghyun Choi</span>, Hyeyoon Lee, Sunjong Park, Seoyong Lee, Sukjin Kim, Jinho Lee
     </div>
 
     <div class="citation-details">
@@ -701,7 +702,7 @@
 <div class="citation">
   
     <a class="citation-image" aria-label="FALQON: Accelerating LoRA Fine-tuning with Low-Bit Floating-Point Arithmetic">
-      <img src="/AIS-lab-website/images_paper/falqon.png" alt="FALQON: Accelerating LoRA Fine-tuning with Low-Bit Floating-Point Arithmetic" loading="lazy" onerror="this.src = '/AIS-lab-website/images/share.png'; this.onerror = null;">
+      <img src="/AIS-lab-website/images_paper/falqon.png" alt="FALQON: Accelerating LoRA Fine-tuning with Low-Bit Floating-Point Arithmetic" loading="lazy" data-fallback-src="/AIS-lab-website/images/share.png">
     </a>
   
 
@@ -716,7 +717,7 @@
     
 
     <div class="citation-authors" tabindex="0">
-      <span style="font-weight: bold; text-decoration: underline;">Kanghyun Choi</span>, Hyeyoon Lee, SunJong Park, Dain Kwon, Jinho Lee
+      <span class="citation-author-highlight">Kanghyun Choi</span>, Hyeyoon Lee, SunJong Park, Dain Kwon, Jinho Lee
     </div>
 
     <div class="citation-details">
@@ -819,7 +820,7 @@
 <div class="citation">
   
     <a href="https://doi.org/g97rjq" class="citation-image" aria-label="DANCE++: Differentiable Accelerator/Network Co-Exploration with Hard Constraints and Data-Free Training for Real-World Scenarios">
-      <img src="/AIS-lab-website/images_paper/dance++_overview.png" alt="DANCE++: Differentiable Accelerator/Network Co-Exploration with Hard Constraints and Data-Free Training for Real-World Scenarios" loading="lazy" onerror="this.src = '/AIS-lab-website/images/share.png'; this.onerror = null;">
+      <img src="/AIS-lab-website/images_paper/dance++_overview.png" alt="DANCE++: Differentiable Accelerator/Network Co-Exploration with Hard Constraints and Data-Free Training for Real-World Scenarios" loading="lazy" data-fallback-src="/AIS-lab-website/images/share.png">
     </a>
   
 
@@ -834,7 +835,7 @@
     
 
     <div class="citation-authors" tabindex="0">
-      <span style="font-weight: bold; text-decoration: underline;">Kanghyun Choi</span>, Deokki Hong, Hyeyoon Lee, Joonsang Yu, Noseong Park, Youngsok Kim, Jinho Lee
+      <span class="citation-author-highlight">Kanghyun Choi</span>, Deokki Hong, Hyeyoon Lee, Joonsang Yu, Noseong Park, Youngsok Kim, Jinho Lee
     </div>
 
     <div class="citation-details">
@@ -896,7 +897,7 @@
 <div class="citation">
   
     <a href="https://doi.org/g9fb3w" class="citation-image" aria-label="MimiQ: Low-Bit Data-Free Quantization of Vision Transformers with Encouraging Inter-Head Attention Similarity">
-      <img src="/AIS-lab-website/images_paper/mimiq.png" alt="MimiQ: Low-Bit Data-Free Quantization of Vision Transformers with Encouraging Inter-Head Attention Similarity" loading="lazy" onerror="this.src = '/AIS-lab-website/images/share.png'; this.onerror = null;">
+      <img src="/AIS-lab-website/images_paper/mimiq.png" alt="MimiQ: Low-Bit Data-Free Quantization of Vision Transformers with Encouraging Inter-Head Attention Similarity" loading="lazy" data-fallback-src="/AIS-lab-website/images/share.png">
     </a>
   
 
@@ -911,7 +912,7 @@
     
 
     <div class="citation-authors" tabindex="0">
-      <span style="font-weight: bold; text-decoration: underline;">Kanghyun Choi</span>, Hyeyoon Lee, Dain Kwon, SunJong Park, Kyuyeun Kim, Noseong Park, Jonghyun Choi, Jinho Lee
+      <span class="citation-author-highlight">Kanghyun Choi</span>, Hyeyoon Lee, Dain Kwon, SunJong Park, Kyuyeun Kim, Noseong Park, Jonghyun Choi, Jinho Lee
     </div>
 
     <div class="citation-details">
@@ -1014,7 +1015,7 @@
 <div class="citation">
   
     <a href="https://doi.org/gt7t5j" class="citation-image" aria-label="DataFreeShield: Defending Adversarial Attacks without Training Data">
-      <img src="/AIS-lab-website/images_paper/dfshield.png" alt="DataFreeShield: Defending Adversarial Attacks without Training Data" loading="lazy" onerror="this.src = '/AIS-lab-website/images/share.png'; this.onerror = null;">
+      <img src="/AIS-lab-website/images_paper/dfshield.png" alt="DataFreeShield: Defending Adversarial Attacks without Training Data" loading="lazy" data-fallback-src="/AIS-lab-website/images/share.png">
     </a>
   
 
@@ -1029,7 +1030,7 @@
     
 
     <div class="citation-authors" tabindex="0">
-      Hyeyoon Lee, <span style="font-weight: bold; text-decoration: underline;">Kanghyun Choi</span>, Dain Kwon, SunJong Park, Mayoore Selvarasa Jaiswal, Noseong Park, Jonghyun Choi, Jinho Lee
+      Hyeyoon Lee, <span class="citation-author-highlight">Kanghyun Choi</span>, Dain Kwon, SunJong Park, Mayoore Selvarasa Jaiswal, Noseong Park, Jonghyun Choi, Jinho Lee
     </div>
 
     <div class="citation-details">
@@ -1068,7 +1069,7 @@
 <div class="citation">
   
     <a href="https://doi.org/gtjv5c" class="citation-image" aria-label="DANCE: Differentiable Accelerator/Network Co-Exploration">
-      <img src="/AIS-lab-website/images_paper/dance.png" alt="DANCE: Differentiable Accelerator/Network Co-Exploration" loading="lazy" onerror="this.src = '/AIS-lab-website/images/share.png'; this.onerror = null;">
+      <img src="/AIS-lab-website/images_paper/dance.png" alt="DANCE: Differentiable Accelerator/Network Co-Exploration" loading="lazy" data-fallback-src="/AIS-lab-website/images/share.png">
     </a>
   
 
@@ -1083,7 +1084,7 @@
     
 
     <div class="citation-authors" tabindex="0">
-      <span style="font-weight: bold; text-decoration: underline;">Kanghyun Choi</span><sup>1</sup>, Deokki Hong<sup>1</sup>, Hojae Yoon<sup>1</sup>, Joonsang Yu, Youngsok Kim, Jinho Lee
+      <span class="citation-author-highlight">Kanghyun Choi</span><sup>1</sup>, Deokki Hong<sup>1</sup>, Hojae Yoon<sup>1</sup>, Joonsang Yu, Youngsok Kim, Jinho Lee
     </div>
 
     <div class="citation-details">
@@ -1160,7 +1161,7 @@
 <div class="citation">
   
     <a href="https://arxiv.org/abs/2111.02625" class="citation-image" aria-label="Qimera: Data-free Quantization with Synthetic Boundary Supporting Samples">
-      <img src="/AIS-lab-website/images_paper/qimera.png" alt="Qimera: Data-free Quantization with Synthetic Boundary Supporting Samples" loading="lazy" onerror="this.src = '/AIS-lab-website/images/share.png'; this.onerror = null;">
+      <img src="/AIS-lab-website/images_paper/qimera.png" alt="Qimera: Data-free Quantization with Synthetic Boundary Supporting Samples" loading="lazy" data-fallback-src="/AIS-lab-website/images/share.png">
     </a>
   
 
@@ -1175,7 +1176,7 @@
     
 
     <div class="citation-authors" tabindex="0">
-      <span style="font-weight: bold; text-decoration: underline;">Kanghyun Choi</span>, Deokki Hong, Noseong Park, Youngsok Kim, Jinho Lee
+      <span class="citation-author-highlight">Kanghyun Choi</span>, Deokki Hong, Noseong Park, Youngsok Kim, Jinho Lee
     </div>
 
     <div class="citation-details">
@@ -1263,7 +1264,7 @@
 <div class="citation">
   
     <a href="https://arxiv.org/abs/2301.09312" class="citation-image" aria-label="Enabling Hard Constraints in Differentiable Neural Network and Accelerator Co-Exploration">
-      <img src="/AIS-lab-website/images_paper/hdx.png" alt="Enabling Hard Constraints in Differentiable Neural Network and Accelerator Co-Exploration" loading="lazy" onerror="this.src = '/AIS-lab-website/images/share.png'; this.onerror = null;">
+      <img src="/AIS-lab-website/images_paper/hdx.png" alt="Enabling Hard Constraints in Differentiable Neural Network and Accelerator Co-Exploration" loading="lazy" data-fallback-src="/AIS-lab-website/images/share.png">
     </a>
   
 
@@ -1278,7 +1279,7 @@
     
 
     <div class="citation-authors" tabindex="0">
-      Deokki Hong, <span style="font-weight: bold; text-decoration: underline;">Kanghyun Choi</span>, Hye Yoon Lee, Joonsang Yu, Noseong Park, Youngsok Kim, Jinho Lee
+      Deokki Hong, <span class="citation-author-highlight">Kanghyun Choi</span>, Hye Yoon Lee, Joonsang Yu, Noseong Park, Youngsok Kim, Jinho Lee
     </div>
 
     <div class="citation-details">
@@ -1340,7 +1341,7 @@
 <div class="citation">
   
     <a href="https://arxiv.org/abs/2203.17008" class="citation-image" aria-label="It's All In the Teacher: Zero-Shot Quantization Brought Closer to the Teacher">
-      <img src="/AIS-lab-website/images_paper/ait.png" alt="It's All In the Teacher: Zero-Shot Quantization Brought Closer to the Teacher" loading="lazy" onerror="this.src = '/AIS-lab-website/images/share.png'; this.onerror = null;">
+      <img src="/AIS-lab-website/images_paper/ait.png" alt="It's All In the Teacher: Zero-Shot Quantization Brought Closer to the Teacher" loading="lazy" data-fallback-src="/AIS-lab-website/images/share.png">
     </a>
   
 
@@ -1355,7 +1356,7 @@
     
 
     <div class="citation-authors" tabindex="0">
-      <span style="font-weight: bold; text-decoration: underline;">Kanghyun Choi</span>, Hye Yoon Lee, Deokki Hong, Joonsang Yu, Noseong Park, Youngsok Kim, Jinho Lee
+      <span class="citation-author-highlight">Kanghyun Choi</span>, Hye Yoon Lee, Deokki Hong, Joonsang Yu, Noseong Park, Youngsok Kim, Jinho Lee
     </div>
 
     <div class="citation-details">
@@ -1443,7 +1444,7 @@
 <div class="citation">
   
     <a href="https://doi.org/gtjwtc" class="citation-image" aria-label="Fast Adversarial Training with Dynamic Batch-level Attack Control">
-      <img src="/AIS-lab-website/images_paper/dbac.png" alt="Fast Adversarial Training with Dynamic Batch-level Attack Control" loading="lazy" onerror="this.src = '/AIS-lab-website/images/share.png'; this.onerror = null;">
+      <img src="/AIS-lab-website/images_paper/dbac.png" alt="Fast Adversarial Training with Dynamic Batch-level Attack Control" loading="lazy" data-fallback-src="/AIS-lab-website/images/share.png">
     </a>
   
 
@@ -1458,7 +1459,7 @@
     
 
     <div class="citation-authors" tabindex="0">
-      Jaewon Jung, Jaeyong Song, Hongsun Jang, Hyeyoon Lee, <span style="font-weight: bold; text-decoration: underline;">Kanghyun Choi</span>, Noseong Park, Jinho Lee
+      Jaewon Jung, Jaeyong Song, Hongsun Jang, Hyeyoon Lee, <span class="citation-author-highlight">Kanghyun Choi</span>, Noseong Park, Jinho Lee
     </div>
 
     <div class="citation-details">
@@ -1521,7 +1522,8 @@
     
 
 
-<footer class="background" style="--image: url('')" data-dark="true" data-size="wide">
+<footer class="background" data-dark="true" data-size="wide">
+  
   <!--
     <div>
       Extra details like contact info or address
@@ -1586,7 +1588,7 @@
     </a>
   </div>
 
-  <input type="checkbox" class="dark-toggle" data-tooltip="Dark mode" aria-label="toggle dark mode" oninput="onDarkToggleChange(event)">
+  <input type="checkbox" class="dark-toggle" data-tooltip="Dark mode" aria-label="toggle dark mode">
 </footer>
 
   </body>

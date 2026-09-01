@@ -11,6 +11,34 @@
   line-height: var(--spacing);
 }
 
+.alert-default {
+  --color: #808080;
+}
+
+.alert-tip {
+  --color: #d946ef;
+}
+
+.alert-help {
+  --color: #6366f1;
+}
+
+.alert-info {
+  --color: #0ea5e9;
+}
+
+.alert-success {
+  --color: #22c55e;
+}
+
+.alert-warning {
+  --color: #f59e0b;
+}
+
+.alert-error {
+  --color: #ef4444;
+}
+
 .alert:before {
   content: "";
   position: absolute;

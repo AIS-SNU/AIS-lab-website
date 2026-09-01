@@ -64,24 +64,8 @@
 <meta property="og:type" content="website">
 
 
-<script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    
-      "@type": "WebSite",
-    
-    "name": "",
-    "description": "ECE, Seoul National University. Accelerated Intelligent Systems Lab (AISys) is affiliated with ECE, Seoul National University. We conduct research on system and architectural issues for accelerating various applications such as deep learning, compression algorithms and graph processing.",
-    "headline": "",
-    "publisher": {
-      "@type": "Organization",
-      "logo": { "@type": "ImageObject", "url": "/AIS-lab-website/images/icon.png" }
-    },
-    "url": ""
-  }
-</script>
-
 <link rel="alternate" type="application/rss+xml" href="/AIS-lab-website/feed.xml">
+
   <!-- Google Fonts -->
 <!-- automatically get url from fonts used in theme file -->
 
@@ -91,10 +75,7 @@
 <!-- Font Awesome icons (load asynchronously due to size) -->
 <!--  -->
 
-<link href="/fontawesome-free-6.5.2-web/css/all.css" rel="preload" as="style" onload="this.onload = null; this.rel = 'stylesheet';">
-<noscript>
-  <link href="/fontawesome-free-6.5.2-web/css/all.css" rel="stylesheet">
-</noscript>
+<link href="/fontawesome-free-6.5.2-web/css/all.css" rel="stylesheet">
 
   <!-- third party styles -->
 <!-- https://stylishthemes.github.io/Syntax-Themes/pygments/ -->
@@ -343,23 +324,41 @@
   <!-- include all js in scripts folder -->
 
 
-  <script src="/AIS-lab-website/_scripts/anchors.js"></script>
+  
+    <script src="/AIS-lab-website/_scripts/anchors.js"></script>
+  
 
-  <script src="/AIS-lab-website/_scripts/dark-mode.js"></script>
+  
+    <script src="/AIS-lab-website/_scripts/dark-mode.js"></script>
+  
 
-  <script src="/AIS-lab-website/_scripts/fetch-tags.js"></script>
+  
+    <script src="/AIS-lab-website/_scripts/fetch-tags.js"></script>
+  
 
-  <script src="/AIS-lab-website/_scripts/mark.min.js"></script>
+  
+    <script src="/AIS-lab-website/_scripts/image-fallback.js"></script>
+  
 
-  <script src="/AIS-lab-website/_scripts/popper.min.js"></script>
+  
+    <script src="/AIS-lab-website/_scripts/mark.min.js"></script>
+  
 
-  <script src="/AIS-lab-website/_scripts/search.js"></script>
+  
 
-  <script src="/AIS-lab-website/_scripts/site-search.js"></script>
+  
+    <script src="/AIS-lab-website/_scripts/search.js"></script>
+  
 
-  <script src="/AIS-lab-website/_scripts/tippy.min.js"></script>
+  
+    <script src="/AIS-lab-website/_scripts/site-search.js"></script>
+  
 
-  <script src="/AIS-lab-website/_scripts/tooltip.js"></script>
+  
+
+  
+    <script src="/AIS-lab-website/_scripts/tooltip.js"></script>
+  
 
 
 </head>
@@ -373,7 +372,10 @@
 
 
 
-<header class="background" style="--image: url('/AIS-lab-website/images/background_greenlight.png')" data-dark="false" data-big>
+<header class="background" data-dark="false" data-big>
+  
+    <img class="background-image" src="/AIS-lab-website/images/background_greenlight.png" alt="" aria-hidden="true">
+  
   <a href="/" class="home">
     
       <span class="logo">
@@ -475,6 +477,7 @@
   
 
   <section class="background" data-size="page">
+    
     <h1 id="welcome-to-aisys">Welcome to AISys!</h1>
 
 <p>Accelerated Intelligent Systems Lab (AISys) is affiliated with ECE, Seoul National University. We conduct research on system and architectural issues for accelerating various applications such as deep learning, compression algorithms and graph processing.</p>
@@ -556,6 +559,7 @@ Please contact leejinho at snu dot ac dot kr if you are interested.</p>
   
 
   <section class="background" data-size="page">
+    
     <!--
   background: ;
   dark: ;
@@ -572,6 +576,7 @@ Please contact leejinho at snu dot ac dot kr if you are interested.</p>
   
 
   <section class="background" data-size="page">
+    
     <!--
   background: ;
   dark: ;
@@ -580,7 +585,7 @@ Please contact leejinho at snu dot ac dot kr if you are interested.</p>
 
 <div class="feature">
   <a href="/AIS-lab-website/publications" class="feature-image" aria-label="AI Accelerators">
-    <img src="/AIS-lab-website/images/acc.jpg" loading="lazy" alt="AI Accelerators" onerror="this.src = '/AIS-lab-website/images/share.png'; this.onerror = null;">
+    <img src="/AIS-lab-website/images/acc.jpg" loading="lazy" alt="AI Accelerators" data-fallback-src="/AIS-lab-website/images/share.png">
   </a>
   <div class="feature-text">
     
@@ -595,7 +600,7 @@ Please contact leejinho at snu dot ac dot kr if you are interested.</p>
 
 <div class="feature" data-flip="">
   <a href="/AIS-lab-website/publications" class="feature-image" aria-label="Distributed Deep Learning">
-    <img src="/AIS-lab-website/images/distr.jpg" loading="lazy" alt="Distributed Deep Learning" onerror="this.src = '/AIS-lab-website/images/share.png'; this.onerror = null;">
+    <img src="/AIS-lab-website/images/distr.jpg" loading="lazy" alt="Distributed Deep Learning" data-fallback-src="/AIS-lab-website/images/share.png">
   </a>
   <div class="feature-text">
     
@@ -610,7 +615,7 @@ Please contact leejinho at snu dot ac dot kr if you are interested.</p>
 
 <div class="feature">
   <a href="/AIS-lab-website/publications" class="feature-image" aria-label="Neural Network Acceleration and Compression">
-    <img src="/AIS-lab-website/images/NN_accel.png" loading="lazy" alt="Neural Network Acceleration and Compression" onerror="this.src = '/AIS-lab-website/images/share.png'; this.onerror = null;">
+    <img src="/AIS-lab-website/images/NN_accel.png" loading="lazy" alt="Neural Network Acceleration and Compression" data-fallback-src="/AIS-lab-website/images/share.png">
   </a>
   <div class="feature-text">
     
@@ -625,7 +630,7 @@ Please contact leejinho at snu dot ac dot kr if you are interested.</p>
 
 <div class="feature" data-flip="">
   <a href="/AIS-lab-website/publications" class="feature-image" aria-label="System Optimization and Acceleration">
-    <img src="/AIS-lab-website/images/system.png" loading="lazy" alt="System Optimization and Acceleration" onerror="this.src = '/AIS-lab-website/images/share.png'; this.onerror = null;">
+    <img src="/AIS-lab-website/images/system.png" loading="lazy" alt="System Optimization and Acceleration" data-fallback-src="/AIS-lab-website/images/share.png">
   </a>
   <div class="feature-text">
     
@@ -644,7 +649,8 @@ Please contact leejinho at snu dot ac dot kr if you are interested.</p>
     
 
 
-<footer class="background" style="--image: url('')" data-dark="true" data-size="wide">
+<footer class="background" data-dark="true" data-size="wide">
+  
   <!--
     <div>
       Extra details like contact info or address
@@ -709,7 +715,7 @@ Please contact leejinho at snu dot ac dot kr if you are interested.</p>
     </a>
   </div>
 
-  <input type="checkbox" class="dark-toggle" data-tooltip="Dark mode" aria-label="toggle dark mode" oninput="onDarkToggleChange(event)">
+  <input type="checkbox" class="dark-toggle" data-tooltip="Dark mode" aria-label="toggle dark mode">
 </footer>
 
   </body>

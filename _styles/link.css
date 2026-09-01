@@ -12,4 +12,8 @@ a:not([href]) {
   color: var(--text);
 }
 
+a.link-black {
+  color: black;
+}
+
 /*# sourceMappingURL=link.css.map */

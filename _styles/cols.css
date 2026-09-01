@@ -1,10 +1,24 @@
 .cols {
   display: grid;
-  --repeat: min(3, var(--cols));
   grid-template-columns: repeat(var(--repeat), 1fr);
   align-items: flex-start;
   gap: 40px;
   margin: 40px 0;
+}
+
+.cols-1 {
+  --repeat: 1;
+}
+
+.cols-2 {
+  --repeat: 2;
+}
+
+.cols-3,
+.cols-4,
+.cols-5,
+.cols-6 {
+  --repeat: 3;
 }
 
 .cols > * {
@@ -21,8 +35,12 @@
 }
 
 @media (max-width: 750px) {
-  .cols {
-    --repeat: min(2, var(--cols));
+  .cols-2,
+  .cols-3,
+  .cols-4,
+  .cols-5,
+  .cols-6 {
+    --repeat: 2;
   }
 }
 @media (max-width: 500px) {

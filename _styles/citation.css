@@ -47,6 +47,11 @@
   font-weight: var(--semi-bold);
 }
 
+.citation-author-highlight {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
 .citation-text > .icon {
   position: absolute;
   top: 20px;
