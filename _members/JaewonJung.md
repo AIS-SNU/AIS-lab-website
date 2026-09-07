@@ -59,15 +59,19 @@ I am a Ph.D candidate in the Department of Electrical and Computer Engineering a
 
 
 # Experience
-* **Carnegie Mellon University (Jan 2026 - April 2026)**
+* **CryptoLab (June 2026 - August 2026)**
+  * Intern
+  * Project: Encrypted hybrid retrieval.
+
+* **Carnegie Mellon University (January 2026 - April 2026)**
   * Visiting Scholar
-  * Collaboration with Haizhong Zheng at InfiniAI Lab. (PI: Beidi Chen)
+  * Collaboration with Haizhong Zheng at InfiniAI Lab (PI: Beidi Chen).
 
 * **CJ Logistics (June 2021 - July 2021)**
-  * Internship (IT strategy)
+  * Intern (IT strategy)
   * Developed a time-series forecasting model to predict monthly sales for the Warehouse & Distribution (W&D) sector.
 
-* **Bucketplace, Co., Ltd (December 2020 - June 2021)**
+* **Bucketplace Co., Ltd. (December 2020 - June 2021)**
   * Data Analyst
 
 * **Electronics and Telecommunications Research Institute (July 2020 - August 2020)**
@@ -76,10 +80,10 @@ I am a Ph.D candidate in the Department of Electrical and Computer Engineering a
 
 * **MINDs and Company (December 2019 - March 2020)**
   * Intern
-  * Project : Automatic payment review classification for insurance claims.
+  * Project: Automatic payment review classification for insurance claims.
 
 * **Republic of Korea Air Force (March 2017 - February 2019)**
-  * 2 years of Compulsory Military Service. Served as a sergeant.
+  * Two years of compulsory military service. Served as a sergeant.
 
 
 # Awards and Honors

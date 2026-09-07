@@ -6,11 +6,19 @@
   -  Jaeyong Song
   -  Beidi Chen
   -  Jinho Lee 
+  buttons:
+    - type: arxiv
+      link: https://arxiv.org/abs/2608.28389
+    - type: github
+      link: https://github.com/jaewonalive/CamoDocs
+    - type: project
+      link: https://jaewonalive.github.io/CamoDocs/
   date: '2026-11-20'
   publisher: Empirical Methods in Natural Language Processing (EMNLP)
   tags:
     - Top Conf.
     - AI/ML
+  image: images_paper/camodocs.png
   id: ""
 
 - title: "Spexis: Speculative Lookahead Scheduling for LLM Inference"

@@ -82,6 +82,11 @@ search:
   text: Search
   tooltip: Search
 
+project:
+  icon: fa-solid fa-globe
+  text: Project
+  tooltip: Project
+
 # social media
 
 orcid:
