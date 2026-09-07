@@ -653,18 +653,11 @@
   plugin: sources.py
   file: sources.yaml
 - id: 10.1145/3627535.3638474
-  title: 'AGAThA: Fast and Efficient GPU Acceleration of Guided Sequence Alignment
-    for Long Read Mapping'
-  authors:
-  - Seongyeon Park
-  - Junguk Hong
-  - Jaeyong Song
-  - Hajin Kim
-  - Youngsok Kim
-  - Jinho Lee
+  title: ''
+  authors: []
   publisher: ACM Annual Symposium on Principles and Practice of Parallel Programming
     (PPoPP)
-  date: '2024-02-20'
+  date: ''
   link: https://doi.org/gtnchb
   image: images_paper/agatha.png
   buttons:
@@ -731,18 +724,10 @@
   plugin: sources.py
   file: sources.yaml
 - id: 10.1109/TC.2023.3299030
-  title: Enabling Fine-Grained Spatial Multitasking on Systolic-Array NPUs Using Dataflow
-    Mirroring
-  authors:
-  - Jinwoo Choi
-  - Yeonan Ha
-  - Jounghoo Lee
-  - Sangsu Lee
-  - Jinho Lee
-  - Hanhwi Jang
-  - Youngsok Kim
-  publisher: IEEE Transactions on Computers
-  date: '2023-12-01'
+  title: ''
+  authors: []
+  publisher: ''
+  date: ''
   link: https://doi.org/gtm34t
   tags:
   - SCI
@@ -755,19 +740,10 @@
   plugin: sources.py
   file: sources.yaml
 - id: 10.1145/3589258
-  title: 'Design and Analysis of a Processing-in-DIMM Join Algorithm: A Case Study
-    with UPMEM DIMMs'
-  authors:
-  - Chaemin Lim
-  - Suhyun Lee
-  - Jinwoo Choi
-  - Jounghoo Lee
-  - Seongyeon Park
-  - Hanjun Kim
-  - Jinho Lee
-  - Youngsok Kim
-  publisher: Proceedings of the ACM on Management of Data
-  date: '2023-06-13'
+  title: ''
+  authors: []
+  publisher: ''
+  date: ''
   link: https://doi.org/gtnchc
   tags:
   - Top Conf.
@@ -780,17 +756,10 @@
   plugin: sources.py
   file: sources.yaml
 - id: 10.23919/DATE56975.2023.10137044
-  title: 'Pipe-BD: Pipelined Parallel Blockwise Distillation'
-  authors:
-  - Hongsun Jang
-  - Jaewon Jung
-  - Jaeyong Song
-  - Joonsang Yu
-  - Youngsok Kim
-  - Jinho Lee
-  publisher: 2023 Design, Automation &amp; Test in Europe Conference &amp; Exhibition
-    (DATE)
-  date: '2023-04-01'
+  title: ''
+  authors: []
+  publisher: ''
+  date: ''
   link: https://doi.org/gtnchd
   tags:
   - Top Conf.
@@ -836,8 +805,7 @@
   file: sources.yaml
   image: images_paper/optimus_cc.png
 - id: 10.1109/HPCA56546.2023.10071102
-  title: 'SGCN: Exploiting Compressed-Sparse Features in Deep Graph Convolutional
-    Network Accelerators'
+  title: ''
   authors:
   - Mingi Yoo<sup>1</sup>
   - Jaeyong Song<sup>1</sup>
@@ -845,9 +813,8 @@
   - Namhyung Kim
   - Youngsok Kim
   - Jinho Lee
-  publisher: 2023 IEEE International Symposium on High-Performance Computer Architecture
-    (HPCA)
-  date: '2023-02-01'
+  publisher: ''
+  date: ''
   link: https://doi.org/gs2t79
   tags:
   - Top Conf.
@@ -890,7 +857,7 @@
   - Youngsok Kim
   - Jinho Lee
   publisher: PACT (Best Paper Award)
-  date: '2022-10-08'
+  date: ''
   link: https://doi.org/gtm37c
   tags:
   - Top Conf.
@@ -904,20 +871,10 @@
   plugin: sources.py
   file: sources.yaml
 - id: 10.1145/3559009.3569686
-  title: Decoupling Schedule, Topology Layout, and Algorithm to Easily Enlarge the
-    Tuning Space of GPU Graph Processing
-  authors:
-  - Shinnung Jeong
-  - Yongwoo Lee
-  - Jaeho Lee
-  - Heelim Choi
-  - Seungbin Song
-  - Jinho Lee
-  - Youngsok Kim
-  - Hanjun Kim
-  publisher: Proceedings of the International Conference on Parallel Architectures
-    and Compilation Techniques
-  date: '2022-10-08'
+  title: ''
+  authors: []
+  publisher: ''
+  date: ''
   link: https://doi.org/gtm37d
   tags:
   - Top Conf.
@@ -930,16 +887,9 @@
 - id: 10.1145/3470496.3527384
   title: 'GCoM: a detailed GPU core model for accurate analytical modeling of modern
     GPUs'
-  authors:
-  - Jounghoo Lee
-  - Yeonan Ha
-  - Suhyun Lee
-  - Jinyoung Woo
-  - Jinho Lee
-  - Hanhwi Jang
-  - Youngsok Kim
-  publisher: Proceedings of the 49th Annual International Symposium on Computer Architecture
-  date: '2022-06-11'
+  authors: []
+  publisher: ''
+  date: ''
   link: https://doi.org/grg25v
   tags:
   - Top Conf.
@@ -952,16 +902,9 @@
 - id: 10.1145/3528535.3531513
   title: 'GuardiaNN: Fast and Secure On-Device Inference in TrustZone Using Embedded
     SRAM and Cryptographic Hardware'
-  authors:
-  - Jinwoo Choi
-  - Jaeyeon Kim
-  - Chaemin Lim
-  - Suhyun Lee
-  - Jinho Lee
-  - Dokyung Song
-  - Youngsok Kim
-  publisher: Proceedings of the 23rd ACM/IFIP International Middleware Conference
-  date: '2022-10-24'
+  authors: []
+  publisher: ''
+  date: ''
   link: https://doi.org/gtm37g
   tags:
   - Top Conf.
@@ -973,20 +916,10 @@
   plugin: sources.py
   file: sources.yaml
 - id: 10.1109/IPDPS53621.2022.00076
-  title: 'SALoBa: Maximizing Data Locality and Workload Balance for Fast Sequence
-    Alignment on GPUs'
-  authors:
-  - Seongyeon Park
-  - Hajin Kim
-  - Tanveer Ahmad
-  - Nauman Ahmed
-  - Zaid Al-Ars
-  - H. Peter Hofstee
-  - Youngsok Kim
-  - Jinho Lee
-  publisher: 2022 IEEE International Parallel and Distributed Processing Symposium
-    (IPDPS)
-  date: '2022-05-01'
+  title: ''
+  authors: []
+  publisher: ''
+  date: ''
   link: https://doi.org/gtm37h
   image: images_paper/saloba.png
   tags:
@@ -1001,17 +934,10 @@
   plugin: sources.py
   file: sources.yaml
 - id: 10.1109/TC.2021.3092205
-  title: 'ComPreEND: Computation Pruning through Predictive Early Negative Detection
-    for ReLU in a Deep Neural Network Accelerator'
-  authors:
-  - Namhyung Kim
-  - Hanmin Park
-  - Dongwoo Lee
-  - Sungbum Kang
-  - Jinho Lee
-  - Kiyoung Choi
-  publisher: IEEE Transactions on Computers
-  date: '2022-07-01'
+  title: ''
+  authors: []
+  publisher: ''
+  date: ''
   link: https://doi.org/gtm37p
   tags:
   - SCI
@@ -1023,8 +949,7 @@
   plugin: sources.py
   file: sources.yaml
 - id: 10.1109/LCA.2021.3090954
-  title: Making a Better Use of Caches for GCN Accelerators with Feature Slicing and
-    Automatic Tile Morphing
+  title: ''
   authors:
   - Mingi Yoo<sup>1</sup>
   - Jaeyong Song<sup>1</sup>
@@ -1032,8 +957,8 @@
   - Namhyung Kim
   - Youngsok Kim
   - Jinho Lee
-  publisher: IEEE Computer Architecture Letters
-  date: '2021-07-01'
+  publisher: ''
+  date: ''
   link: https://doi.org/gndxg9
   tags:
   - SCI
@@ -1067,16 +992,10 @@
   plugin: sources.py
   file: sources.yaml
 - id: 10.1109/DAC18074.2021.9586312
-  title: 'Dataflow Mirroring: Architectural Support for Highly Efficient Fine-Grained
-    Spatial Multitasking on Systolic-Array NPUs'
-  authors:
-  - Jounghoo Lee
-  - Jinwoo Choi
-  - Jaeyeon Kim
-  - Jinho Lee
-  - Youngsok Kim
-  publisher: 2021 58th ACM/IEEE Design Automation Conference (DAC)
-  date: '2021-12-05'
+  title: ''
+  authors: []
+  publisher: ''
+  date: ''
   link: https://doi.org/gtm37r
   tags:
   - Top Conf.
