@@ -1,3 +1,7 @@
+- content: 'We won the first place award from <a href="https://xilinx.github.io/fpl26_optimization_contest/results.html">Agentic FPGA Backend Optimization Competition@FPL 2026</a>. Congratulations to Sookwan Han, Sihun Lim, Jun Sung, and Haeun Ji!'
+  print_date: Sep. 2026
+  date: 2026-09-08
+
 - content: 'Two papers have been accepted to EMNLP 2026. Congratulations!
                         <li><u>CamoDocs: A Poisoning Attack Against Retrieval-Augmented Language Models Using Camouflaged Documents</u></li>
                         <li><u>Spexis: Speculative Lookahead Scheduling for LLM Inference</u></li>
