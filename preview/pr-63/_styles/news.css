@@ -1,0 +1,10 @@
+.news {
+  flex-wrap: wrap;
+  align-items: left;
+  text-align: left;
+  gap: 3px;
+  margin: 3px 0;
+  padding: 5px;
+}
+
+/*# sourceMappingURL=news.css.map */
