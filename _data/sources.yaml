@@ -1,3 +1,28 @@
+
+
+- title: "NAVIS: Concurrent Search and Update with Low Position-Seeking Overhead in On-SSD Graph-Based Vector Search"
+  authors: 
+  -  Jaeyong Song
+  -  Hongsun Jang
+  -  Changmin Shin
+  -  Seongyeon Park
+  -  Yong Jae Ryoo 
+  -  Seo Jin Park
+  -  Jinho Lee 
+  buttons:
+    - type: arxiv
+      link: https://arxiv.org/abs/2605.11523
+  date: '2027-08-27'
+  publisher:  Proceedings of International Conference on Very Large Data Bases (VLDB)
+  tags:
+    - Top Conf.
+    - Syst. SW
+    - AI/ML
+  id: ""
+
+
+
+
 - title: "CamoDocs: A Poisoning Attack Against Retrieval-Augmented Language Models Using Camouflaged Documents"
   authors: 
   -  Jaewon Jung
