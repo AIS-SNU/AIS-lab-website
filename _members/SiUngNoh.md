@@ -1,8 +1,9 @@
 ---
 name: Si Ung Noh
-description: MS/PhD Student
+description: MS, University of Texas at Austin
 image: images_profile/profile_default.png
 iphak: 2024-3
+role: alumni
 aliases:
   - Si Ung Noh
   - S. Noh
@@ -12,7 +13,7 @@ links:
 
 ---
 
-Hi! I'm currently a graduate student in the department of Electrical and Computer Engineering at Seoul National University, under the supervision of Professor Jinho Lee. My research interests include AI accelerators and systems for AI.
+Hi! I'm currently at the University of Texas at Austin. Previously, I was a graduate student in the Department of Electrical and Computer Engineering at Seoul National University, under the supervision of Professor Jinho Lee. My research interests include AI accelerators and systems for AI.
 
 ---
 

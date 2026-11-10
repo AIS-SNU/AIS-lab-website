@@ -1,5 +1,45 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- title: 'SuperMoE: Fast MoE Inference on Superchips with Efficient Prefetcher and
+    Saturation-Driven Scheduling'
+  authors:
+  - Hongsun Jang
+  - Hunseong Lim
+  - Jaeyong Song
+  - Jihwan Jang
+  - Si Ung Noh
+  - Jinho Lee
+  date: '2027-03-20'
+  publisher: International Symposium on High-Performance Computer Architecture (HPCA)
+  tags:
+  - Top Conf.
+  - Syst. SW
+  - AI/ML
+  id: ''
+  plugin: sources.py
+  file: sources.yaml
+- title: 'DORA: An FPGA-based DRAM Emulator for End-to-End Memory System Exploration'
+  authors:
+  - Jun Sung
+  - Taehee Kwon
+  - Youngsoo Shin
+  - Changmin Shin
+  - Woobeen Jo
+  - Jin Woo Song
+  - Hongcheol Choi
+  - Dongha Jung
+  - Haekang Jung
+  - Kyuseung Han
+  - Youngsok Kim
+  - Jinho Lee
+  date: '2027-03-20'
+  publisher: International Symposium on High-Performance Computer Architecture (HPCA)
+  tags:
+  - Top Conf.
+  - Arch.
+  id: ''
+  plugin: sources.py
+  file: sources.yaml
 - title: 'NAVIS: Concurrent Search and Update with Low Position-Seeking Overhead in
     On-SSD Graph-Based Vector Search'
   authors:

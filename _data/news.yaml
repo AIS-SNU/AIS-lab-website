@@ -1,3 +1,11 @@
+- content: 'Two papers have been accepted to HPCA. Congratulations to the authors and see you in Salt Lake City!
+                        <ul>
+                        <li><u>SuperMoE: Fast MoE Inference on Superchips with Efficient Prefetcher and Saturation-Driven Scheduling</u></li>
+                        <li><u>DORA: An FPGA-based DRAM Emulator for End-to-End Memory System Exploration</u></li>
+                        </ul>'
+  print_date: Nov. 2026
+  date: 2026-11-10
+
 - content: 'Our paper <u>NAVIS: Concurrent Search and Update with Low Position-Seeking Overhead in On-SSD Graph-Based Vector Search</u> has been accepted to VLDB 2027, a collaboration with USC Networked Systems Lab.'
   print_date: Oct. 2026
   date: 2026-10-20
@@ -7,9 +15,15 @@
   print_date: Sep. 2026
   date: 2026-09-08
 
+- content: 'A warm welcome to Youngsoo Shin and Yong Jae Ryoo!'
+  print_date: Sep. 2026
+  date: 2026-09-01
+
 - content: 'Two papers have been accepted to EMNLP 2026. Congratulations!
+                        <ul>
                         <li><u>CamoDocs: A Poisoning Attack Against Retrieval-Augmented Language Models Using Camouflaged Documents</u></li>
                         <li><u>Spexis: Speculative Lookahead Scheduling for LLM Inference</u></li>
+                        </ul>
                         CamoDocs is a collaboration with CMU (Prof. Beidi Chen), and Spexis is a collaboration with SNU MLSys Lab. (Prof. Jiwon Seo).'
   print_date: Aug. 2026
   date: 2026-08-21
@@ -24,8 +38,10 @@
   date: 2026-06-18
 
 - content: 'Two papers have been accepted from collaboration:
+                        <ul>
                         <li><u>CRISP: End-to-End Fingerprint Recognition Leveraging Hardware-Anchored Liveness Detection (DSN-Industry)</u></li>
-                        <li><u>7DT Insight: Variability in Young Stellar Objects (Astrophysical Journal)</u></li>'
+                        <li><u>7DT Insight: Variability in Young Stellar Objects (Astrophysical Journal)</u></li>
+                        </ul>'
   print_date: Feb. 2026
   date: 2026-02-25
 
@@ -34,8 +50,10 @@
   date: 2026-01-23
 
 - content: 'Two papers have been accepted to DAC 2026. Warm congratulations to the authors!
+                        <ul>
                         <li><u>TopGQ: Fast GNN Post-Training Quantization Leveraging Topology Information</u></li>
-                        <li><u>SePArate: Segmenting Patterns from Defects in Wafer Manufacturing Using Weak Supervision</u></li>'
+                        <li><u>SePArate: Segmenting Patterns from Defects in Wafer Manufacturing Using Weak Supervision</u></li>
+                        </ul>'
   print_date: Feb. 2026
   date: 2026-02-25
 
@@ -80,8 +98,10 @@
   date: 2025-08-01
 
 - content: 'two papers have been accepted to MICRO 2025. Congratulations!
+                        <ul>
                         <li><u>FALA: Locality-Aware PIM-Host Cooperation for Graph Processing with Fine-Grained Column Access</u></li>
                         <li><u>CrossBit: Bitwise Computing in NAND Flash Memory with Inter-Bitline Data Communication</u></li>
+                        </ul>
                         FALA was done within our group, and CrossBit was done in collaboration with <a href="https://vlsi.snu.ac.kr" class="link-black">SNU VLSI Lab. </a> (Prof. Jae-Joon Kim), and <a href="https://jisung-park.github.io/" class="link-black">CAOS Lab. </a> (Prof. Jisung Park) at Postech'
   print_date: Jul. 2025
   date: 2025-07-18
@@ -199,8 +219,10 @@
   date: 2022-08-01
 
 - content: "two papers have been accepted to PACT 2022. Nice work!
+                        <ul>
                         <li><u>Slice-and-Forge: Making Better Use of Caches for Graph Convolutional Network Accelerators</u></li>
-                        <li><u>Decoupling Schedule, Topology Layout, and Algorithm to Easily Enlarge the Tuning Space of GPU Graph Processing</u></li>"
+                        <li><u>Decoupling Schedule, Topology Layout, and Algorithm to Easily Enlarge the Tuning Space of GPU Graph Processing</u></li>
+                        </ul>"
   print_date: Aug. 2022
   date: 2022-08-01
 
@@ -209,8 +231,10 @@
   date: 2022-03-01
 
 - content: "We have two newly accepted papers on Valentines day. Congratulations authors Ü
+                        <ul>
                         <li><a href='https://dl.acm.org/doi/abs/10.1145/3489517.3530507'><u>Enabling Hard Constraints in Differentiable Neural Network and Accelerator Co-Exploration</u></a> @ DAC 2022</li>
-                        <li><u>GuardiaNN: Fast and Secure Inference in TrustZone Using Embedded SRAM and Cryptographic Hardware</u> @ Middleware 2022</li>"
+                        <li><u>GuardiaNN: Fast and Secure Inference in TrustZone Using Embedded SRAM and Cryptographic Hardware</u> @ Middleware 2022</li>
+                        </ul>"
   print_date: Feb. 2022
   date: 2022-02-02
 
@@ -255,8 +279,10 @@
   date: 2021-03-01
 
 - content: 'We have two papers accepted to DAC 2021. Congratulations authors!
+                                        <ul>
                                         <li><u><a href="https://ieeexplore.ieee.org/abstract/document/9586121">DANCE: Differentiable Accelerator/Network Co-Exploration</a></u></li>
-                                        <li><u><a href="https://ieeexplore.ieee.org/document/9586312">Dataflow Mirroring: Architectural Support for Highly Efficient Fine-Grained Spatial Multitasking on Systolic-Array NPUs</a></u> </li>'
+                                        <li><u><a href="https://ieeexplore.ieee.org/document/9586312">Dataflow Mirroring: Architectural Support for Highly Efficient Fine-Grained Spatial Multitasking on Systolic-Array NPUs</a></u> </li>
+                                        </ul>'
   print_date: Feb. 2021
   date: 2021-02-01
 

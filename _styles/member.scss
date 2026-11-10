@@ -1,0 +1,39 @@
+---
+---
+
+.member-publications {
+  clear: both;
+  padding-top: 16px;
+}
+
+.member-education {
+  display: flow-root;
+  padding-top: 16px;
+
+  h2 {
+    margin: 0 0 12px;
+  }
+
+  > ul {
+    margin: 0;
+    padding-left: 0;
+    list-style: none;
+  }
+
+  > ul > li + li {
+    margin-top: 12px;
+  }
+
+  li {
+    margin: 2px 0;
+    padding-left: 0;
+    text-align: left;
+    line-height: 1.5;
+  }
+
+  ul ul {
+    margin: 4px 0 0;
+    padding-left: 24px;
+    list-style: disc;
+  }
+}

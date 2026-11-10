@@ -32,11 +32,13 @@ layout: default
 {% endcapture %}
 
 {% include float.html content=floatcontent %}
+{% unless page.show_publication_search == false %}
 <p class="center">
   <a href="{{ search | relative_url }}">
     Search for {{ page.name | default: page.title }}'s papers on the Publications page
   </a>
 </p>
+{% endunless %}
 
 {{ content }}
 

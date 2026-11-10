@@ -3,6 +3,7 @@ name: Hongsun Jang
 description: MS/PhD Student
 image: images_profile/profile_hongsunjang.jpg
 iphak: 2022-8
+show_publication_search: false
 aliases:
   - Hongsun Jang
   - H. Jang
@@ -18,10 +19,20 @@ links:
 
 I am a Ph.D. student in the Accelerated Intelligent Systems Lab (AISys) at Seoul National University (SNU).
 
-My research aims to overcome memory and communication bottlenecks in large-scale AI. Specifically, I explore **offloading-based DNN training/inference leveraging DRAM/SSD** , **Near-Data Processing (NDP)** , and **distributed training**. I also utilize **FPGA-based acceleration** to build high-performance, cost-effective solutions for next-generation workloads.
+My research aims to overcome memory and communication bottlenecks in large-scale AI. Specifically, I explore **offloading-based DNN training/inference leveraging DRAM/SSD** and **Near-Data Processing (NDP)**.
+<div class="member-education" markdown="1">
 
+## 🎓 Education
 
-# Publication
+* **Seoul National University**
+    * Ph.D. Student in *Electrical and Computer Engineering*, Mar. 2023 – Present
+* **Yonsei University**
+    * B.S. in *Computer Science*, 2017 - 2022
+
+</div>
+
+## 📚 Publication
+{:.member-publications}
 
 {% for paper in site.data.citations %}
   {% for name in page.aliases %}
@@ -50,26 +61,17 @@ My research aims to overcome memory and communication bottlenecks in large-scale
   {% endfor %}
 {% endfor %}
 
----
-# Awards
+## 🏆 Awards
 * **Silver Prize**, Samsung Humantech Paper Award (Feb. 2026)
 * **Best Paper Award (Honorable Mention)**, HPCA 2024 (Mar. 2024)
 * **Encouragement Prize**, Samsung Humantech Paper Award (Feb. 2024)
 * **1st Graduate School Presidential Science Scholarship**, Republic of Korea (Ranked 120/2,980, Top 4%) (2024)
 
 
-## 🎓 Education
-
-**Seoul National University**
-* Ph.D. Student in *Electrical and Computer Engineering*, Mar. 2023 – Present
-
-**Yonsei University**
-* B.S. in *Computer Science*, 2017 - 2022
-
 ## 📝 Academic Service
 
 **Reviewer**
-* 2026: MLSys (ERC), IEEE TC (Invited) CVPR
+* 2026: MLSys (ERC), IEEE TC (Invited), CVPR, NeurIPS
 * 2025: IEEE TETC (Invited)
 * 2024: ACM TACO (Invited), PACT SRC
 
