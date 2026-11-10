@@ -1,0 +1,33 @@
+.member-publications {
+  clear: both;
+  padding-top: 16px;
+}
+
+.member-education {
+  display: flow-root;
+  padding-top: 16px;
+}
+.member-education h2 {
+  margin: 0 0 12px;
+}
+.member-education > ul {
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+}
+.member-education > ul > li + li {
+  margin-top: 12px;
+}
+.member-education li {
+  margin: 2px 0;
+  padding-left: 0;
+  text-align: left;
+  line-height: 1.5;
+}
+.member-education ul ul {
+  margin: 4px 0 0;
+  padding-left: 24px;
+  list-style: disc;
+}
+
+/*# sourceMappingURL=member.css.map */
